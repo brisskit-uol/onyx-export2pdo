@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="part_hist_Transplant_year9_cat" code="CBO:part_hist_Transplant_year9_cat" path="\onyx\MedicalHistoryInterviewQuestionnaire\MAIN\part_hist_Transplant_table\part_hist_Transplant_year9_cat" hlevel="4">
+   <rev:group name="1900 to 1909" description="1900 to 1909">
+      <rev:variable name="1900" description="1900" code="CBO:part_hist_Transplant_year9_cat:1900"/>
+      <rev:variable name="1901" description="1901" code="CBO:part_hist_Transplant_year9_cat:1901"/>
+      <rev:variable name="1902" description="1902" code="CBO:part_hist_Transplant_year9_cat:1902"/>
+      <rev:variable name="1903" description="1903" code="CBO:part_hist_Transplant_year9_cat:1903"/>
+      <rev:variable name="1904" description="1904" code="CBO:part_hist_Transplant_year9_cat:1904"/>
+      <rev:variable name="1905" description="1905" code="CBO:part_hist_Transplant_year9_cat:1905"/>
+      <rev:variable name="1906" description="1906" code="CBO:part_hist_Transplant_year9_cat:1906"/>
+      <rev:variable name="1907" description="1907" code="CBO:part_hist_Transplant_year9_cat:1907"/>
+      <rev:variable name="1908" description="1908" code="CBO:part_hist_Transplant_year9_cat:1908"/>
+      <rev:variable name="1909" description="1909" code="CBO:part_hist_Transplant_year9_cat:1909"/>
+   </rev:group>
+   <rev:group name="1910 to 1919" description="1910 to 1919">
+      <rev:variable name="1910" description="1910" code="CBO:part_hist_Transplant_year9_cat:1910"/>
+      <rev:variable name="1911" description="1911" code="CBO:part_hist_Transplant_year9_cat:1911"/>
+      <rev:variable name="1912" description="1912" code="CBO:part_hist_Transplant_year9_cat:1912"/>
+      <rev:variable name="1913" description="1913" code="CBO:part_hist_Transplant_year9_cat:1913"/>
+      <rev:variable name="1914" description="1914" code="CBO:part_hist_Transplant_year9_cat:1914"/>
+      <rev:variable name="1915" description="1915" code="CBO:part_hist_Transplant_year9_cat:1915"/>
+      <rev:variable name="1916" description="1916" code="CBO:part_hist_Transplant_year9_cat:1916"/>
+      <rev:variable name="1917" description="1917" code="CBO:part_hist_Transplant_year9_cat:1917"/>
+      <rev:variable name="1918" description="1918" code="CBO:part_hist_Transplant_year9_cat:1918"/>
+      <rev:variable name="1919" description="1919" code="CBO:part_hist_Transplant_year9_cat:1919"/>
+   </rev:group>
+   <rev:group name="1920 to 1929" description="1920 to 1929">
+      <rev:variable name="1920" description="1920" code="CBO:part_hist_Transplant_year9_cat:1920"/>
+      <rev:variable name="1921" description="1921" code="CBO:part_hist_Transplant_year9_cat:1921"/>
+      <rev:variable name="1922" description="1922" code="CBO:part_hist_Transplant_year9_cat:1922"/>
+      <rev:variable name="1923" description="1923" code="CBO:part_hist_Transplant_year9_cat:1923"/>
+      <rev:variable name="1924" description="1924" code="CBO:part_hist_Transplant_year9_cat:1924"/>
+      <rev:variable name="1925" description="1925" code="CBO:part_hist_Transplant_year9_cat:1925"/>
+      <rev:variable name="1926" description="1926" code="CBO:part_hist_Transplant_year9_cat:1926"/>
+      <rev:variable name="1927" description="1927" code="CBO:part_hist_Transplant_year9_cat:1927"/>
+      <rev:variable name="1928" description="1928" code="CBO:part_hist_Transplant_year9_cat:1928"/>
+      <rev:variable name="1929" description="1929" code="CBO:part_hist_Transplant_year9_cat:1929"/>
+   </rev:group>
+   <rev:group name="1930 to 1939" description="1930 to 1939">
+      <rev:variable name="1930" description="1930" code="CBO:part_hist_Transplant_year9_cat:1930"/>
+      <rev:variable name="1931" description="1931" code="CBO:part_hist_Transplant_year9_cat:1931"/>
+      <rev:variable name="1932" description="1932" code="CBO:part_hist_Transplant_year9_cat:1932"/>
+      <rev:variable name="1933" description="1933" code="CBO:part_hist_Transplant_year9_cat:1933"/>
+      <rev:variable name="1934" description="1934" code="CBO:part_hist_Transplant_year9_cat:1934"/>
+      <rev:variable name="1935" description="1935" code="CBO:part_hist_Transplant_year9_cat:1935"/>
+      <rev:variable name="1936" description="1936" code="CBO:part_hist_Transplant_year9_cat:1936"/>
+      <rev:variable name="1937" description="1937" code="CBO:part_hist_Transplant_year9_cat:1937"/>
+      <rev:variable name="1938" description="1938" code="CBO:part_hist_Transplant_year9_cat:1938"/>
+      <rev:variable name="1939" description="1939" code="CBO:part_hist_Transplant_year9_cat:1939"/>
+   </rev:group>
+   <rev:group name="1940 to 1949" description="1940 to 1949">
+      <rev:variable name="1940" description="1940" code="CBO:part_hist_Transplant_year9_cat:1940"/>
+      <rev:variable name="1941" description="1941" code="CBO:part_hist_Transplant_year9_cat:1941"/>
+      <rev:variable name="1942" description="1942" code="CBO:part_hist_Transplant_year9_cat:1942"/>
+      <rev:variable name="1943" description="1943" code="CBO:part_hist_Transplant_year9_cat:1943"/>
+      <rev:variable name="1944" description="1944" code="CBO:part_hist_Transplant_year9_cat:1944"/>
+      <rev:variable name="1945" description="1945" code="CBO:part_hist_Transplant_year9_cat:1945"/>
+      <rev:variable name="1946" description="1946" code="CBO:part_hist_Transplant_year9_cat:1946"/>
+      <rev:variable name="1947" description="1947" code="CBO:part_hist_Transplant_year9_cat:1947"/>
+      <rev:variable name="1948" description="1948" code="CBO:part_hist_Transplant_year9_cat:1948"/>
+      <rev:variable name="1949" description="1949" code="CBO:part_hist_Transplant_year9_cat:1949"/>
+   </rev:group>
+   <rev:group name="1950 to 1959" description="1950 to 1959">
+      <rev:variable name="1950" description="1950" code="CBO:part_hist_Transplant_year9_cat:1950"/>
+      <rev:variable name="1951" description="1951" code="CBO:part_hist_Transplant_year9_cat:1951"/>
+      <rev:variable name="1952" description="1952" code="CBO:part_hist_Transplant_year9_cat:1952"/>
+      <rev:variable name="1953" description="1953" code="CBO:part_hist_Transplant_year9_cat:1953"/>
+      <rev:variable name="1954" description="1954" code="CBO:part_hist_Transplant_year9_cat:1954"/>
+      <rev:variable name="1955" description="1955" code="CBO:part_hist_Transplant_year9_cat:1955"/>
+      <rev:variable name="1956" description="1956" code="CBO:part_hist_Transplant_year9_cat:1956"/>
+      <rev:variable name="1957" description="1957" code="CBO:part_hist_Transplant_year9_cat:1957"/>
+      <rev:variable name="1958" description="1958" code="CBO:part_hist_Transplant_year9_cat:1958"/>
+      <rev:variable name="1959" description="1959" code="CBO:part_hist_Transplant_year9_cat:1959"/>
+   </rev:group>
+   <rev:group name="1960 to 1969" description="1960 to 1969">
+      <rev:variable name="1960" description="1960" code="CBO:part_hist_Transplant_year9_cat:1960"/>
+      <rev:variable name="1961" description="1961" code="CBO:part_hist_Transplant_year9_cat:1961"/>
+      <rev:variable name="1962" description="1962" code="CBO:part_hist_Transplant_year9_cat:1962"/>
+      <rev:variable name="1963" description="1963" code="CBO:part_hist_Transplant_year9_cat:1963"/>
+      <rev:variable name="1964" description="1964" code="CBO:part_hist_Transplant_year9_cat:1964"/>
+      <rev:variable name="1965" description="1965" code="CBO:part_hist_Transplant_year9_cat:1965"/>
+      <rev:variable name="1966" description="1966" code="CBO:part_hist_Transplant_year9_cat:1966"/>
+      <rev:variable name="1967" description="1967" code="CBO:part_hist_Transplant_year9_cat:1967"/>
+      <rev:variable name="1968" description="1968" code="CBO:part_hist_Transplant_year9_cat:1968"/>
+      <rev:variable name="1969" description="1969" code="CBO:part_hist_Transplant_year9_cat:1969"/>
+   </rev:group>
+   <rev:group name="1970 to 1979" description="1970 to 1979">
+      <rev:variable name="1970" description="1970" code="CBO:part_hist_Transplant_year9_cat:1970"/>
+      <rev:variable name="1971" description="1971" code="CBO:part_hist_Transplant_year9_cat:1971"/>
+      <rev:variable name="1972" description="1972" code="CBO:part_hist_Transplant_year9_cat:1972"/>
+      <rev:variable name="1973" description="1973" code="CBO:part_hist_Transplant_year9_cat:1973"/>
+      <rev:variable name="1974" description="1974" code="CBO:part_hist_Transplant_year9_cat:1974"/>
+      <rev:variable name="1975" description="1975" code="CBO:part_hist_Transplant_year9_cat:1975"/>
+      <rev:variable name="1976" description="1976" code="CBO:part_hist_Transplant_year9_cat:1976"/>
+      <rev:variable name="1977" description="1977" code="CBO:part_hist_Transplant_year9_cat:1977"/>
+      <rev:variable name="1978" description="1978" code="CBO:part_hist_Transplant_year9_cat:1978"/>
+      <rev:variable name="1979" description="1979" code="CBO:part_hist_Transplant_year9_cat:1979"/>
+   </rev:group>
+   <rev:group name="1980 to 1989" description="1980 to 1989">
+      <rev:variable name="1980" description="1980" code="CBO:part_hist_Transplant_year9_cat:1980"/>
+      <rev:variable name="1981" description="1981" code="CBO:part_hist_Transplant_year9_cat:1981"/>
+      <rev:variable name="1982" description="1982" code="CBO:part_hist_Transplant_year9_cat:1982"/>
+      <rev:variable name="1983" description="1983" code="CBO:part_hist_Transplant_year9_cat:1983"/>
+      <rev:variable name="1984" description="1984" code="CBO:part_hist_Transplant_year9_cat:1984"/>
+      <rev:variable name="1985" description="1985" code="CBO:part_hist_Transplant_year9_cat:1985"/>
+      <rev:variable name="1986" description="1986" code="CBO:part_hist_Transplant_year9_cat:1986"/>
+      <rev:variable name="1987" description="1987" code="CBO:part_hist_Transplant_year9_cat:1987"/>
+      <rev:variable name="1988" description="1988" code="CBO:part_hist_Transplant_year9_cat:1988"/>
+      <rev:variable name="1989" description="1989" code="CBO:part_hist_Transplant_year9_cat:1989"/>
+   </rev:group>
+   <rev:group name="1990 to 1999" description="1990 to 1999">
+      <rev:variable name="1990" description="1990" code="CBO:part_hist_Transplant_year9_cat:1990"/>
+      <rev:variable name="1991" description="1991" code="CBO:part_hist_Transplant_year9_cat:1991"/>
+      <rev:variable name="1992" description="1992" code="CBO:part_hist_Transplant_year9_cat:1992"/>
+      <rev:variable name="1993" description="1993" code="CBO:part_hist_Transplant_year9_cat:1993"/>
+      <rev:variable name="1994" description="1994" code="CBO:part_hist_Transplant_year9_cat:1994"/>
+      <rev:variable name="1995" description="1995" code="CBO:part_hist_Transplant_year9_cat:1995"/>
+      <rev:variable name="1996" description="1996" code="CBO:part_hist_Transplant_year9_cat:1996"/>
+      <rev:variable name="1997" description="1997" code="CBO:part_hist_Transplant_year9_cat:1997"/>
+      <rev:variable name="1998" description="1998" code="CBO:part_hist_Transplant_year9_cat:1998"/>
+      <rev:variable name="1999" description="1999" code="CBO:part_hist_Transplant_year9_cat:1999"/>
+   </rev:group>
+   <rev:group name="2000 to 2009" description="2000 to 2009">
+      <rev:variable name="2000" description="2000" code="CBO:part_hist_Transplant_year9_cat:2000"/>
+      <rev:variable name="2001" description="2001" code="CBO:part_hist_Transplant_year9_cat:2001"/>
+      <rev:variable name="2002" description="2002" code="CBO:part_hist_Transplant_year9_cat:2002"/>
+      <rev:variable name="2003" description="2003" code="CBO:part_hist_Transplant_year9_cat:2003"/>
+      <rev:variable name="2004" description="2004" code="CBO:part_hist_Transplant_year9_cat:2004"/>
+      <rev:variable name="2005" description="2005" code="CBO:part_hist_Transplant_year9_cat:2005"/>
+      <rev:variable name="2006" description="2006" code="CBO:part_hist_Transplant_year9_cat:2006"/>
+      <rev:variable name="2007" description="2007" code="CBO:part_hist_Transplant_year9_cat:2007"/>
+      <rev:variable name="2008" description="2008" code="CBO:part_hist_Transplant_year9_cat:2008"/>
+      <rev:variable name="2009" description="2009" code="CBO:part_hist_Transplant_year9_cat:2009"/>
+   </rev:group>
+   <rev:group name="2010 to 2019" description="2010 to 2019">
+      <rev:variable name="2010" description="2010" code="CBO:part_hist_Transplant_year9_cat:2010"/>
+      <rev:variable name="2011" description="2011" code="CBO:part_hist_Transplant_year9_cat:2011"/>
+      <rev:variable name="2012" description="2012" code="CBO:part_hist_Transplant_year9_cat:2012"/>
+      <rev:variable name="2013" description="2013" code="CBO:part_hist_Transplant_year9_cat:2013"/>
+      <rev:variable name="2014" description="2014" code="CBO:part_hist_Transplant_year9_cat:2014"/>
+      <rev:variable name="2015" description="2015" code="CBO:part_hist_Transplant_year9_cat:2015"/>
+      <rev:variable name="2016" description="2016" code="CBO:part_hist_Transplant_year9_cat:2016"/>
+      <rev:variable name="2017" description="2017" code="CBO:part_hist_Transplant_year9_cat:2017"/>
+      <rev:variable name="2018" description="2018" code="CBO:part_hist_Transplant_year9_cat:2018"/>
+      <rev:variable name="2019" description="2019" code="CBO:part_hist_Transplant_year9_cat:2019"/>
+   </rev:group>
+   <rev:group name="2020 to 2029" description="2020 to 2029">
+      <rev:variable name="2020" description="2020" code="CBO:part_hist_Transplant_year9_cat:2020"/>
+      <rev:variable name="2021" description="2021" code="CBO:part_hist_Transplant_year9_cat:2021"/>
+      <rev:variable name="2022" description="2022" code="CBO:part_hist_Transplant_year9_cat:2022"/>
+      <rev:variable name="2023" description="2023" code="CBO:part_hist_Transplant_year9_cat:2023"/>
+      <rev:variable name="2024" description="2024" code="CBO:part_hist_Transplant_year9_cat:2024"/>
+      <rev:variable name="2025" description="2025" code="CBO:part_hist_Transplant_year9_cat:2025"/>
+      <rev:variable name="2026" description="2026" code="CBO:part_hist_Transplant_year9_cat:2026"/>
+      <rev:variable name="2027" description="2027" code="CBO:part_hist_Transplant_year9_cat:2027"/>
+      <rev:variable name="2028" description="2028" code="CBO:part_hist_Transplant_year9_cat:2028"/>
+      <rev:variable name="2029" description="2029" code="CBO:part_hist_Transplant_year9_cat:2029"/>
+   </rev:group>
+   <rev:group name="2030 to 2039" description="2030 to 2039">
+      <rev:variable name="2030" description="2030" code="CBO:part_hist_Transplant_year9_cat:2030"/>
+      <rev:variable name="2031" description="2031" code="CBO:part_hist_Transplant_year9_cat:2031"/>
+      <rev:variable name="2032" description="2032" code="CBO:part_hist_Transplant_year9_cat:2032"/>
+      <rev:variable name="2033" description="2033" code="CBO:part_hist_Transplant_year9_cat:2033"/>
+      <rev:variable name="2034" description="2034" code="CBO:part_hist_Transplant_year9_cat:2034"/>
+      <rev:variable name="2035" description="2035" code="CBO:part_hist_Transplant_year9_cat:2035"/>
+      <rev:variable name="2036" description="2036" code="CBO:part_hist_Transplant_year9_cat:2036"/>
+      <rev:variable name="2037" description="2037" code="CBO:part_hist_Transplant_year9_cat:2037"/>
+      <rev:variable name="2038" description="2038" code="CBO:part_hist_Transplant_year9_cat:2038"/>
+      <rev:variable name="2039" description="2039" code="CBO:part_hist_Transplant_year9_cat:2039"/>
+   </rev:group>
+   <rev:group name="2040 to 2049" description="2040 to 2049">
+      <rev:variable name="2040" description="2040" code="CBO:part_hist_Transplant_year9_cat:2040"/>
+      <rev:variable name="2041" description="2041" code="CBO:part_hist_Transplant_year9_cat:2041"/>
+      <rev:variable name="2042" description="2042" code="CBO:part_hist_Transplant_year9_cat:2042"/>
+      <rev:variable name="2043" description="2043" code="CBO:part_hist_Transplant_year9_cat:2043"/>
+      <rev:variable name="2044" description="2044" code="CBO:part_hist_Transplant_year9_cat:2044"/>
+      <rev:variable name="2045" description="2045" code="CBO:part_hist_Transplant_year9_cat:2045"/>
+      <rev:variable name="2046" description="2046" code="CBO:part_hist_Transplant_year9_cat:2046"/>
+      <rev:variable name="2047" description="2047" code="CBO:part_hist_Transplant_year9_cat:2047"/>
+      <rev:variable name="2048" description="2048" code="CBO:part_hist_Transplant_year9_cat:2048"/>
+      <rev:variable name="2049" description="2049" code="CBO:part_hist_Transplant_year9_cat:2049"/>
+   </rev:group>
+   <rev:group name="2050 to 2059" description="2050 to 2059">
+      <rev:variable name="2050" description="2050" code="CBO:part_hist_Transplant_year9_cat:2050"/>
+      <rev:variable name="2051" description="2051" code="CBO:part_hist_Transplant_year9_cat:2051"/>
+      <rev:variable name="2052" description="2052" code="CBO:part_hist_Transplant_year9_cat:2052"/>
+      <rev:variable name="2053" description="2053" code="CBO:part_hist_Transplant_year9_cat:2053"/>
+      <rev:variable name="2054" description="2054" code="CBO:part_hist_Transplant_year9_cat:2054"/>
+      <rev:variable name="2055" description="2055" code="CBO:part_hist_Transplant_year9_cat:2055"/>
+      <rev:variable name="2056" description="2056" code="CBO:part_hist_Transplant_year9_cat:2056"/>
+      <rev:variable name="2057" description="2057" code="CBO:part_hist_Transplant_year9_cat:2057"/>
+      <rev:variable name="2058" description="2058" code="CBO:part_hist_Transplant_year9_cat:2058"/>
+      <rev:variable name="2059" description="2059" code="CBO:part_hist_Transplant_year9_cat:2059"/>
+   </rev:group>
+   <rev:group name="2060 to 2069" description="2060 to 2069">
+      <rev:variable name="2060" description="2060" code="CBO:part_hist_Transplant_year9_cat:2060"/>
+      <rev:variable name="2061" description="2061" code="CBO:part_hist_Transplant_year9_cat:2061"/>
+      <rev:variable name="2062" description="2062" code="CBO:part_hist_Transplant_year9_cat:2062"/>
+      <rev:variable name="2063" description="2063" code="CBO:part_hist_Transplant_year9_cat:2063"/>
+      <rev:variable name="2064" description="2064" code="CBO:part_hist_Transplant_year9_cat:2064"/>
+      <rev:variable name="2065" description="2065" code="CBO:part_hist_Transplant_year9_cat:2065"/>
+      <rev:variable name="2066" description="2066" code="CBO:part_hist_Transplant_year9_cat:2066"/>
+      <rev:variable name="2067" description="2067" code="CBO:part_hist_Transplant_year9_cat:2067"/>
+      <rev:variable name="2068" description="2068" code="CBO:part_hist_Transplant_year9_cat:2068"/>
+      <rev:variable name="2069" description="2069" code="CBO:part_hist_Transplant_year9_cat:2069"/>
+   </rev:group>
+   <rev:group name="2070 to 2079" description="2070 to 2079">
+      <rev:variable name="2070" description="2070" code="CBO:part_hist_Transplant_year9_cat:2070"/>
+      <rev:variable name="2071" description="2071" code="CBO:part_hist_Transplant_year9_cat:2071"/>
+      <rev:variable name="2072" description="2072" code="CBO:part_hist_Transplant_year9_cat:2072"/>
+      <rev:variable name="2073" description="2073" code="CBO:part_hist_Transplant_year9_cat:2073"/>
+      <rev:variable name="2074" description="2074" code="CBO:part_hist_Transplant_year9_cat:2074"/>
+      <rev:variable name="2075" description="2075" code="CBO:part_hist_Transplant_year9_cat:2075"/>
+      <rev:variable name="2076" description="2076" code="CBO:part_hist_Transplant_year9_cat:2076"/>
+      <rev:variable name="2077" description="2077" code="CBO:part_hist_Transplant_year9_cat:2077"/>
+      <rev:variable name="2078" description="2078" code="CBO:part_hist_Transplant_year9_cat:2078"/>
+      <rev:variable name="2079" description="2079" code="CBO:part_hist_Transplant_year9_cat:2079"/>
+   </rev:group>
+   <rev:group name="2080 to 2089" description="2080 to 2089">
+      <rev:variable name="2080" description="2080" code="CBO:part_hist_Transplant_year9_cat:2080"/>
+      <rev:variable name="2081" description="2081" code="CBO:part_hist_Transplant_year9_cat:2081"/>
+      <rev:variable name="2082" description="2082" code="CBO:part_hist_Transplant_year9_cat:2082"/>
+      <rev:variable name="2083" description="2083" code="CBO:part_hist_Transplant_year9_cat:2083"/>
+      <rev:variable name="2084" description="2084" code="CBO:part_hist_Transplant_year9_cat:2084"/>
+      <rev:variable name="2085" description="2085" code="CBO:part_hist_Transplant_year9_cat:2085"/>
+      <rev:variable name="2086" description="2086" code="CBO:part_hist_Transplant_year9_cat:2086"/>
+      <rev:variable name="2087" description="2087" code="CBO:part_hist_Transplant_year9_cat:2087"/>
+      <rev:variable name="2088" description="2088" code="CBO:part_hist_Transplant_year9_cat:2088"/>
+      <rev:variable name="2089" description="2089" code="CBO:part_hist_Transplant_year9_cat:2089"/>
+   </rev:group>
+   <rev:group name="2090 to 2099" description="2090 to 2099">
+      <rev:variable name="2090" description="2090" code="CBO:part_hist_Transplant_year9_cat:2090"/>
+      <rev:variable name="2091" description="2091" code="CBO:part_hist_Transplant_year9_cat:2091"/>
+      <rev:variable name="2092" description="2092" code="CBO:part_hist_Transplant_year9_cat:2092"/>
+      <rev:variable name="2093" description="2093" code="CBO:part_hist_Transplant_year9_cat:2093"/>
+      <rev:variable name="2094" description="2094" code="CBO:part_hist_Transplant_year9_cat:2094"/>
+      <rev:variable name="2095" description="2095" code="CBO:part_hist_Transplant_year9_cat:2095"/>
+      <rev:variable name="2096" description="2096" code="CBO:part_hist_Transplant_year9_cat:2096"/>
+      <rev:variable name="2097" description="2097" code="CBO:part_hist_Transplant_year9_cat:2097"/>
+      <rev:variable name="2098" description="2098" code="CBO:part_hist_Transplant_year9_cat:2098"/>
+      <rev:variable name="2099" description="2099" code="CBO:part_hist_Transplant_year9_cat:2099"/>
+   </rev:group>
+   <rev:group name="2100 to 2109" description="2100 to 2109">
+      <rev:variable name="2100" description="2100" code="CBO:part_hist_Transplant_year9_cat:2100"/>
+      <rev:variable name="2101" description="2101" code="CBO:part_hist_Transplant_year9_cat:2101"/>
+      <rev:variable name="2102" description="2102" code="CBO:part_hist_Transplant_year9_cat:2102"/>
+      <rev:variable name="2103" description="2103" code="CBO:part_hist_Transplant_year9_cat:2103"/>
+      <rev:variable name="2104" description="2104" code="CBO:part_hist_Transplant_year9_cat:2104"/>
+      <rev:variable name="2105" description="2105" code="CBO:part_hist_Transplant_year9_cat:2105"/>
+      <rev:variable name="2106" description="2106" code="CBO:part_hist_Transplant_year9_cat:2106"/>
+      <rev:variable name="2107" description="2107" code="CBO:part_hist_Transplant_year9_cat:2107"/>
+      <rev:variable name="2108" description="2108" code="CBO:part_hist_Transplant_year9_cat:2108"/>
+      <rev:variable name="2109" description="2109" code="CBO:part_hist_Transplant_year9_cat:2109"/>
+   </rev:group>
+   <rev:group name="2110 to 2119" description="2110 to 2119">
+      <rev:variable name="2110" description="2110" code="CBO:part_hist_Transplant_year9_cat:2110"/>
+      <rev:variable name="2111" description="2111" code="CBO:part_hist_Transplant_year9_cat:2111"/>
+      <rev:variable name="2112" description="2112" code="CBO:part_hist_Transplant_year9_cat:2112"/>
+      <rev:variable name="2113" description="2113" code="CBO:part_hist_Transplant_year9_cat:2113"/>
+      <rev:variable name="2114" description="2114" code="CBO:part_hist_Transplant_year9_cat:2114"/>
+      <rev:variable name="2115" description="2115" code="CBO:part_hist_Transplant_year9_cat:2115"/>
+      <rev:variable name="2116" description="2116" code="CBO:part_hist_Transplant_year9_cat:2116"/>
+      <rev:variable name="2117" description="2117" code="CBO:part_hist_Transplant_year9_cat:2117"/>
+      <rev:variable name="2118" description="2118" code="CBO:part_hist_Transplant_year9_cat:2118"/>
+      <rev:variable name="2119" description="2119" code="CBO:part_hist_Transplant_year9_cat:2119"/>
+   </rev:group>
+</rev:enumeratedVariable>

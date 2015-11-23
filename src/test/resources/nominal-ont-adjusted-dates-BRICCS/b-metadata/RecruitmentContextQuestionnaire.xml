@@ -1,0 +1,3888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<om:source xmlns:om="http://brisskit.org/xml/onyxmetadata/v1.0/om">
+   <om:name>onyx</om:name>
+   <om:stage>
+      <om:name>RecruitmentContextQuestionnaire</om:name>
+      <om:variable>
+         <om:name>QuestionnaireRun</om:name>
+         <om:variable>
+            <om:name>version</om:name>
+            <om:type>text</om:type>
+         </om:variable>
+         <om:variable>
+            <om:name>locale</om:name>
+            <om:type>locale</om:type>
+         </om:variable>
+         <om:variable>
+            <om:name>timeStart</om:name>
+            <om:type>datetime</om:type>
+         </om:variable>
+         <om:variable>
+            <om:name>timeEnd</om:name>
+            <om:type>datetime</om:type>
+         </om:variable>
+         <om:variable>
+            <om:name>user</om:name>
+            <om:type>text</om:type>
+         </om:variable>
+      </om:variable>
+      <om:variable>
+         <om:name>QuestionnaireMetric</om:name>
+         <om:variable>
+            <om:name>section</om:name>
+            <om:type>text</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+         <om:variable>
+            <om:name>page</om:name>
+            <om:type>text</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+         <om:variable>
+            <om:name>duration</om:name>
+            <om:type>integer</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+         <om:variable>
+            <om:name>questionCount</om:name>
+            <om:type>integer</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+         <om:variable>
+            <om:name>missingCount</om:name>
+            <om:type>integer</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+      </om:variable>
+      <om:section>
+         <om:name>MAIN</om:name>
+         <om:question>
+            <om:name>int_lang</om:name>
+            <om:label>Interview Language</om:label>
+            <om:variable>
+               <om:name>int_lang</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>ENGLISH</om:name>
+                  <om:label>ENGLISH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GUJARATI</om:name>
+                  <om:label>GUJARATI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HINDI</om:name>
+                  <om:label>HINDI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PUNJABI</om:name>
+                  <om:label>PUNJABI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>URDU</om:name>
+                  <om:label>URDU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BENGALI</om:name>
+                  <om:label>BENGALI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>POLISH</om:name>
+                  <om:label>POLISH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_type</om:name>
+            <om:label>Recruitment Episode Type</om:label>
+            <om:variable>
+               <om:name>epi_type</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>Inpatient</om:name>
+                  <om:label>Inpatient</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Outpatient</om:name>
+                  <om:label>Outpatient</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Healthy_control</om:name>
+                  <om:label>Healthy control</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Study_specific</om:name>
+                  <om:label>Study specific</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_iptype</om:name>
+            <om:label>Inpatient Admission Type</om:label>
+            <om:variable>
+               <om:name>epi_iptype</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>Acute</om:name>
+                  <om:label>Acute</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Elective</om:name>
+                  <om:label>Elective</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_hosp</om:name>
+            <om:label>Hospital</om:label>
+            <om:variable>
+               <om:name>epi_hosp</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>Glenfield</om:name>
+                  <om:label>Glenfield</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LGH</om:name>
+                  <om:label>LGH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LRI</om:name>
+                  <om:label>LRI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_ipward_Glenfield</om:name>
+            <om:label>Admitting Ward</om:label>
+            <om:variable>
+               <om:name>epi_ipward_Glenfield</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>FCCU</om:name>
+                  <om:label>GH Coronary Care Unit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FCCL</om:name>
+                  <om:label>GH WD Card Cath Lab</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FCDU</om:name>
+                  <om:label>GH WD Clin Decision</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FCHD</om:name>
+                  <om:label>GH WD 33 HDU Card</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F27</om:name>
+                  <om:label>GH WD 27</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F28</om:name>
+                  <om:label>GH WD 28</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F31</om:name>
+                  <om:label>GH WD 31</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F31H</om:name>
+                  <om:label>GH WD 31 HDU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F32</om:name>
+                  <om:label>GH WD 32</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F33</om:name>
+                  <om:label>GH WD 33</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F33A</om:name>
+                  <om:label>GH WD 33A</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F15</om:name>
+                  <om:label>GH WD 15</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F16</om:name>
+                  <om:label>GH WD 16 Respiratory Unit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F17</om:name>
+                  <om:label>GH WD 17</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F17H</om:name>
+                  <om:label>GH WD 17 HDU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F20</om:name>
+                  <om:label>GH WD 20</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F23</om:name>
+                  <om:label>GH WD 23 (CLOSED)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F23A</om:name>
+                  <om:label>GH WD 23A</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F24</om:name>
+                  <om:label>WARD 24</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F25</om:name>
+                  <om:label>GH WD 25 (CLOSED)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F25E</om:name>
+                  <om:label>GH WD 25E</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F26</om:name>
+                  <om:label>GH WD 26</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F26H</om:name>
+                  <om:label>GH WD 26 HDU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F27A</om:name>
+                  <om:label>GH WD 27A (CLOSED)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F29</om:name>
+                  <om:label>GH WD 29 EXT 3656</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F29H</om:name>
+                  <om:label>GH WD 29 HDU (Closed)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F30</om:name>
+                  <om:label>GH WD 30</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F30H</om:name>
+                  <om:label>GH WD 30 HDU (Closed)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F32H</om:name>
+                  <om:label>GH WD 32 HDU (CLOSED)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F33C</om:name>
+                  <om:label>GH WD 33C Card Trans (Closed)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F33H</om:name>
+                  <om:label>GH WD 33A HDU (Closed)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>F34</om:name>
+                  <om:label>GH WD 34 (Closed)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FBUP</om:name>
+                  <om:label>GH WD BUPA Activity</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FCDH</om:name>
+                  <om:label>GH WD HDU Clin Dec (Closed)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FCFD</om:name>
+                  <om:label>GH WD Cystic Fibrosis W/A</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FCIC</om:name>
+                  <om:label>GH WD ITU Card Trans</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FCID</om:name>
+                  <om:label>GH WD Card Investigation</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FCSU</om:name>
+                  <om:label>GH WD Card Surg Unit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FDCO</om:name>
+                  <om:label>GH WD Card DC Overflow(Closed)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FDIS</om:name>
+                  <om:label>GH WD Dis Lounge</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FETU</om:name>
+                  <om:label>GH WD 28 ETU Em Transfer</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FGI</om:name>
+                  <om:label>GH WD GI Resp Lab</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FGOO</om:name>
+                  <om:label>GH WD Goole Hospital</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FHIS</om:name>
+                  <om:label>PRDHISS ITU TEST WARD GH a</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FITU</om:name>
+                  <om:label>GH WD GICU Gen Intensive</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FNCI</om:name>
+                  <om:label>GH WD Nuffield Cardiac ITU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FNUF</om:name>
+                  <om:label>GH WD Nuffield Activity</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FPHA</om:name>
+                  <om:label>GH WD Private Activity</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FPIC</om:name>
+                  <om:label>GH WD Paed ITU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FSAC</om:name>
+                  <om:label>GH WD Surg Acute Care</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_ipward_LGH</om:name>
+            <om:label>Admitting Ward</om:label>
+            <om:variable>
+               <om:name>epi_ipward_LGH</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>G1</om:name>
+                  <om:label>LGH WD 1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G10</om:name>
+                  <om:label>LGH WD 10 (CLOSED DO NOT USE)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G10D</om:name>
+                  <om:label>LGH WD 10D Day Case</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G11</om:name>
+                  <om:label>LGH WD 11(Temp WD22 PATIENTS)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G11A</om:name>
+                  <om:label>LGH WD 11 Arrivals</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G12</om:name>
+                  <om:label>LGH WD 12 (TEST)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G15A</om:name>
+                  <om:label>LGH WD 15A HDU Neph</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G15N</om:name>
+                  <om:label>LGH WD 15N Nephrology</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G16</om:name>
+                  <om:label>LGH WD 16</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G17</om:name>
+                  <om:label>LGH WD 17 Transplant</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G17A</om:name>
+                  <om:label>WARD 17A Waiting Area</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G18</om:name>
+                  <om:label>LGH WD 18</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G19</om:name>
+                  <om:label>LGH WD 19</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G2</om:name>
+                  <om:label>LGH WD 2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G20</om:name>
+                  <om:label>LGH WD 20</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G20A</om:name>
+                  <om:label>LGH WD 20A</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G22</om:name>
+                  <om:label>LGH WD 22</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G23</om:name>
+                  <om:label>LGH WD 23</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G26</om:name>
+                  <om:label>LGH WD 26 SAU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G27</om:name>
+                  <om:label>LGH WD 27 SAU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G28</om:name>
+                  <om:label>LGH WD 28 Urology</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G28A</om:name>
+                  <om:label>LGH WD 28A Urol Pre Ass</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G28B</om:name>
+                  <om:label>LGH WD 28 Access Area</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G28D</om:name>
+                  <om:label>LGH WD 28D Dis Lounge</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G29</om:name>
+                  <om:label>LGH WD 29 Urology</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G3</om:name>
+                  <om:label>LGH WD 3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G30</om:name>
+                  <om:label>LGH WD 30</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G30B</om:name>
+                  <om:label>LGH WD 30B Babies</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G31</om:name>
+                  <om:label>LGH WD 31</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G31B</om:name>
+                  <om:label>LGH WD 31B Babies</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G4</om:name>
+                  <om:label>LGH WD 4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G5</om:name>
+                  <om:label>LGH WD 5</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G6</om:name>
+                  <om:label>LGH WD 6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G6D</om:name>
+                  <om:label>LGH WD 6 Day Care</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G7</om:name>
+                  <om:label>LGH WD 7</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G8</om:name>
+                  <om:label>LGH WD 8</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>G8A</om:name>
+                  <om:label>LGH WD 8A Stroke Assess</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GBH1</om:name>
+                  <om:label>LGH WD BELGRAVE UNIT MWF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GBH2</om:name>
+                  <om:label>LGH WD BELGRAVE UNIT TTS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GBIU</om:name>
+                  <om:label>LGH WD Brain Injury Unit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GBRU</om:name>
+                  <om:label>LGH WD Belgrave Renal Unit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GBUP</om:name>
+                  <om:label>LGH WD BUPA Activity</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GCC</om:name>
+                  <om:label>LGH WD Continence Clinic</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GDC1</om:name>
+                  <om:label>LGH WD Day Case Unit 1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GDC2</om:name>
+                  <om:label>LGH WD Day Case Unit 2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GDCM</om:name>
+                  <om:label>LGH WD Crit Care Med</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GDHE</om:name>
+                  <om:label>LGH WD Assess &amp; Rehab Ctr</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GDIA</om:name>
+                  <om:label>LGH WD Diabetes Care</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GDL</om:name>
+                  <om:label>LGH WD 11 Discharge Lounge</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GEMU</om:name>
+                  <om:label>LGH WD EMU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GEND</om:name>
+                  <om:label>LGH WD Endoscopy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GENO</om:name>
+                  <om:label>LGH WD Endoscopy OP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GGCI</om:name>
+                  <om:label>LGH WD Gynae Clin Invest</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GGSU</om:name>
+                  <om:label>LGH WD Gynae Services</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GHB</om:name>
+                  <om:label>LGH WD Home Birth</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GHDU</om:name>
+                  <om:label>LGH WD Haemodialysis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GHIS</om:name>
+                  <om:label>PRDHISS TEST WARD LGH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GLD1</om:name>
+                  <om:label>LGH WD L'boroHD MWF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GLD2</om:name>
+                  <om:label>LGH WD L'boro HD TTS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GLD3</om:name>
+                  <om:label>LGH WD L'boro CAPD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GLD4</om:name>
+                  <om:label>LGH WD L'boro PD CLINIC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GLDU</om:name>
+                  <om:label>LGH WD Lough Dialysis Unit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GLW</om:name>
+                  <om:label>LGH WD Labour Ward</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GLWB</om:name>
+                  <om:label>LGH WD Labour Ward Babies</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GMH1</om:name>
+                  <om:label>LGH WD MAIN DIALYSIS UNIT MWF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GMH2</om:name>
+                  <om:label>LGH WD MAIN DIALYSIS UNIT TTS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GNUF</om:name>
+                  <om:label>LGH WD Nuffield Activity</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GOP</om:name>
+                  <om:label>LGH WD Ortho Pre Ass</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GOP4</om:name>
+                  <om:label>LD LGH WD OPD 4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GPAS</om:name>
+                  <om:label>LGH WD Pregnancy Ass</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GSAC</om:name>
+                  <om:label>LGH WD Surg Acute Care</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GSCB</om:name>
+                  <om:label>LGH WD Spec Care Babies</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GSM</om:name>
+                  <om:label>LGH WD Sports Medicine</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GSS</om:name>
+                  <om:label>LGH WD Sleep Studies</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GUEA</om:name>
+                  <om:label>LGH WD 29 EMU Urology</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GXDA</om:name>
+                  <om:label>LGH WD Xray Day Ward</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GYDU</om:name>
+                  <om:label>LGH WD Young Disabled</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_ipward_LRI</om:name>
+            <om:label>Admitting Ward</om:label>
+            <om:variable>
+               <om:name>epi_ipward_LRI</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>3000</om:name>
+                  <om:label>LRI WD 3000</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R01</om:name>
+                  <om:label>LRI WD 1 Ken L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R02</om:name>
+                  <om:label>LRI WD 2 Ken L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R03</om:name>
+                  <om:label>LRI WD 3 Ken L2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R03B</om:name>
+                  <om:label>LRI WD 3B Babies Ken L2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R05</om:name>
+                  <om:label>LRI WD 5 Ken L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R05B</om:name>
+                  <om:label>LRI WD 5B Babies Ken L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R06</om:name>
+                  <om:label>LRI WD 6 Ken L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R06B</om:name>
+                  <om:label>LRI WD 6B Babies Ken L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R07</om:name>
+                  <om:label>LRI WD 7 Bal L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R08</om:name>
+                  <om:label>LRI WD 8 Bal L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R09</om:name>
+                  <om:label>LRI WD 9 Bal L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R10</om:name>
+                  <om:label>LRI WD 10 Bal L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R10H</om:name>
+                  <om:label>LRI WD 10H BAL L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R11</om:name>
+                  <om:label>LRI WD 11 Bal L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R11H</om:name>
+                  <om:label>LRI WD 11H BAL L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R12</om:name>
+                  <om:label>LRI WD 12 Bal L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R12A</om:name>
+                  <om:label>WD 12A HDU Paed</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R14</om:name>
+                  <om:label>LRI WD 14 Bal L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R15</om:name>
+                  <om:label>LRI WD 15 AMU Bal L5</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R16</om:name>
+                  <om:label>LRI WD 16 AMU Bal L5</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R17</om:name>
+                  <om:label>LRI WD 17 Bal L5</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R18</om:name>
+                  <om:label>LRI WD 18 Bal L5</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R19</om:name>
+                  <om:label>LRI WD 19 Bal L6 (Closed)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R21</om:name>
+                  <om:label>LRI WD 21 Bal L6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R22</om:name>
+                  <om:label>LRI WD 22 Bal 6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R23</om:name>
+                  <om:label>LRI WD 23 Win L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R24</om:name>
+                  <om:label>LRI WD 24 Win L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R25</om:name>
+                  <om:label>LRI WD 25 Win L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R26</om:name>
+                  <om:label>LRI WD 26 Win L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R27</om:name>
+                  <om:label>LRI WD 27 Win L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R29</om:name>
+                  <om:label>LRI WD 29 Win L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R30</om:name>
+                  <om:label>LRI WD 30 Win L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R30H</om:name>
+                  <om:label>LRI WD 30 HDU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R31</om:name>
+                  <om:label>LRI WD 31 Win L5</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R32</om:name>
+                  <om:label>LRI WD 32 Win L5</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R33</om:name>
+                  <om:label>LRI WD 33 Win L5</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R35</om:name>
+                  <om:label>LRI WD 35 Win L6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R35D</om:name>
+                  <om:label>LRI WD 35D DC Win L6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R36</om:name>
+                  <om:label>LRI WD 36 Win L6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R37</om:name>
+                  <om:label>LRI WD 37 Win L6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R37D</om:name>
+                  <om:label>LRI WD 37D DC Win L6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>R38</om:name>
+                  <om:label>LRI WD 38 Win L6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RAAA</om:name>
+                  <om:label>LRI WD Ante Nat Ass Ken L0</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RAFM</om:name>
+                  <om:label>LRI WD 15 Acute Frailty Male</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RAFU</om:name>
+                  <om:label>LRI WD 16 Acute Frailty Female</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RAHD</om:name>
+                  <om:label>LRI WD HDU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RAMU</om:name>
+                  <om:label>LRI WD Acute Medical Unit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RANG</om:name>
+                  <om:label>LRI WD Angiography Suite</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RBMT</om:name>
+                  <om:label>LRI WD Bone Marrow Transplant</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RBUP</om:name>
+                  <om:label>LRI WD BUPA Activity</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCAE</om:name>
+                  <om:label>LRI WD Caesium Bed</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCAT</om:name>
+                  <om:label>LRI WD Paed Theatre Waiting</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCAU</om:name>
+                  <om:label>LRI WD Childrens Admissions</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCDU</om:name>
+                  <om:label>LRI WD Clin Diagnostic</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCDW</om:name>
+                  <om:label>LRI WD 11 Child DC Win L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCHM</om:name>
+                  <om:label>LRI WD Chemo Suite Osb L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCIC</om:name>
+                  <om:label>LRI WD Paed ITU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCOD</om:name>
+                  <om:label>LRI WD Cent Operating</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCOV</om:name>
+                  <om:label>LRI WD COV Activity</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RCVU</om:name>
+                  <om:label>LRI WD Card Vascular Unit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RDAY</om:name>
+                  <om:label>LRI WD Day Ward</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RDIS</om:name>
+                  <om:label>LRI WD Discharge Suite Ext7969</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>REDU</om:name>
+                  <om:label>LRI WD EDU Emerg Decisions</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>REND</om:name>
+                  <om:label>LRI WD Endoscopy Win L2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RFJW</om:name>
+                  <om:label>LRI WD Fielding John Vic L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RHAD</om:name>
+                  <om:label>LRI WD DC Haematology</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RHAE</om:name>
+                  <om:label>LRI WD Haematology</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RHAM</om:name>
+                  <om:label>LRI WD Hambleton Suite</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RHB</om:name>
+                  <om:label>LRI WD Home Birth</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RHW</om:name>
+                  <om:label>LRI HOLDING WARD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RIDU</om:name>
+                  <om:label>LRI WD IDU Infec Diseases</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RITU</om:name>
+                  <om:label>LRI WD ITU Bal L2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKIN</om:name>
+                  <om:label>LRI WD Kinmonth Unit Bal L3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RLAN</om:name>
+                  <om:label>LRI WD Langham (Closed)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RLEE</om:name>
+                  <om:label>LRI WD LEEDS SPIRE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RLIT</om:name>
+                  <om:label>LRI WD LEEDS ITU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RLWM</om:name>
+                  <om:label>LRI WD Labour Ken L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RNUF</om:name>
+                  <om:label>LRI WD Nuffield Activity</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ROAK</om:name>
+                  <om:label>LRI WD Oakham Hosp DC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RODA</om:name>
+                  <om:label>LRI WD Odames Vic L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RODD</om:name>
+                  <om:label>LRI WD Odames DC Vic L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ROMO</om:name>
+                  <om:label>LRI WD Ophth Minor Op Bal L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RONC</om:name>
+                  <om:label>LRI WD Oncology Osb L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ROND</om:name>
+                  <om:label>LRI WD Oncology DC Osb L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ROWA</om:name>
+                  <om:label>LRI WD AE Ortho WA Bal L1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RPAC</om:name>
+                  <om:label>LRI WD PACU Recovery Bal L2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RPHA</om:name>
+                  <om:label>LRI WD Private Hosp Activity</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RPMD</om:name>
+                  <om:label>LRI WD Pain Man DC Osb L2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RPOD</om:name>
+                  <om:label>LRI WD Paed Onc DC Win L4</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RSAC</om:name>
+                  <om:label>LRI WD Surg Acute Bal L6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RSAU</om:name>
+                  <om:label>LRI WD Surg Ass Bal L6</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RSCB</om:name>
+                  <om:label>LRI WD Spec Care Baby Ken L5</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RTCU</om:name>
+                  <om:label>LRI WD Trans Care Ken L2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RXDA</om:name>
+                  <om:label>LRI WD Xray Day Ward</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_opclinic</om:name>
+            <om:label>Outpatient Clinic Attended</om:label>
+            <om:variable>
+               <om:name>epi_opclinic</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>NURASSG</om:name>
+                  <om:label>LGH NURASSG CR 1:1 assessment</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURPROGG</om:name>
+                  <om:label>LGH NURPROGG CR exercise/education</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NUREXG</om:name>
+                  <om:label>LGH NUREXG CR exit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURASSR</om:name>
+                  <om:label>LRI NURASSR CR 1:1 assessment</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURPROGR</om:name>
+                  <om:label>LRI NURPROGR CR exercise/education</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NUREXR</om:name>
+                  <om:label>LRI NUREXR CR exit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURASS</om:name>
+                  <om:label>GLENFIELD NURASS CR 1:1 assessment</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURPROGF</om:name>
+                  <om:label>GLENFIELD NURPROGF CR exercise/education</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NUREXF</om:name>
+                  <om:label>GLENFIELD NUREXF CR exit</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AGS1A</om:name>
+                  <om:label>AGS1A R07 AGR REG NULL AGS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AGS3P</om:name>
+                  <om:label>AGS3P R07 AGS CARDIOVASC NULL AGS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AGS41</om:name>
+                  <om:label>AGS41 R01 AGS HYPERTENSION NULL AGS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AHG4F</om:name>
+                  <om:label>AHG4F F07 AHG FU THUR AM AHG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AHG4N</om:name>
+                  <om:label>AHG4N F07 AHG NEW THUR AM AHG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AHG5F</om:name>
+                  <om:label>AHG5F F07 AHG FU FRI AM AHG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AHG5N</om:name>
+                  <om:label>AHG5N F07 AHG NEW FRI AM AHG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AHGAH</om:name>
+                  <om:label>AHGAH F07 AHG AH NULL AHG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AHGRAC</om:name>
+                  <om:label>AHGRAC F07 AHG RAPID ACCESS NULL AHG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AJS14N</om:name>
+                  <om:label>AJS14N F07 AJS1 NULL AJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AJS15F</om:name>
+                  <om:label>AJS15F F07 AJS1 FU FRI AJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AJS15N</om:name>
+                  <om:label>AJS15N F07 AJS1 NEW FRI AJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AJS1F</om:name>
+                  <om:label>AJS1F F07 AJS1 FU NULL AJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AJS1N</om:name>
+                  <om:label>AJS1N F07 AJS1 NEW NULL AJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DC1F</om:name>
+                  <om:label>DC1F F07 DC FU MONDAY PM / WEEKLY DC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DC1N</om:name>
+                  <om:label>DC1N F07 DC NEW MONDAY PM / WEEKLY DC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DCAH</om:name>
+                  <om:label>DCAH F07 DC AH NULL DC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DCECHO</om:name>
+                  <om:label>DCECHO R07 DC TT ECHO NULL DC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ER4F</om:name>
+                  <om:label>ER4F F07 ER NULL ER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ER4N</om:name>
+                  <om:label>ER4N F07 ER NULL ER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GAN5AF</om:name>
+                  <om:label>GAN5AF F07 GAN FU NULL GAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GAN5AN</om:name>
+                  <om:label>GAN5AN F07 GAN NEW NULL GAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GANAH</om:name>
+                  <om:label>GANAH F07 GAN AH NULL GAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GPM1FM</om:name>
+                  <om:label>GPM1FM F07 GPM NULL GPM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GPM1NM</om:name>
+                  <om:label>GPM1NM F07 GPM NULL GPM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GPMAH</om:name>
+                  <om:label>GPMAH F07 GPM AH NULL GPM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GPMRES</om:name>
+                  <om:label>GPMRES F07 GPM RESEARCH NULL GPM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GR1B</om:name>
+                  <om:label>GR1B F07 GR NULL GR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GR1BN</om:name>
+                  <om:label>GR1BN F07 GR NULL GR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GR3N</om:name>
+                  <om:label>GR3N F07 GR NEW NULL GR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GR4F</om:name>
+                  <om:label>GR4F F07 GR THUR PM GR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GR4N</om:name>
+                  <om:label>GR4N F07 GR THUR PM GR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GRAH</om:name>
+                  <om:label>GRAH F07 GR AH NULL GR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GRRAC</om:name>
+                  <om:label>GRRAC F07 GR RAPID ACCESS NULL GR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IBS1A</om:name>
+                  <om:label>IBS1A R07 IBS CARDIOVAS NULL IBS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IBS1AH</om:name>
+                  <om:label>IBS1AH F07 IBS ADHOC NULL IBS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IBS3F</om:name>
+                  <om:label>IBS3F F07 IBS FU NULL IBS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IBS3N</om:name>
+                  <om:label>IBS3N F07 IBS NEW NULL IBS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IH1F</om:name>
+                  <om:label>IH1F F07 IH FU MON PM IH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IH1N</om:name>
+                  <om:label>IH1N F07 IH NEW MON PM IH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IH3F</om:name>
+                  <om:label>IH3F F07 IH FU WED PM IH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IH3N</om:name>
+                  <om:label>IH3N F07 IH NEW WED PM IH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IHAH</om:name>
+                  <om:label>IHAH F07 IH AH NULL IH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IHRAC</om:name>
+                  <om:label>IHRAC F07 IH RAPID ACCESS NULL IH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IL3F</om:name>
+                  <om:label>IL3F F07 WIL FU WED AM WIL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IL3N</om:name>
+                  <om:label>IL3N F07 WIL NEW WED AM WIL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IL4F</om:name>
+                  <om:label>IL4F F07 WIL FU THUR AM WIL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IL4N</om:name>
+                  <om:label>IL4N F07 WIL NEW THUR AM WIL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ILAH</om:name>
+                  <om:label>ILAH F07 WIL AH NULL WIL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ILRAC</om:name>
+                  <om:label>ILRAC F07 WIL RAPID ACCESS NULL WIL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDS14N</om:name>
+                  <om:label>JDS14N F07 JDS1 NEW NULL JDS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDS1AH</om:name>
+                  <om:label>JDS1AH F07 JDS AH NULL JDS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDS1F</om:name>
+                  <om:label>JDS1F F07 JDS1 FU NULL JDS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDS1N</om:name>
+                  <om:label>JDS1N F07 JDS1 NEW NULL JDS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDS1RAC</om:name>
+                  <om:label>JDS1RAC F07 JDS RAPID ACCESS NULL JDS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JK2F</om:name>
+                  <om:label>JK2F F07 JK NULL JK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JK2N</om:name>
+                  <om:label>JK2N F07 JK NEW NULL JK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JK4F</om:name>
+                  <om:label>JK4F F07 JK NULL JK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JK4N</om:name>
+                  <om:label>JK4N F07 JK NEW NULL JK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JKAH</om:name>
+                  <om:label>JKAH F07 JK AH NULL JK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JKRAC</om:name>
+                  <om:label>JKRAC F07 JK RAPID ACCESS NULL JK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JKTAVI</om:name>
+                  <om:label>JKTAVI F07 JK TAVI NULL JK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KC13F</om:name>
+                  <om:label>KC13F F07 KC1 NULL KC1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KC1AH</om:name>
+                  <om:label>KC1AH F07 KC1 NULL KC1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KC1F</om:name>
+                  <om:label>KC1F F07 KC1 NULL KC1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KC1N</om:name>
+                  <om:label>KC1N F07 KC1 NEW NULL KC1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LLN3P</om:name>
+                  <om:label>LLN3P R07 LLN NULL LLN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NJS2F</om:name>
+                  <om:label>NJS2F F07 NJS FU NULL NJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NJS2N</om:name>
+                  <om:label>NJS2N F07 NJS NEW NULL NJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NJS5F</om:name>
+                  <om:label>NJS5F F07 NJS FU NULL NJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NJS5N</om:name>
+                  <om:label>NJS5N F07 NJS NEW NULL NJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NJS5R</om:name>
+                  <om:label>NJS5R F07 NJS RUTLAND NULL NJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NJSAH</om:name>
+                  <om:label>NJSAH F07 NJS AH NULL NJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NJSRAC</om:name>
+                  <om:label>NJSRAC F07 NJS RAPID ACCESS NULL NJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PJS12F</om:name>
+                  <om:label>PJS12F F07 PJS1 FU NULL PJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PJS12N</om:name>
+                  <om:label>PJS12N F07 PJS1 NEW NULL PJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PJS15F</om:name>
+                  <om:label>PJS15F F07 PJS1 FU NULL PJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PJS15N</om:name>
+                  <om:label>PJS15N F07 PJS1 NEW NULL PJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PJS1AH</om:name>
+                  <om:label>PJS1AH F07 PJS AH NULL PJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKP1PF</om:name>
+                  <om:label>RKP1PF F07 RKP FU MONDAY RKP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKP1PN</om:name>
+                  <om:label>RKP1PN F07 RKP NEW MONDAY RKP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKP1RAC</om:name>
+                  <om:label>RKP1RAC F07 RKP RAPID ACCESS NULL RKP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKP3PF</om:name>
+                  <om:label>RKP3PF F07 RKP FU NULL RKP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKP3PN</om:name>
+                  <om:label>RKP3PN F07 RKP NEW NULL RKP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TW3A</om:name>
+                  <om:label>TW3A R01 TW HYPERTENSION NULL TW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TW3C</om:name>
+                  <om:label>TW3C R01 BW HYPERTENSION NULL BW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TW42</om:name>
+                  <om:label>TW42 R01 TW HYPERT S/R NULL TW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TW4C</om:name>
+                  <om:label>TW4C R01 TW PROF WILLIAMS THUR AM TW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TW4D</om:name>
+                  <om:label>TW4D R01 TW REG HT-JDS-BW THUR AM TW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TW4F</om:name>
+                  <om:label>TW4F R01 BW LECTURER LIST NULL BW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RFBLC</om:name>
+                  <om:label>RFBLC F01 RFB FU NULL RFB</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RFBLCN</om:name>
+                  <om:label>RFBLCN F01 RFB LIPIDS NEW NULL RFB</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RFBTH</om:name>
+                  <om:label>RFBTH F01 RFB THYROID FU NULL RFB</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IGL5N</om:name>
+                  <om:label>IGL5N</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IGL5F</om:name>
+                  <om:label>IGL5F</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IGLRN</om:name>
+                  <om:label>IGLRN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IGLRF</om:name>
+                  <om:label>IGLRF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IGLCAF</om:name>
+                  <om:label>IGLCAF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AKMTCB</om:name>
+                  <om:label>AKMTCB G01 AKM BUBBLE TEST NULL AKM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BW3AF</om:name>
+                  <om:label>BW3AF R01 BW NULL BW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BW3AN</om:name>
+                  <om:label>BW3AN R01 BW NULL BW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BW4AF</om:name>
+                  <om:label>BW4AF R01 BW NULL BW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BW4AN</om:name>
+                  <om:label>BW4AN R01 BW NULL BW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BWFU</om:name>
+                  <om:label>BWFU R01 NUR NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BWNPN</om:name>
+                  <om:label>BWNPN R01 NUR HYPERT NEW NULL BW</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CVDSN3A</om:name>
+                  <om:label>CVDSN3A DIABETIC NURSE WED DIABETIC MEDICINE RG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CVJDC4A</om:name>
+                  <om:label>CVJDC4A CV01 JDC THUR AM JDC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CVJR3P</om:name>
+                  <om:label>CVJR3P CV01 JR FALLS NULL JR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DRL4B</om:name>
+                  <om:label>DRL4B R01 DL FU NULL DL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DRL4N</om:name>
+                  <om:label>DRL4N R01 DL NEW NULL DL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DVTNL</om:name>
+                  <om:label>DVTNL R01 AMN DVT NURSE BH NULL AMN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJF2AF</om:name>
+                  <om:label>GJF2AF F01 GJF FU NULL GJF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJF2AN</om:name>
+                  <om:label>GJF2AN F01 GJF NEW NULL GJF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MKJM1P</om:name>
+                  <om:label>MKJM1P MK01 JM NULL JM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURHYP</om:name>
+                  <om:label>NURHYP R01 NUR BP MONITOR NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NV3BN</om:name>
+                  <om:label>NV3BN G81C NV NEW NULL NV</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NV3GN</om:name>
+                  <om:label>NV3GN G01 NV GASTRO NEW NULL NV</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PGM51</om:name>
+                  <om:label>PGM51 R01 PGM NULL PGM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PGM5B</om:name>
+                  <om:label>PGM5B R01 PGM REG NULL PGM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PS4AF</om:name>
+                  <om:label>PS4AF R01 PPRS NULL PPRS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PS4AN</om:name>
+                  <om:label>PS4AN R01 PPRS NULL PPRS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RG2A</om:name>
+                  <om:label>RG2A G01 RG NULL RG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RMM3B</om:name>
+                  <om:label>RMM3B G01 RM STROKE NULL RM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RMNEW</om:name>
+                  <om:label>RMNEW G01 RM STROKE NEW NULL RM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RUAM3P</om:name>
+                  <om:label>RUAM3P RU01 AM FALLS GERIATRIC MEDICINE AM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RUPGM5A</om:name>
+                  <om:label>RUPGM5A RU01 PGM FU FRI AM PGM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RUPGM5AN</om:name>
+                  <om:label>RUPGM5AN RU01 PGM FRI AM NULL PGM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ST1A</om:name>
+                  <om:label>ST1A G01 ST3 NULL ST3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ST1N</om:name>
+                  <om:label>ST1N G01 ST3 NULL ST3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>STROKE7F</om:name>
+                  <om:label>STROKE7F G01 COMB NULL TGR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>STROKE7N</om:name>
+                  <om:label>STROKE7N G01 COMB NULL TGR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TIAOS</om:name>
+                  <om:label>TIAOS G01 TIA NULL TGR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJFTILT</om:name>
+                  <om:label>GJFTILT F01H GJF TILT NULL GJF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CARDCV</om:name>
+                  <om:label>CARDCV R07 LL NG CV NULL LLN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CARDCV1</om:name>
+                  <om:label>CARDCV1 R07 AGS CV NULL AGS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CARDCV2</om:name>
+                  <om:label>CARDCV2 R07 IBS CV NULL IBS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CVIL5A</om:name>
+                  <om:label>CVIL5A CV07 WIL NULL WIL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CVPJS5A</om:name>
+                  <om:label>CVPJS5A CV07 PJS1 FRI AM PJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FHIS</om:name>
+                  <om:label>FHIS F07 PRDHISS TEST CL GH TEST CLINIC TA1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FHIS1</om:name>
+                  <om:label>FHIS1 F07 PRDHISS TEST CAB CAB TEST CLINIC GH TA1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FPDA5A</om:name>
+                  <om:label>FPDA5A FP07 DLA FRI AM DLA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FPDTC5P</om:name>
+                  <om:label>FPDTC5P FP07 DC FRI PM DC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJFTAVI</om:name>
+                  <om:label>GJFTAVI F07 GJF TAVI NULL GJF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDAN5P</om:name>
+                  <om:label>HDAN5P HD07 GAN NEW NULL GAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDAN5PF</om:name>
+                  <om:label>HDAN5PF HD07 GAN FRI PM NULL GAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDAS2AF</om:name>
+                  <om:label>HDAS2AF HD07 AJS1 FU TUE AJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDAS2AN</om:name>
+                  <om:label>HDAS2AN HD07 AJS1 NEW TUE AJS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDDA2AF</om:name>
+                  <om:label>HDDA2AF HD07 DLA FU TUE AM DLA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDDA2AN</om:name>
+                  <om:label>HDDA2AN HD07 DLA NEW TUE AM DLA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDRP4A</om:name>
+                  <om:label>HDRP4A HD07 RKP THUR AM RKP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDRP4AF</om:name>
+                  <om:label>HDRP4AF HD07 RKP FU THUR AM RKP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDRP4R</om:name>
+                  <om:label>HDRP4R DR PATHMANATHAN FU CARDIOLOGY RKP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HDRP4RN</om:name>
+                  <om:label>HDRP4RN DR PATHMANATHAN NEW CARDIOLOGY RKP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JD1A1</om:name>
+                  <om:label>JD1A1 R07 JD CV NULL JD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LBAHG3P</om:name>
+                  <om:label>LBAHG3P LB07 AHG WED AHG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LBAHGR</om:name>
+                  <om:label>LBAHGR LB07 AHG REG NULL AHG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LBGR2A</om:name>
+                  <om:label>LBGR2A LB07 GR NULL GR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MJM14F</om:name>
+                  <om:label>MJM14F F07 MJM1 FU NULL MJM1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MJM14N</om:name>
+                  <om:label>MJM14N F07 MJM1 NEW NULL MJM1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MJM1AH</om:name>
+                  <om:label>MJM1AH F07 MJM1 AH NULL MJM1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MKIH4P</om:name>
+                  <om:label>MKIH4P MK07 IH THUR PM IH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURCPA</om:name>
+                  <om:label>NURCPA F07 NUR PA NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURCRM</om:name>
+                  <om:label>NURCRM F07 NUR RHYTHEM M/N NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURCRN</om:name>
+                  <om:label>NURCRN F07 NUR REHAB NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURCVC</om:name>
+                  <om:label>NURCVC F07 NUR C/VERSION NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURICDR</om:name>
+                  <om:label>NURICDR F07 NUR REHAB FU NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RACPNP</om:name>
+                  <om:label>RACPNP F07 NUR RAPID ACCESS NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RUNJS5A</om:name>
+                  <om:label>RUNJS5A RU07 NJS NEW FRI AM NJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RUNJS5F</om:name>
+                  <om:label>RUNJS5F RU07 NJS FRI AM NULL NJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SG3N</om:name>
+                  <om:label>SG3N F07 SG3 NEW NULL SG3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WMJDS4A</om:name>
+                  <om:label>WMJDS4A WM07 JDS1 NEW THURS JDS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WMJDS4F</om:name>
+                  <om:label>WMJDS4F WM07 JDS1 THURS AM CARDIOLOGY JDS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WMJDSGF</om:name>
+                  <om:label>WMJDSGF WM07 JDS1 THURS AM NULL JDS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WMJDSGP</om:name>
+                  <om:label>WMJDSGP WM07 JDS1 NEW DR HARVEY THURS JDS1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AKD3A</om:name>
+                  <om:label>AKD3A F07A AKD ARRYTHM NULL AKD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AKD3P</om:name>
+                  <om:label>AKD3P F07A AKD FU NULL AKD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AKD41P</om:name>
+                  <om:label>AKD41P F07A AKD NULL AKD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AKDAH</om:name>
+                  <om:label>AKDAH F07A AKD AH NULL AKD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CWA1</om:name>
+                  <om:label>CWA1 F07A MDK WD ATTENDER NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CWA2</om:name>
+                  <om:label>CWA2 F07A MDK WD ATTENDER NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CWA3</om:name>
+                  <om:label>CWA3 F07A MDK WD ATTENDER NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CWA4</om:name>
+                  <om:label>CWA4 F07A MDK WD ATTENDER NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CWA5</om:name>
+                  <om:label>CWA5 F07A MDK WD ATTENDER NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CWA6</om:name>
+                  <om:label>CWA6 F07A MDK WD ATTENDER NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CWA7</om:name>
+                  <om:label>CWA7 F07A MDK WD ATTENDER NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FAB1P</om:name>
+                  <om:label>FAB1P F07A FAB NULL FAB</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FABAD</om:name>
+                  <om:label>FABAD F07A FAB ADULT NULL FAB</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FABAH</om:name>
+                  <om:label>FABAH F07A FAB AH NULL FAB</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FB2A</om:name>
+                  <om:label>FB2A F07A FAB NULL FAB</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MAGT11</om:name>
+                  <om:label>MAGT11 F07A MAGT NULL MAGT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MAGTAH</om:name>
+                  <om:label>MAGTAH F07A MAGT AH NULL MAGT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MDK2P</om:name>
+                  <om:label>MDK2P F07A MDK NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MDK31P</om:name>
+                  <om:label>MDK31P F07A MDK NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MDKAD</om:name>
+                  <om:label>MDKAD F07A MDK NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MDKAH</om:name>
+                  <om:label>MDKAH F07A MDK AH NULL MDK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURPAED</om:name>
+                  <om:label>NURPAED F07A NUR NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PCARD5P</om:name>
+                  <om:label>PCARD5P F07A RL NEW NEW PTS ONLY!! RL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RL5AP</om:name>
+                  <om:label>RL5AP F07A RL NULL RL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RLAH</om:name>
+                  <om:label>RLAH F07A RL AH NULL RL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RLGU5</om:name>
+                  <om:label>RLGU5 F07A RL NULL RL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURASHFF</om:name>
+                  <om:label>NURASHFF F07B HF NUR ASSESS NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NUREXHFF</om:name>
+                  <om:label>NUREXHFF F07B NUR HF REHAB NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURPHFF</om:name>
+                  <om:label>NURPHFF F07B NUR HF PROG NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJP4P</om:name>
+                  <om:label>GJP4P F27 GJP NULL GJP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RG32P</om:name>
+                  <om:label>RG32P F27 RG3 NULL RG3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AWSAH</om:name>
+                  <om:label>AWSAH F39 AWS AH NULL AWS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJP4F</om:name>
+                  <om:label>GJP4F F39 GJP FU NULL GJP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJPPO</om:name>
+                  <om:label>GJPPO F39 GJP PRE-OP THUR WEEKLY GJP</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LH5F</om:name>
+                  <om:label>LH5F F39 LH FU NULL LH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LH5N</om:name>
+                  <om:label>LH5N F39 LH NULL LH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MG52</om:name>
+                  <om:label>MG52 F39 MG NULL MG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MG5F</om:name>
+                  <om:label>MG5F F39 MG FU NULL MG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MSH32</om:name>
+                  <om:label>MSH32 F39 MSH NULL MSH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NURCSPA</om:name>
+                  <om:label>NURCSPA F39 NUR C/S PA NULL NUR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RG32PPO</om:name>
+                  <om:label>RG32PPO F39 RG3 NULL RG3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKF42</om:name>
+                  <om:label>RKF42 F39 RKF NULL RKF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKF4F</om:name>
+                  <om:label>RKF4F F39 RKF FU NULL RKF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKFAH</om:name>
+                  <om:label>RKFAH F39 RKF AH NULL RKF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKFJSF</om:name>
+                  <om:label>RKFJSF F39 RKF JS NULL RKF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKFJSN</om:name>
+                  <om:label>RKFJSN F39 RKF JS NULL RKF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKFOP</om:name>
+                  <om:label>RKFOP F39 RKF PRE-OP NULL RKF</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TJS2F</om:name>
+                  <om:label>TJS2F F39 TJS NULL TJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TJS2N</om:name>
+                  <om:label>TJS2N F39 TJS NULL TJS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_ipcons</om:name>
+            <om:label>Admitting Consultant</om:label>
+            <om:variable>
+               <om:name>epi_ipcons</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>DC</om:name>
+                  <om:label>DR D CHIN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KC1</om:name>
+                  <om:label>DR K CHITKARA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJF</om:name>
+                  <om:label>DR GJ FANCOURT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AHG</om:name>
+                  <om:label>DR AH GERSHLICK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IH</om:name>
+                  <om:label>DR I HUDSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JK</om:name>
+                  <om:label>DR J KOVAC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WIL</om:name>
+                  <om:label>DR WI LOKE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GPM</om:name>
+                  <om:label>DR G MCCANN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MJM1</om:name>
+                  <om:label>DR M MUNCLINGER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GAN</om:name>
+                  <om:label>DR GA NG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKP</om:name>
+                  <om:label>DR RK PATHMANATHAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GR</om:name>
+                  <om:label>DR G RICHARDSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ER</om:name>
+                  <om:label>DR ELVED ROBERTS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NJS</om:name>
+                  <om:label>PROF NJ SAMANI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AJS1</om:name>
+                  <om:label>DR A SANDILANDS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDS1</om:name>
+                  <om:label>DR JD SKEHAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PJS1</om:name>
+                  <om:label>DR PJ STAFFORD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LLN</om:name>
+                  <om:label>PROF LL NG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JD</om:name>
+                  <om:label>DR J DAVIES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IBS</om:name>
+                  <om:label>PROF I SQUIRE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AGS</om:name>
+                  <om:label>DR AG STANLEY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BW</om:name>
+                  <om:label>PROF B WILLIAMS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKF</om:name>
+                  <om:label>MR RK FIRMIN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LH</om:name>
+                  <om:label>MR L HADJINIKOLAOU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MSH</om:name>
+                  <om:label>MR MS HICKEY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AL1</om:name>
+                  <om:label>MR A LOTTO</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TJS</om:name>
+                  <om:label>MR TJ SPYT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BJR</om:name>
+                  <om:label>DR BJ RATHBONE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CMC</om:name>
+                  <om:label>PROF CMC CASTELEDEN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CPC</om:name>
+                  <om:label>DR CP CHELLAMUTHU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DL</om:name>
+                  <om:label>DR DR LAKHANI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DMJ</om:name>
+                  <om:label>DR DM JACKETT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GMU</om:name>
+                  <om:label>NULL NULL INTEGRATED MED</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GMW</om:name>
+                  <om:label>MR GM WOOD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HT</om:name>
+                  <om:label>PROF H THURSTON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IGL</om:name>
+                  <om:label>DR IG LAWRENCE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IS</om:name>
+                  <om:label>DR I STEPHENSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JBF</om:name>
+                  <om:label>DR JB FRANCIS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDC</om:name>
+                  <om:label>DR JS DE CAESTECKER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JEP</om:name>
+                  <om:label>DR JE POHL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JFP</om:name>
+                  <om:label>PROF JF POTTER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JPB</om:name>
+                  <om:label>DRS NULL POTTER &amp; BING</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JPF</om:name>
+                  <om:label>DRS NULL FOTHERBY &amp; POTTER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JR</om:name>
+                  <om:label>DR J REID</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JWW</om:name>
+                  <om:label>DR JW WARD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KSH</om:name>
+                  <om:label>DR K HIGGINS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LM</om:name>
+                  <om:label>DR L MAHAWISH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LRW</om:name>
+                  <om:label>DR LR WALKER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MD</om:name>
+                  <om:label>DRS NULL IGL-PGM-MJD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MDF</om:name>
+                  <om:label>DR MD FOTHERBY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MFK</om:name>
+                  <om:label>DR MF KONG YAO FAH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MJD1</om:name>
+                  <om:label>DR MJ DAVIES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ML3</om:name>
+                  <om:label>DR M LEVY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MOA</om:name>
+                  <om:label>DR MO AKINSOLA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MP</om:name>
+                  <om:label>A NULL MED PHYSICS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NASK</om:name>
+                  <om:label>DR N KHAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NL</om:name>
+                  <om:label>DR N LO</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NMM</om:name>
+                  <om:label>DR NM MORGAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NS</om:name>
+                  <om:label>DR N SMITH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NSS</om:name>
+                  <om:label>DR NS SHAH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NV</om:name>
+                  <om:label>DR N VIJAYAKUMAR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PGM</om:name>
+                  <om:label>DR PG MCNALLY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PPRS</om:name>
+                  <om:label>DR P SWALES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PW</om:name>
+                  <om:label>DR P WURM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RFB</om:name>
+                  <om:label>DR RF BING</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RG</om:name>
+                  <om:label>DR R GREGORY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RJR</om:name>
+                  <om:label>DR RJ ROBINSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RJS</om:name>
+                  <om:label>DR RJ SHEPHERD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKMW</om:name>
+                  <om:label>DR RKM WONG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RM</om:name>
+                  <om:label>DR R MARSH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SA4</om:name>
+                  <om:label>DR S AHMAD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SGP</om:name>
+                  <om:label>DR SG PARKER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SJ</om:name>
+                  <om:label>DR S JACKSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SKM</om:name>
+                  <om:label>DR SK MUNSHI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SLD</om:name>
+                  <om:label>DR SL DAWSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SM</om:name>
+                  <om:label>DR S MEHDI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SMS</om:name>
+                  <om:label>DR SM SHAH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SNE</om:name>
+                  <om:label>DR SN EVANS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SPC</om:name>
+                  <om:label>DR S CONROY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ST3</om:name>
+                  <om:label>DR S TREADWELL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TGR</om:name>
+                  <om:label>PROF TG ROBINSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TH</om:name>
+                  <om:label>DR T HOWLETT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TM</om:name>
+                  <om:label>DR M TOMASZEWSKI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TRV</om:name>
+                  <om:label>DR TR VALLANCE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TW</om:name>
+                  <om:label>PROF NULL THURST-WILLIAM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WA</om:name>
+                  <om:label>NULL NULL WARD ATTENDER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AJM</om:name>
+                  <om:label>DR AJ MCCANCE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AMD</om:name>
+                  <om:label>DR A MORLEY-DAVIES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AR2</om:name>
+                  <om:label>DR A RANJIT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ARH</om:name>
+                  <om:label>DR AR HOUGHTON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AV</om:name>
+                  <om:label>DR A VENKATARAMAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CJG</om:name>
+                  <om:label>DR CJ GARRATT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DLA</om:name>
+                  <om:label>DR D ADAMSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DM1</om:name>
+                  <om:label>DR D MAREK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GAC</om:name>
+                  <om:label>DR GA COOKE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HJFW</om:name>
+                  <om:label>DR HJF WHY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JB2</om:name>
+                  <om:label>DR J BARON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JC</om:name>
+                  <om:label>DR J CULLEN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDH</om:name>
+                  <om:label>DR JD HILL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JEM</om:name>
+                  <om:label>DR JE MCDONALD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JMR</om:name>
+                  <om:label>DR JM ROWLEY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KH1</om:name>
+                  <om:label>DR K HOGREFE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KJW</om:name>
+                  <om:label>DR KJ WARD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MF2</om:name>
+                  <om:label>DR M FAROOQ</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MMC</om:name>
+                  <om:label>DR M MILLAR-CRAIG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MNS</om:name>
+                  <om:label>DR MN SHAUKAT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NMGS</om:name>
+                  <om:label>DR N SWANSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NRQ</om:name>
+                  <om:label>DR NR QURESHI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PAC</om:name>
+                  <om:label>DR PA CAREY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PKV</om:name>
+                  <om:label>DR PK VERMA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RPK</om:name>
+                  <om:label>DR RP KEAL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SG3</om:name>
+                  <om:label>DR S GARIMELLA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SJK</om:name>
+                  <om:label>DR SJ KELLY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SON</om:name>
+                  <om:label>DR SO NUNAIN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TA1</om:name>
+                  <om:label>DR T AZEEM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>VM</om:name>
+                  <om:label>DR M VISHU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>YH</om:name>
+                  <om:label>DR Y HAIDER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AKD</om:name>
+                  <om:label>DR AK DUKE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DKL</om:name>
+                  <om:label>DR D LUYT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FAB</om:name>
+                  <om:label>DR FA BU'LOCK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MAGT</om:name>
+                  <om:label>DR MAG TOFEIG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MDK</om:name>
+                  <om:label>DR MD KHAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RL</om:name>
+                  <om:label>DR R LEANAGE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SN1</om:name>
+                  <om:label>DR S NICHANI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJP</om:name>
+                  <om:label>MR GJ PEEK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JNL</om:name>
+                  <om:label>MR JN LEVERMENT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MG</om:name>
+                  <om:label>PROF M GALINANES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RG3</om:name>
+                  <om:label>DR R GEBAUER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_opcons</om:name>
+            <om:label>Consultant</om:label>
+            <om:variable>
+               <om:name>epi_opcons</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>DC</om:name>
+                  <om:label>DR D CHIN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KC1</om:name>
+                  <om:label>DR K CHITKARA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJF</om:name>
+                  <om:label>DR GJ FANCOURT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AHG</om:name>
+                  <om:label>DR AH GERSHLICK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IH</om:name>
+                  <om:label>DR I HUDSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JK</om:name>
+                  <om:label>DR J KOVAC</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WIL</om:name>
+                  <om:label>DR WI LOKE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GPM</om:name>
+                  <om:label>DR G MCCANN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MJM1</om:name>
+                  <om:label>DR M MUNCLINGER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GAN</om:name>
+                  <om:label>DR GA NG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKP</om:name>
+                  <om:label>DR RK PATHMANATHAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GR</om:name>
+                  <om:label>DR G RICHARDSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ER</om:name>
+                  <om:label>DR ELVED ROBERTS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NJS</om:name>
+                  <om:label>PROF NJ SAMANI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AJS1</om:name>
+                  <om:label>DR A SANDILANDS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDS1</om:name>
+                  <om:label>DR JD SKEHAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PJS1</om:name>
+                  <om:label>DR PJ STAFFORD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LLN</om:name>
+                  <om:label>PROF LL NG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JD</om:name>
+                  <om:label>DR J DAVIES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IBS</om:name>
+                  <om:label>PROF I SQUIRE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AGS</om:name>
+                  <om:label>DR AG STANLEY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BW</om:name>
+                  <om:label>PROF B WILLIAMS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKF</om:name>
+                  <om:label>MR RK FIRMIN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LH</om:name>
+                  <om:label>MR L HADJINIKOLAOU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MSH</om:name>
+                  <om:label>MR MS HICKEY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AL1</om:name>
+                  <om:label>MR A LOTTO</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TJS</om:name>
+                  <om:label>MR TJ SPYT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>BJR</om:name>
+                  <om:label>DR BJ RATHBONE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CMC</om:name>
+                  <om:label>PROF CMC CASTELEDEN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CPC</om:name>
+                  <om:label>DR CP CHELLAMUTHU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DL</om:name>
+                  <om:label>DR DR LAKHANI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DMJ</om:name>
+                  <om:label>DR DM JACKETT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GMU</om:name>
+                  <om:label>NULL NULL INTEGRATED MED</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GMW</om:name>
+                  <om:label>MR GM WOOD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HT</om:name>
+                  <om:label>PROF H THURSTON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IGL</om:name>
+                  <om:label>DR IG LAWRENCE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>IS</om:name>
+                  <om:label>DR I STEPHENSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JBF</om:name>
+                  <om:label>DR JB FRANCIS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDC</om:name>
+                  <om:label>DR JS DE CAESTECKER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JEP</om:name>
+                  <om:label>DR JE POHL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JFP</om:name>
+                  <om:label>PROF JF POTTER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JPB</om:name>
+                  <om:label>DRS NULL POTTER &amp; BING</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JPF</om:name>
+                  <om:label>DRS NULL FOTHERBY &amp; POTTER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JR</om:name>
+                  <om:label>DR J REID</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JWW</om:name>
+                  <om:label>DR JW WARD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KSH</om:name>
+                  <om:label>DR K HIGGINS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LM</om:name>
+                  <om:label>DR L MAHAWISH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>LRW</om:name>
+                  <om:label>DR LR WALKER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MD</om:name>
+                  <om:label>DRS NULL IGL-PGM-MJD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MDF</om:name>
+                  <om:label>DR MD FOTHERBY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MFK</om:name>
+                  <om:label>DR MF KONG YAO FAH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MJD1</om:name>
+                  <om:label>DR MJ DAVIES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ML3</om:name>
+                  <om:label>DR M LEVY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MOA</om:name>
+                  <om:label>DR MO AKINSOLA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MP</om:name>
+                  <om:label>A NULL MED PHYSICS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NASK</om:name>
+                  <om:label>DR N KHAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NL</om:name>
+                  <om:label>DR N LO</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NMM</om:name>
+                  <om:label>DR NM MORGAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NS</om:name>
+                  <om:label>DR N SMITH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NSS</om:name>
+                  <om:label>DR NS SHAH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NV</om:name>
+                  <om:label>DR N VIJAYAKUMAR</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PGM</om:name>
+                  <om:label>DR PG MCNALLY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PPRS</om:name>
+                  <om:label>DR P SWALES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PW</om:name>
+                  <om:label>DR P WURM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RFB</om:name>
+                  <om:label>DR RF BING</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RG</om:name>
+                  <om:label>DR R GREGORY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RJR</om:name>
+                  <om:label>DR RJ ROBINSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RJS</om:name>
+                  <om:label>DR RJ SHEPHERD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RKMW</om:name>
+                  <om:label>DR RKM WONG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RM</om:name>
+                  <om:label>DR R MARSH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SA4</om:name>
+                  <om:label>DR S AHMAD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SGP</om:name>
+                  <om:label>DR SG PARKER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SJ</om:name>
+                  <om:label>DR S JACKSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SKM</om:name>
+                  <om:label>DR SK MUNSHI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SLD</om:name>
+                  <om:label>DR SL DAWSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SM</om:name>
+                  <om:label>DR S MEHDI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SMS</om:name>
+                  <om:label>DR SM SHAH</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SNE</om:name>
+                  <om:label>DR SN EVANS</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SPC</om:name>
+                  <om:label>DR S CONROY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ST3</om:name>
+                  <om:label>DR S TREADWELL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TGR</om:name>
+                  <om:label>PROF TG ROBINSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TH</om:name>
+                  <om:label>DR T HOWLETT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TM</om:name>
+                  <om:label>DR M TOMASZEWSKI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TRV</om:name>
+                  <om:label>DR TR VALLANCE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TW</om:name>
+                  <om:label>PROF NULL THURST-WILLIAM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WA</om:name>
+                  <om:label>NULL NULL WARD ATTENDER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AJM</om:name>
+                  <om:label>DR AJ MCCANCE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AMD</om:name>
+                  <om:label>DR A MORLEY-DAVIES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AR2</om:name>
+                  <om:label>DR A RANJIT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>ARH</om:name>
+                  <om:label>DR AR HOUGHTON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AV</om:name>
+                  <om:label>DR A VENKATARAMAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>CJG</om:name>
+                  <om:label>DR CJ GARRATT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DLA</om:name>
+                  <om:label>DR D ADAMSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DM1</om:name>
+                  <om:label>DR D MAREK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GAC</om:name>
+                  <om:label>DR GA COOKE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>HJFW</om:name>
+                  <om:label>DR HJF WHY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JB2</om:name>
+                  <om:label>DR J BARON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JC</om:name>
+                  <om:label>DR J CULLEN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JDH</om:name>
+                  <om:label>DR JD HILL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JEM</om:name>
+                  <om:label>DR JE MCDONALD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JMR</om:name>
+                  <om:label>DR JM ROWLEY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KH1</om:name>
+                  <om:label>DR K HOGREFE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>KJW</om:name>
+                  <om:label>DR KJ WARD</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MF2</om:name>
+                  <om:label>DR M FAROOQ</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MMC</om:name>
+                  <om:label>DR M MILLAR-CRAIG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MNS</om:name>
+                  <om:label>DR MN SHAUKAT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NMGS</om:name>
+                  <om:label>DR N SWANSON</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NRQ</om:name>
+                  <om:label>DR NR QURESHI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PAC</om:name>
+                  <om:label>DR PA CAREY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PKV</om:name>
+                  <om:label>DR PK VERMA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RPK</om:name>
+                  <om:label>DR RP KEAL</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SG3</om:name>
+                  <om:label>DR S GARIMELLA</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SJK</om:name>
+                  <om:label>DR SJ KELLY</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SON</om:name>
+                  <om:label>DR SO NUNAIN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TA1</om:name>
+                  <om:label>DR T AZEEM</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>VM</om:name>
+                  <om:label>DR M VISHU</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>YH</om:name>
+                  <om:label>DR Y HAIDER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AKD</om:name>
+                  <om:label>DR AK DUKE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DKL</om:name>
+                  <om:label>DR D LUYT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>FAB</om:name>
+                  <om:label>DR FA BU'LOCK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MAGT</om:name>
+                  <om:label>DR MAG TOFEIG</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MDK</om:name>
+                  <om:label>DR MD KHAN</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RL</om:name>
+                  <om:label>DR R LEANAGE</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SN1</om:name>
+                  <om:label>DR S NICHANI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>GJP</om:name>
+                  <om:label>MR GJ PEEK</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>JNL</om:name>
+                  <om:label>MR JN LEVERMENT</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>MG</om:name>
+                  <om:label>PROF M GALINANES</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>RG3</om:name>
+                  <om:label>DR R GEBAUER</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_studycode</om:name>
+            <om:label>Study Reference</om:label>
+            <om:variable>
+               <om:name>epi_studycode</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>Study_Reference1</om:name>
+                  <om:label>Study Reference1</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Study_Reference2</om:name>
+                  <om:label>Study Reference2</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Study_Reference3</om:name>
+                  <om:label>Study Reference3</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DK</om:name>
+                  <om:label>Don't know</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+      </om:section>
+   </om:stage>
+</om:source>

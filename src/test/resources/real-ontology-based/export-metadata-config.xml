@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export-metadata xmlns="http://brisskit.org/xml/export-metadata-config/v3.0/em">
+
+	<!--+
+	    | Prefix for nominal ontology codes.
+	    |
+	    | Relevant for nominal AND real ontologies. 
+	    | The latter applies where generated codes are required for variables 
+	    | where a standard code does not exist.
+	    |
+	    | Required also for processing participant data from an export file.
+	    +-->
+	<code-prefix>CBO:</code-prefix>
+	
+	<pdo-phase>
+	
+		<!--
+	    	 These values are used in the patient id mapping table.
+	    -->
+		<organization systemAcronym="UHLT" projectAcronym="BRICCS" />
+		
+		<default-observation-dates>	
+			<date-context questionnaire="BrissKitQuestionnaire3">
+				<startdate variable="QuestionnaireRun.timeStart"/>
+				<enddate variable="QuestionnaireRun.timeEnd"/>
+			</date-context>			
+			<date-context questionnaire="ConclusionQuestionnaire">
+				<startdate variable="QuestionnaireRun.timeStart"/>
+				<enddate variable="QuestionnaireRun.timeEnd"/>
+			</date-context>
+			<date-context questionnaire="Consent">
+				<startdate variable="timeStart"/>
+				<enddate variable="timeEnd"/>
+			</date-context>
+			<date-context questionnaire="Participants" alternateName="Participant" drivingEntity="true">
+				<startdate variable="Admin.Interview.startDate"/>
+				<enddate variable="Admin.Interview.endDate"/>
+			</date-context>		
+		</default-observation-dates>
+
+		<!--+
+		    | Do not alter column or name attributes. 
+		    | Only "questionnaire", "variable" and "defaultValue" are open for configuration.
+		    | The attributes "variable" and "defaultValue" are alternatives.
+		    |
+		    | NB: The patient dimension can be excluded by an input parameter to the program 
+		    | (one of the argv[]'s. This may happen where another system provides the data
+		    | straight to i2b2. 
+		    +-->
+		<patient-dimension>
+			<include questionnaire="Participants" alternateName="Participant">
+				<patient-dimension-column column="birth_date" name="birthdate" variable="Admin.Participant.birthDate" />
+				<patient-dimension-column column="age_in_years_num" name="age" variable="Admin.Participant.age" />
+				<patient-dimension-column column="race_cd" name="ethnicity" variable="Admin.Participant.pat_ethnicity" />
+				<patient-dimension-column column="vital_status_cd" name="date interpretation code" defaultValue="N"/>
+				<patient-dimension-column column="sex_cd" name="sex" variable="Admin.Participant.gender" />
+				<!-- recruitment is excluded for the moment by the fact it does not have a column -->
+				<patient-dimension-column name="recruitment" variable="Admin.Participant.recruitmentType" />
+			</include>
+		</patient-dimension>
+	
+	</pdo-phase>
+	
+</export-metadata>

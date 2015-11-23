@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="sister5_die_age_cat" code="CBO:sister5_die_age_cat" path="\onyx\RiskFactorQuestionnaire\FAMILY_HISTORY\famhist_die_age\sister5_die_age_cat" hlevel="4">
+   <rev:group name="  0 to 9" description="  0 to 9">
+      <rev:variable name="  0" description="  0" code="CBO:sister5_die_age_cat:0"/>
+      <rev:variable name="  1" description="  1" code="CBO:sister5_die_age_cat:1"/>
+      <rev:variable name="  2" description="  2" code="CBO:sister5_die_age_cat:2"/>
+      <rev:variable name="  3" description="  3" code="CBO:sister5_die_age_cat:3"/>
+      <rev:variable name="  4" description="  4" code="CBO:sister5_die_age_cat:4"/>
+      <rev:variable name="  5" description="  5" code="CBO:sister5_die_age_cat:5"/>
+      <rev:variable name="  6" description="  6" code="CBO:sister5_die_age_cat:6"/>
+      <rev:variable name="  7" description="  7" code="CBO:sister5_die_age_cat:7"/>
+      <rev:variable name="  8" description="  8" code="CBO:sister5_die_age_cat:8"/>
+      <rev:variable name="  9" description="  9" code="CBO:sister5_die_age_cat:9"/>
+   </rev:group>
+   <rev:group name=" 10 to 19" description=" 10 to 19">
+      <rev:variable name=" 10" description=" 10" code="CBO:sister5_die_age_cat:10"/>
+      <rev:variable name=" 11" description=" 11" code="CBO:sister5_die_age_cat:11"/>
+      <rev:variable name=" 12" description=" 12" code="CBO:sister5_die_age_cat:12"/>
+      <rev:variable name=" 13" description=" 13" code="CBO:sister5_die_age_cat:13"/>
+      <rev:variable name=" 14" description=" 14" code="CBO:sister5_die_age_cat:14"/>
+      <rev:variable name=" 15" description=" 15" code="CBO:sister5_die_age_cat:15"/>
+      <rev:variable name=" 16" description=" 16" code="CBO:sister5_die_age_cat:16"/>
+      <rev:variable name=" 17" description=" 17" code="CBO:sister5_die_age_cat:17"/>
+      <rev:variable name=" 18" description=" 18" code="CBO:sister5_die_age_cat:18"/>
+      <rev:variable name=" 19" description=" 19" code="CBO:sister5_die_age_cat:19"/>
+   </rev:group>
+   <rev:group name=" 20 to 29" description=" 20 to 29">
+      <rev:variable name=" 20" description=" 20" code="CBO:sister5_die_age_cat:20"/>
+      <rev:variable name=" 21" description=" 21" code="CBO:sister5_die_age_cat:21"/>
+      <rev:variable name=" 22" description=" 22" code="CBO:sister5_die_age_cat:22"/>
+      <rev:variable name=" 23" description=" 23" code="CBO:sister5_die_age_cat:23"/>
+      <rev:variable name=" 24" description=" 24" code="CBO:sister5_die_age_cat:24"/>
+      <rev:variable name=" 25" description=" 25" code="CBO:sister5_die_age_cat:25"/>
+      <rev:variable name=" 26" description=" 26" code="CBO:sister5_die_age_cat:26"/>
+      <rev:variable name=" 27" description=" 27" code="CBO:sister5_die_age_cat:27"/>
+      <rev:variable name=" 28" description=" 28" code="CBO:sister5_die_age_cat:28"/>
+      <rev:variable name=" 29" description=" 29" code="CBO:sister5_die_age_cat:29"/>
+   </rev:group>
+   <rev:group name=" 30 to 39" description=" 30 to 39">
+      <rev:variable name=" 30" description=" 30" code="CBO:sister5_die_age_cat:30"/>
+      <rev:variable name=" 31" description=" 31" code="CBO:sister5_die_age_cat:31"/>
+      <rev:variable name=" 32" description=" 32" code="CBO:sister5_die_age_cat:32"/>
+      <rev:variable name=" 33" description=" 33" code="CBO:sister5_die_age_cat:33"/>
+      <rev:variable name=" 34" description=" 34" code="CBO:sister5_die_age_cat:34"/>
+      <rev:variable name=" 35" description=" 35" code="CBO:sister5_die_age_cat:35"/>
+      <rev:variable name=" 36" description=" 36" code="CBO:sister5_die_age_cat:36"/>
+      <rev:variable name=" 37" description=" 37" code="CBO:sister5_die_age_cat:37"/>
+      <rev:variable name=" 38" description=" 38" code="CBO:sister5_die_age_cat:38"/>
+      <rev:variable name=" 39" description=" 39" code="CBO:sister5_die_age_cat:39"/>
+   </rev:group>
+   <rev:group name=" 40 to 49" description=" 40 to 49">
+      <rev:variable name=" 40" description=" 40" code="CBO:sister5_die_age_cat:40"/>
+      <rev:variable name=" 41" description=" 41" code="CBO:sister5_die_age_cat:41"/>
+      <rev:variable name=" 42" description=" 42" code="CBO:sister5_die_age_cat:42"/>
+      <rev:variable name=" 43" description=" 43" code="CBO:sister5_die_age_cat:43"/>
+      <rev:variable name=" 44" description=" 44" code="CBO:sister5_die_age_cat:44"/>
+      <rev:variable name=" 45" description=" 45" code="CBO:sister5_die_age_cat:45"/>
+      <rev:variable name=" 46" description=" 46" code="CBO:sister5_die_age_cat:46"/>
+      <rev:variable name=" 47" description=" 47" code="CBO:sister5_die_age_cat:47"/>
+      <rev:variable name=" 48" description=" 48" code="CBO:sister5_die_age_cat:48"/>
+      <rev:variable name=" 49" description=" 49" code="CBO:sister5_die_age_cat:49"/>
+   </rev:group>
+   <rev:group name=" 50 to 59" description=" 50 to 59">
+      <rev:variable name=" 50" description=" 50" code="CBO:sister5_die_age_cat:50"/>
+      <rev:variable name=" 51" description=" 51" code="CBO:sister5_die_age_cat:51"/>
+      <rev:variable name=" 52" description=" 52" code="CBO:sister5_die_age_cat:52"/>
+      <rev:variable name=" 53" description=" 53" code="CBO:sister5_die_age_cat:53"/>
+      <rev:variable name=" 54" description=" 54" code="CBO:sister5_die_age_cat:54"/>
+      <rev:variable name=" 55" description=" 55" code="CBO:sister5_die_age_cat:55"/>
+      <rev:variable name=" 56" description=" 56" code="CBO:sister5_die_age_cat:56"/>
+      <rev:variable name=" 57" description=" 57" code="CBO:sister5_die_age_cat:57"/>
+      <rev:variable name=" 58" description=" 58" code="CBO:sister5_die_age_cat:58"/>
+      <rev:variable name=" 59" description=" 59" code="CBO:sister5_die_age_cat:59"/>
+   </rev:group>
+   <rev:group name=" 60 to 69" description=" 60 to 69">
+      <rev:variable name=" 60" description=" 60" code="CBO:sister5_die_age_cat:60"/>
+      <rev:variable name=" 61" description=" 61" code="CBO:sister5_die_age_cat:61"/>
+      <rev:variable name=" 62" description=" 62" code="CBO:sister5_die_age_cat:62"/>
+      <rev:variable name=" 63" description=" 63" code="CBO:sister5_die_age_cat:63"/>
+      <rev:variable name=" 64" description=" 64" code="CBO:sister5_die_age_cat:64"/>
+      <rev:variable name=" 65" description=" 65" code="CBO:sister5_die_age_cat:65"/>
+      <rev:variable name=" 66" description=" 66" code="CBO:sister5_die_age_cat:66"/>
+      <rev:variable name=" 67" description=" 67" code="CBO:sister5_die_age_cat:67"/>
+      <rev:variable name=" 68" description=" 68" code="CBO:sister5_die_age_cat:68"/>
+      <rev:variable name=" 69" description=" 69" code="CBO:sister5_die_age_cat:69"/>
+   </rev:group>
+   <rev:group name=" 70 to 79" description=" 70 to 79">
+      <rev:variable name=" 70" description=" 70" code="CBO:sister5_die_age_cat:70"/>
+      <rev:variable name=" 71" description=" 71" code="CBO:sister5_die_age_cat:71"/>
+      <rev:variable name=" 72" description=" 72" code="CBO:sister5_die_age_cat:72"/>
+      <rev:variable name=" 73" description=" 73" code="CBO:sister5_die_age_cat:73"/>
+      <rev:variable name=" 74" description=" 74" code="CBO:sister5_die_age_cat:74"/>
+      <rev:variable name=" 75" description=" 75" code="CBO:sister5_die_age_cat:75"/>
+      <rev:variable name=" 76" description=" 76" code="CBO:sister5_die_age_cat:76"/>
+      <rev:variable name=" 77" description=" 77" code="CBO:sister5_die_age_cat:77"/>
+      <rev:variable name=" 78" description=" 78" code="CBO:sister5_die_age_cat:78"/>
+      <rev:variable name=" 79" description=" 79" code="CBO:sister5_die_age_cat:79"/>
+   </rev:group>
+   <rev:group name=" 80 to 89" description=" 80 to 89">
+      <rev:variable name=" 80" description=" 80" code="CBO:sister5_die_age_cat:80"/>
+      <rev:variable name=" 81" description=" 81" code="CBO:sister5_die_age_cat:81"/>
+      <rev:variable name=" 82" description=" 82" code="CBO:sister5_die_age_cat:82"/>
+      <rev:variable name=" 83" description=" 83" code="CBO:sister5_die_age_cat:83"/>
+      <rev:variable name=" 84" description=" 84" code="CBO:sister5_die_age_cat:84"/>
+      <rev:variable name=" 85" description=" 85" code="CBO:sister5_die_age_cat:85"/>
+      <rev:variable name=" 86" description=" 86" code="CBO:sister5_die_age_cat:86"/>
+      <rev:variable name=" 87" description=" 87" code="CBO:sister5_die_age_cat:87"/>
+      <rev:variable name=" 88" description=" 88" code="CBO:sister5_die_age_cat:88"/>
+      <rev:variable name=" 89" description=" 89" code="CBO:sister5_die_age_cat:89"/>
+   </rev:group>
+   <rev:group name=" 90 to 99" description=" 90 to 99">
+      <rev:variable name=" 90" description=" 90" code="CBO:sister5_die_age_cat:90"/>
+      <rev:variable name=" 91" description=" 91" code="CBO:sister5_die_age_cat:91"/>
+      <rev:variable name=" 92" description=" 92" code="CBO:sister5_die_age_cat:92"/>
+      <rev:variable name=" 93" description=" 93" code="CBO:sister5_die_age_cat:93"/>
+      <rev:variable name=" 94" description=" 94" code="CBO:sister5_die_age_cat:94"/>
+      <rev:variable name=" 95" description=" 95" code="CBO:sister5_die_age_cat:95"/>
+      <rev:variable name=" 96" description=" 96" code="CBO:sister5_die_age_cat:96"/>
+      <rev:variable name=" 97" description=" 97" code="CBO:sister5_die_age_cat:97"/>
+      <rev:variable name=" 98" description=" 98" code="CBO:sister5_die_age_cat:98"/>
+      <rev:variable name=" 99" description=" 99" code="CBO:sister5_die_age_cat:99"/>
+   </rev:group>
+   <rev:group name="100 to 109" description="100 to 109">
+      <rev:variable name="100" description="100" code="CBO:sister5_die_age_cat:100"/>
+      <rev:variable name="101" description="101" code="CBO:sister5_die_age_cat:101"/>
+      <rev:variable name="102" description="102" code="CBO:sister5_die_age_cat:102"/>
+      <rev:variable name="103" description="103" code="CBO:sister5_die_age_cat:103"/>
+      <rev:variable name="104" description="104" code="CBO:sister5_die_age_cat:104"/>
+      <rev:variable name="105" description="105" code="CBO:sister5_die_age_cat:105"/>
+      <rev:variable name="106" description="106" code="CBO:sister5_die_age_cat:106"/>
+      <rev:variable name="107" description="107" code="CBO:sister5_die_age_cat:107"/>
+      <rev:variable name="108" description="108" code="CBO:sister5_die_age_cat:108"/>
+      <rev:variable name="109" description="109" code="CBO:sister5_die_age_cat:109"/>
+   </rev:group>
+   <rev:group name="110 to 119" description="110 to 119">
+      <rev:variable name="110" description="110" code="CBO:sister5_die_age_cat:110"/>
+      <rev:variable name="111" description="111" code="CBO:sister5_die_age_cat:111"/>
+      <rev:variable name="112" description="112" code="CBO:sister5_die_age_cat:112"/>
+      <rev:variable name="113" description="113" code="CBO:sister5_die_age_cat:113"/>
+      <rev:variable name="114" description="114" code="CBO:sister5_die_age_cat:114"/>
+      <rev:variable name="115" description="115" code="CBO:sister5_die_age_cat:115"/>
+      <rev:variable name="116" description="116" code="CBO:sister5_die_age_cat:116"/>
+      <rev:variable name="117" description="117" code="CBO:sister5_die_age_cat:117"/>
+      <rev:variable name="118" description="118" code="CBO:sister5_die_age_cat:118"/>
+      <rev:variable name="119" description="119" code="CBO:sister5_die_age_cat:119"/>
+   </rev:group>
+</rev:enumeratedVariable>

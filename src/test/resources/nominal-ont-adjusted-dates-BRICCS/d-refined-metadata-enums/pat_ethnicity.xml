@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="pat_ethnicity" code="CBO:Participant.pat_ethnicity" type="VITALSTATUS" path="\onyx\Participants\Admin\Participant\pat_ethnicity" hlevel="4">
+   <rev:variable name="WHITE BRITISH" description="WHITE BRITISH" code="CBO:Participant.pat_ethnicity:A"/>
+   <rev:variable name="WHITE IRISH" description="WHITE IRISH" code="CBO:Participant.pat_ethnicity:B"/>
+   <rev:variable name="WHITE OTHER WHITE BACKGROUND" description="WHITE OTHER WHITE BACKGROUND" code="CBO:Participant.pat_ethnicity:C"/>
+   <rev:variable name="MIXED WHITE AND BLACK CARIBBEAN" description="MIXED WHITE AND BLACK CARIBBEAN" code="CBO:Participant.pat_ethnicity:D"/>
+   <rev:variable name="MIXED WHITE AND BLACK AFRICAN" description="MIXED WHITE AND BLACK AFRICAN" code="CBO:Participant.pat_ethnicity:E"/>
+   <rev:variable name="MIXED WHITE AND ASIAN" description="MIXED WHITE AND ASIAN" code="CBO:Participant.pat_ethnicity:F"/>
+   <rev:variable name="ANY OTHER MIXED BACKGROUND" description="ANY OTHER MIXED BACKGROUND" code="CBO:Participant.pat_ethnicity:G"/>
+   <rev:variable name="ASIAN/ASIAN BRITISH INDIAN" description="ASIAN/ASIAN BRITISH INDIAN" code="CBO:Participant.pat_ethnicity:H"/>
+   <rev:variable name="ASIAN/ASIAN BRITISH PAKISTANI" description="ASIAN/ASIAN BRITISH PAKISTANI" code="CBO:Participant.pat_ethnicity:J"/>
+   <rev:variable name="ASIAN/ASIAN BRITISH BANGLADESH" description="ASIAN/ASIAN BRITISH BANGLADESH" code="CBO:Participant.pat_ethnicity:K"/>
+   <rev:variable name="ANY OTHER ASIAN BACKGROUND" description="ANY OTHER ASIAN BACKGROUND" code="CBO:Participant.pat_ethnicity:L"/>
+   <rev:variable name="BLACK/BLACK BRITISH CARIBBEAN" description="BLACK/BLACK BRITISH CARIBBEAN" code="CBO:Participant.pat_ethnicity:M"/>
+   <rev:variable name="BLACK/BLACK BRITISH AFRICAN" description="BLACK/BLACK BRITISH AFRICAN" code="CBO:Participant.pat_ethnicity:N"/>
+   <rev:variable name="ANY OTHER BLACK BACKGROUND" description="ANY OTHER BLACK BACKGROUND" code="CBO:Participant.pat_ethnicity:P"/>
+   <rev:variable name="OTHER ETHNIC GROUP CHINESE" description="OTHER ETHNIC GROUP CHINESE" code="CBO:Participant.pat_ethnicity:R"/>
+   <rev:variable name="ANY OTHER ETHNIC GROUP" description="ANY OTHER ETHNIC GROUP" code="CBO:Participant.pat_ethnicity:S"/>
+   <rev:variable name="NOT STATED" description="NOT STATED" code="CBO:Participant.pat_ethnicity:Z"/>
+</rev:enumeratedVariable>

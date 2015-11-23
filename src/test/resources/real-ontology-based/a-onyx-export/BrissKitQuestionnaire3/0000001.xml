@@ -1,0 +1,613 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="BrissKitQuestionnaire3" entityType="Participant" entityIdentifier="B40">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="datetime">2012-04-23T05:05:00.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="datetime">2012-04-23T05:06:48.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">admin</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="6">
+      <value valueType="text" order="0">RiskFactorCigs</value>
+      <value valueType="text" order="1">RiskFactorCigars</value>
+      <value valueType="text" order="2">RiskFactorOtherTobacco</value>
+      <value valueType="text" order="3">RiskFactorAlcohol</value>
+      <value valueType="text" order="4">RiskFactorDietExercise</value>
+      <value valueType="text" order="5">RiskFactorSocioeconomic</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="6">
+      <value valueType="text" order="0">Page2</value>
+      <value valueType="text" order="1">Page3</value>
+      <value valueType="text" order="2">Page4</value>
+      <value valueType="text" order="3">Page5</value>
+      <value valueType="text" order="4">Page6</value>
+      <value valueType="text" order="5">Page10</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="6">
+      <value valueType="integer" order="0">15</value>
+      <value valueType="integer" order="1">23</value>
+      <value valueType="integer" order="2">4</value>
+      <value valueType="integer" order="3">24</value>
+      <value valueType="integer" order="4">11</value>
+      <value valueType="integer" order="5">5</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="6">
+      <value valueType="integer" order="0">6</value>
+      <value valueType="integer" order="1">1</value>
+      <value valueType="integer" order="2">8</value>
+      <value valueType="integer" order="3">6</value>
+      <value valueType="integer" order="4">2</value>
+      <value valueType="integer" order="5">6</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="6">
+      <value valueType="integer" order="0">0</value>
+      <value valueType="integer" order="1">0</value>
+      <value valueType="integer" order="2">0</value>
+      <value valueType="integer" order="3">0</value>
+      <value valueType="integer" order="4">0</value>
+      <value valueType="integer" order="5">0</value>
+    </value>
+  </variableValue>
+  <variableValue variable="EVER_SMOKED">
+    <value valueType="text">NO__SM266919005</value>
+  </variableValue>
+  <variableValue variable="EVER_SMOKED.YES">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EVER_SMOKED.NO__SM266919005">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="EVER_SMOKED.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EVER_SMOKED.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WHAT_SMOKED">
+    <value class="sequence" valueType="text" size="2">
+      <value valueType="text" order="0">PIPE__SM82302008</value>
+      <value valueType="text" order="1">CIGAR__SM59978006</value>
+    </value>
+  </variableValue>
+  <variableValue variable="WHAT_SMOKED.CIGARETTES__ICI00-I99_9">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WHAT_SMOKED.CIGAR__SM59978006">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="WHAT_SMOKED.PIPE__SM82302008">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="WHAT_SMOKED.OTHER">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EVER_USED">
+    <value valueType="text">YES__ICL00-L99_9</value>
+  </variableValue>
+  <variableValue variable="EVER_USED.YES__ICL00-L99_9">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="EVER_USED.NO__ICL80-L99_9">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EVER_USED.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EVER_USED.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WHAT_USED">
+    <value class="sequence" valueType="text" size="2">
+      <value valueType="text" order="0">CHEWING_TOBACCO__ICZ72_1</value>
+      <value valueType="text" order="1">SNUFF__ICZ73_4</value>
+    </value>
+  </variableValue>
+  <variableValue variable="WHAT_USED.SNUFF__ICZ73_4">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="WHAT_USED.CHEWING_TOBACCO__ICZ72_1">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="WHAT_USED.OTHER">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CIGS_ON_MOST_DAYS">
+    <value valueType="text">YES__ICZ72</value>
+  </variableValue>
+  <variableValue variable="CIGS_ON_MOST_DAYS.YES__ICZ72">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="CIGS_ON_MOST_DAYS.NO__LC19787-1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CIGS_ON_MOST_DAYS.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CIGS_ON_MOST_DAYS.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGS">
+    <value valueType="text">YES__SM65568007</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGS.YES__SM65568007">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGS.NO__SM160617001">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGS.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGS.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="NUMBER_CIGS_PER_DAY">
+    <value valueType="text">LIGHT__SM160603005</value>
+  </variableValue>
+  <variableValue variable="NUMBER_CIGS_PER_DAY.TRIVIAL__SM266920004">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="NUMBER_CIGS_PER_DAY.LIGHT__SM160603005">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="NUMBER_CIGS_PER_DAY.MODERATE__SM160604004">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="NUMBER_CIGS_PER_DAY.HEAVY__SM160605003">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="NUMBER_CIGS_PER_DAY.VERY_HEAVY__SM160606002">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CIGS_PER_DAY_BEFORE">
+    <value valueType="text">MODERATE__SM266923002</value>
+  </variableValue>
+  <variableValue variable="CIGS_PER_DAY_BEFORE.TRIVIAL__SM266921000">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CIGS_PER_DAY_BEFORE.LIGHT__SM266922007">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CIGS_PER_DAY_BEFORE.MODERATE__SM266923002">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="CIGS_PER_DAY_BEFORE.HEAVY__SM266924008">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CIGS_PER_DAY_BEFORE.VERY_HEAVY__SM266925009">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CIGS_PER_DAY_BEFORE.UNKNOWN__SM266928006">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_SMOKING">
+    <value valueType="text">VALUE</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_SMOKING.VALUE">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_SMOKING.VALUE.VALUE__SM228488005">
+    <value valueType="integer">3</value>
+  </variableValue>
+  <variableValue variable="YEAR_STOPPED_SMOKING">
+    <value valueType="text">VALUE</value>
+  </variableValue>
+  <variableValue variable="YEAR_STOPPED_SMOKING.VALUE">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGARS">
+    <value valueType="text">NO</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGARS.YES__LCMTHU000075">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGARS.NO">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGARS.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_CIGARS.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_PIPE">
+    <value valueType="text">YES__SM82302008</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_PIPE.YES__SM82302008">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_PIPE.NO__LC9849-1">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_PIPE.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SMOKE_PIPE.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="PIPE_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="PIPE_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="PIPE_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230058003">
+    <value valueType="integer">15</value>
+  </variableValue>
+  <variableValue variable="PIPE_CONSUMPTION_WEEK.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="PIPE_CONSUMPTION_WEEK.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="REGULAR_SNUFF_USER">
+    <value valueType="text">NO</value>
+  </variableValue>
+  <variableValue variable="REGULAR_SNUFF_USER.YES__SM160603005">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="REGULAR_SNUFF_USER.NO">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="REGULAR_SNUFF_USER.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="REGULAR_SNUFF_USER.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SNUFF_USER">
+    <value valueType="text">NO</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SNUFF_USER.YES__SM228494002">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SNUFF_USER.NO">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SNUFF_USER.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_SNUFF_USER.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="SNUFF_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="SNUFF_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="SNUFF_CONSUMPTION_WEEK.AMOUNT.AMOUNT__SM228490006">
+    <value valueType="integer">0</value>
+  </variableValue>
+  <variableValue variable="SNUFF_CONSUMPTION_WEEK.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="SNUFF_CONSUMPTION_WEEK.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="REGULAR_TOBACCO_CHEWER">
+    <value valueType="text">YES__SM81911001</value>
+  </variableValue>
+  <variableValue variable="REGULAR_TOBACCO_CHEWER.YES__SM81911001">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="REGULAR_TOBACCO_CHEWER.NO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="REGULAR_TOBACCO_CHEWER.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="REGULAR_TOBACCO_CHEWER.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_TOBACCO_CHEWER">
+    <value valueType="text">NO</value>
+  </variableValue>
+  <variableValue variable="CURRENT_TOBACCO_CHEWER.YES__SM228494002">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_TOBACCO_CHEWER.NO">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="CURRENT_TOBACCO_CHEWER.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_TOBACCO_CHEWER.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="TOBACCO_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="TOBACCO_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="TOBACCO_CONSUMPTION_WEEK.AMOUNT.VALUE__SM228490006">
+    <value valueType="integer">10</value>
+  </variableValue>
+  <variableValue variable="TOBACCO_CONSUMPTION_WEEK.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="TOBACCO_CONSUMPTION_WEEK.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EVER_DRUNK_ALCOHOL">
+    <value valueType="text">YES</value>
+  </variableValue>
+  <variableValue variable="EVER_DRUNK_ALCOHOL.YES">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="EVER_DRUNK_ALCOHOL.NO__SM228274009">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EVER_DRUNK_ALCOHOL.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EVER_DRUNK_ALCOHOL.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="DRINK_ONCE_WEEK">
+    <value valueType="text">YES__SM219006</value>
+  </variableValue>
+  <variableValue variable="DRINK_ONCE_WEEK.YES__SM219006">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="DRINK_ONCE_WEEK.NO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="DRINK_ONCE_WEEK.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="DRINK_ONCE_WEEK.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="BEER_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="BEER_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="BEER_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230085005">
+    <value valueType="integer">1</value>
+  </variableValue>
+  <variableValue variable="BEER_CONSUMPTION_WEEK.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="BEER_CONSUMPTION_WEEK.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WINE_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="WINE_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="WINE_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230086006">
+    <value valueType="integer">2</value>
+  </variableValue>
+  <variableValue variable="WINE_CONSUMPTION_WEEK.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WINE_CONSUMPTION_WEEK.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="SPIRIT_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="SPIRIT_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="SPIRIT_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230088007">
+    <value valueType="integer">3</value>
+  </variableValue>
+  <variableValue variable="SPIRIT_CONSUMPTION_WEEK.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="SPIRIT_CONSUMPTION_WEEK.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_DRINKING">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_DRINKING.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_DRINKING.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_DRINKING.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_DIET">
+    <value valueType="text">OMNIVORE__SM284731009</value>
+  </variableValue>
+  <variableValue variable="CURRENT_DIET.VEGETARIAN__SM5940000">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_DIET.VEGAN__SM24930006">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_DIET.PESCATARIAN">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_DIET.OMNIVORE__SM284731009">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="CURRENT_DIET.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="CURRENT_DIET.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EXERCISE_LEVEL">
+    <value valueType="text">HEAVY_ACTIVITY__SM160633003</value>
+  </variableValue>
+  <variableValue variable="EXERCISE_LEVEL.NO_ACTIVITY__SM228445002">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EXERCISE_LEVEL.LIGHT_ACTIVITY__SM160631001">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EXERCISE_LEVEL.MODERATE_ACTIVITY__SM160632008">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EXERCISE_LEVEL.HEAVY_ACTIVITY__SM160633003">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="EXERCISE_LEVEL.EXTREME_ACTIVITY__SM102533007">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="MARITAL_STATUS">
+    <value valueType="text">MARRIED__SM87915002</value>
+  </variableValue>
+  <variableValue variable="MARITAL_STATUS.SINGLE__SM125725006">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="MARITAL_STATUS.MARRIED__SM87915002">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="MARITAL_STATUS.WIDOWED__SM33553000">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="MARITAL_STATUS.SEPARATED__SM13184001">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="MARITAL_STATUS.DIVORCED__SM20295000">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="MARITAL_STATUS.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="MARITAL_STATUS.DK__SM160504008">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="COHABIT">
+    <value valueType="text">YES__SM447051007</value>
+  </variableValue>
+  <variableValue variable="COHABIT.YES__SM447051007">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="COHABIT.NO">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="COHABIT.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="COHABIT.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="HOUSEHOLD_NUMBER">
+    <value valueType="text">VALUE__SM224525003</value>
+  </variableValue>
+  <variableValue variable="HOUSEHOLD_NUMBER.LIVE_ALONE__SM105529008">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="HOUSEHOLD_NUMBER.VALUE__SM224525003">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="HOUSEHOLD_NUMBER.VALUE__SM224525003.PEOPLE">
+    <value valueType="integer">5</value>
+  </variableValue>
+  <variableValue variable="HOUSEHOLD_NUMBER.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="HOUSEHOLD_NUMBER.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WORK_STATUS">
+    <value valueType="text">FULL_TIME__SM160903007</value>
+  </variableValue>
+  <variableValue variable="WORK_STATUS.NONE__SM73438004">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WORK_STATUS.FULL_TIME__SM160903007">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="WORK_STATUS.PART_TIME__SM160904001">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WORK_STATUS.SELF__SM160906004">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WORK_STATUS.RETIRED__SM105493001">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WORK_STATUS.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="WORK_STATUS.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EDUCATION_LEVEL">
+    <value valueType="text">LEVEL1__SM224295006</value>
+  </variableValue>
+  <variableValue variable="EDUCATION_LEVEL.DEGREE__SM42679009">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EDUCATION_LEVEL.OTHER_HIGHER__SM224299000">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EDUCATION_LEVEL.LEVEL3__SM224298008">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EDUCATION_LEVEL.TRADE__SM440586004">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EDUCATION_LEVEL.LEVEL2__SM224297003">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EDUCATION_LEVEL.LEVEL1__SM224295006">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="EDUCATION_LEVEL.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="EDUCATION_LEVEL.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION">
+    <value valueType="text">TECHNICAL</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION.MOD_PROFESSIONAL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION.CLERICAL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION.SNR_MANAGER">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION.TECHNICAL">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION.SEMI_ROUTINE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION.JNR_MANAGER">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION.TRAD_PROFESSIONAL">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="OCCUPATION.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+</valueSet>

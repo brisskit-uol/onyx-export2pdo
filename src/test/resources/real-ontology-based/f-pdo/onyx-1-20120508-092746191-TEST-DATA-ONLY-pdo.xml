@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdo:patient_data xmlns:pdo="http://www.i2b2.org/xsd/hive/pdo/1.1/pdo">
+   <pdo:event_set>
+      <event update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <param column="ACTIVE_STATUS_CD" name="active status">F</param>
+         <param column="INOUT_CD" name="">@</param>
+         <param column="LOCATION_CD" name="">@</param>
+         <param column="LOCATION_PATH" name="">@</param>
+         <start_date>2009-05-09T04:53:36.000+00:00</start_date>
+         <end_date>2009-05-09T05:07:08.000+00:00</end_date>
+      </event>
+   </pdo:event_set>
+   <pdo:pid_set>
+      <pid>
+         <patient_id source="HIVE" status="Active" update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">1</patient_id>
+         <patient_map_id source="BRICCS" status="Active" update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">B40</patient_map_id>
+      </pid>
+   </pdo:pid_set>
+   <pdo:eid_set>
+      <eid>
+         <event_id source="HIVE" status="Active" patient_id_source="HIVE" patient_id="1" update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">1</event_id>
+         <event_map_id source="BRICCS" status="Active" update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">B40</event_map_id>
+      </eid>
+   </pdo:eid_set>
+   <pdo:patient_set>
+      <patient update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <patient_id source="HIVE">1</patient_id>
+         <param column="vital_status_cd" name="date interpretation code">N</param>
+      </patient>
+   </pdo:patient_set>
+   <pdo:observation_set>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:266919005</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:59978006</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:82302008</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">IC:L00-L99.9</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">IC:Z73.4</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">IC:Z72.1</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">IC:Z72</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:65568007</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:160603005</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:266923002</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:228488005</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>N</valuetype_cd>
+         <tval_char>E</tval_char>
+         <nval_num units="@">3</nval_num>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">CBO:3849ced9adf85ed370c11860d3d09e6c</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:82302008</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:230058003</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>N</valuetype_cd>
+         <tval_char>E</tval_char>
+         <nval_num units="@">15</nval_num>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">CBO:cb59a7a54c64d401d964b4e28bafa175</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">CBO:75227d0f1418e390da7e8c5202abc2d3</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:228490006</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>N</valuetype_cd>
+         <tval_char>E</tval_char>
+         <nval_num units="@">0</nval_num>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:81911001</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">CBO:ee12fa718931a46e2294f6723573aef6</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:228490006</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>N</valuetype_cd>
+         <tval_char>E</tval_char>
+         <nval_num units="@">10</nval_num>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">CBO:d98c2f3dd4ab1b816c6c7a3e9b2a7e23</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:219006</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:230085005</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>N</valuetype_cd>
+         <tval_char>E</tval_char>
+         <nval_num units="@">1</nval_num>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:230086006</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>N</valuetype_cd>
+         <tval_char>E</tval_char>
+         <nval_num units="@">2</nval_num>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:230088007</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>N</valuetype_cd>
+         <tval_char>E</tval_char>
+         <nval_num units="@">3</nval_num>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:284731009</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:160633003</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:87915002</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:447051007</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">CBO:d7c96a1e5cf34e1a9ef3b3af42b65593</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>N</valuetype_cd>
+         <tval_char>E</tval_char>
+         <nval_num units="@">5</nval_num>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:160903007</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">SM:224295006</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+      <observation update_date="1988-08-05T09:27:45.624+01:00" download_date="1988-08-05T09:27:45.624+01:00" import_date="1988-08-05T09:27:45.624+01:00" sourcesystem_cd="BRICCS">
+         <event_id source="HIVE">1</event_id>
+         <patient_id source="HIVE">1</patient_id>
+         <concept_cd name="some name">CBO:f6c657f8b4028b549aea66fc2ab3ffb3</concept_cd>
+         <observer_cd>@</observer_cd>
+         <start_date>2009-05-09T05:05:00.000+00:00</start_date>
+         <modifier_cd name="missing value">@</modifier_cd>
+         <valuetype_cd>T</valuetype_cd>
+         <units_cd>@</units_cd>
+         <end_date>2009-05-09T05:06:48.000+00:00</end_date>
+         <location_cd name="missing value">@</location_cd>
+      </observation>
+   </pdo:observation_set>
+</pdo:patient_data>

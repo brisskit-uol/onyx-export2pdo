@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<omr:container xmlns:omr="http://brisskit.org/xml/onyxmetadata-refined/v1.0/omr" name="onyx">
+ <omr:folder name="BrissKitOntology">
+  <omr:folder name="SNOMED-CT">
+   <omr:folder name="Clinical finding">
+    <omr:folder name="Clinical history and observation findings">
+     <omr:folder name="Endocrine, nutritional and metabolic finding">
+      <omr:folder name="Nutritional finding">
+       <omr:folder name="Nutritional system finding">
+        <omr:folder name="Dietary finding">
+         <omr:folder name="Non-therapeutic diets">
+          <omr:variable name="Vegan" code="SM:24930006" type="BOOLEAN"></omr:variable>
+          <omr:variable name="Vegetarian diet" code="SM:5940000" type="BOOLEAN"></omr:variable>
+         </omr:folder>
+        </omr:folder>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+     <omr:folder name="Functional finding">
+      <omr:folder name="Behavior finding">
+       <omr:folder name="Health-related behavior finding">
+        <omr:folder name="Tobacco use and exposure - finding">
+         <omr:folder name="Snuff use - finding">
+          <omr:variable name="Snuff user" code="SM:228494002" type="BOOLEAN"></omr:variable>
+         </omr:folder>
+         <omr:folder name="Tobacco smoking behavior - finding">
+          <omr:folder name="Non-smoker">
+           <omr:folder name="Ex-smoker">
+            <omr:folder name="Ex-cigarette smoker">
+             <omr:variable name="Ex-cigarette smoker amount unknown" code="SM:266928006" type="BOOLEAN"></omr:variable>
+             <omr:variable name="Ex-heavy cigarette smoker (20-39/day)" code="SM:266924008" type="BOOLEAN"></omr:variable>
+             <omr:variable name="Ex-light cigarette smoker (1-9/day)" code="SM:266922007" type="BOOLEAN"></omr:variable>
+             <omr:variable name="Ex-moderate cigarette smoker (10-19/day)" code="SM:266923002" type="BOOLEAN"></omr:variable>
+             <omr:variable name="Ex-trivial cigarette smoker (&lt;1/day)" code="SM:266921000" type="BOOLEAN"></omr:variable>
+             <omr:variable name="Ex-very heavy cigarette smoker (40+/day)" code="SM:266925009" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+           </omr:folder>
+           <omr:variable name="Never smoked tobacco" code="SM:266919005" type="BOOLEAN"></omr:variable>
+          </omr:folder>
+          <omr:folder name="Smoker">
+           <omr:variable name="Cigar smoker" code="SM:59978006" type="BOOLEAN"></omr:variable>
+           <omr:folder name="Cigarette smoker" code="SM:65568007">
+            <omr:folder name="Heavy cigarette smoker">
+             <omr:variable name="Heavy cigarette smoker (20-39 cigs/day)" code="SM:160605003" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+            <omr:folder name="Moderate cigarette smoker">
+             <omr:variable name="Moderate cigarette smoker (10-19 cigs/day)" code="SM:160604004" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+            <omr:folder name="Very heavy cigarette smoker">
+             <omr:variable name="Very heavy cigarette smoker (40+ cigs/day)" code="SM:160606002" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+           </omr:folder>
+           <omr:folder name="Heavy smoker (over 20 per day)">
+            <omr:folder name="Heavy cigarette smoker">
+             <omr:variable name="Heavy cigarette smoker (20-39 cigs/day)" code="SM:160605003" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+            <omr:folder name="Very heavy cigarette smoker">
+             <omr:variable name="Very heavy cigarette smoker (40+ cigs/day)" code="SM:160606002" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+           </omr:folder>
+           <omr:folder name="Moderate smoker (20 or less per day)">
+            <omr:folder name="Moderate cigarette smoker">
+             <omr:variable name="Moderate cigarette smoker (10-19 cigs/day)" code="SM:160604004" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+           </omr:folder>
+           <omr:variable name="Pipe smoker" code="SM:82302008" type="BOOLEAN"></omr:variable>
+          </omr:folder>
+          <omr:variable name="Stopped smoking" code="SM:160617001" type="BOOLEAN"></omr:variable>
+          <omr:folder name="Tobacco smoking consumption - finding">
+           <omr:folder name="Heavy smoker (over 20 per day)">
+            <omr:folder name="Heavy cigarette smoker">
+             <omr:variable name="Heavy cigarette smoker (20-39 cigs/day)" code="SM:160605003" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+            <omr:folder name="Very heavy cigarette smoker">
+             <omr:variable name="Very heavy cigarette smoker (40+ cigs/day)" code="SM:160606002" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+           </omr:folder>
+           <omr:folder name="Light cigarette smoker">
+            <omr:variable name="Light cigarette smoker (1-9 cigs/day)" code="SM:160603005" type="BOOLEAN"></omr:variable>
+           </omr:folder>
+           <omr:folder name="Moderate smoker (20 or less per day)">
+            <omr:folder name="Moderate cigarette smoker">
+             <omr:variable name="Moderate cigarette smoker (10-19 cigs/day)" code="SM:160604004" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+           </omr:folder>
+           <omr:folder name="Occasional cigarette smoker">
+            <omr:variable name="Trivial cigarette smoker (less than one cigarette/day)" code="SM:266920004" type="BOOLEAN"></omr:variable>
+           </omr:folder>
+          </omr:folder>
+         </omr:folder>
+         <omr:folder name="Tobacco user">
+          <omr:folder name="Smoker">
+           <omr:variable name="Cigar smoker" code="SM:59978006" type="BOOLEAN"></omr:variable>
+           <omr:folder name="Cigarette smoker" code="SM:65568007">
+            <omr:folder name="Heavy cigarette smoker">
+             <omr:variable name="Heavy cigarette smoker (20-39 cigs/day)" code="SM:160605003" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+            <omr:folder name="Moderate cigarette smoker">
+             <omr:variable name="Moderate cigarette smoker (10-19 cigs/day)" code="SM:160604004" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+            <omr:folder name="Very heavy cigarette smoker">
+             <omr:variable name="Very heavy cigarette smoker (40+ cigs/day)" code="SM:160606002" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+           </omr:folder>
+           <omr:folder name="Heavy smoker (over 20 per day)">
+            <omr:folder name="Heavy cigarette smoker">
+             <omr:variable name="Heavy cigarette smoker (20-39 cigs/day)" code="SM:160605003" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+            <omr:folder name="Very heavy cigarette smoker">
+             <omr:variable name="Very heavy cigarette smoker (40+ cigs/day)" code="SM:160606002" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+           </omr:folder>
+           <omr:folder name="Moderate smoker (20 or less per day)">
+            <omr:folder name="Moderate cigarette smoker">
+             <omr:variable name="Moderate cigarette smoker (10-19 cigs/day)" code="SM:160604004" type="BOOLEAN"></omr:variable>
+            </omr:folder>
+           </omr:folder>
+           <omr:variable name="Pipe smoker" code="SM:82302008" type="BOOLEAN"></omr:variable>
+          </omr:folder>
+          <omr:variable name="Snuff user" code="SM:228494002" type="BOOLEAN"></omr:variable>
+         </omr:folder>
+        </omr:folder>
+       </omr:folder>
+      </omr:folder>
+      <omr:folder name="Eating / feeding / drinking finding">
+       <omr:folder name="Finding relating to alcohol drinking behavior">
+        <omr:variable name="Current drinker" code="SM:219006" type="BOOLEAN"></omr:variable>
+        <omr:folder name="Non - drinker">
+         <omr:variable name="Lifetime non-drinker" code="SM:228274009" type="BOOLEAN"></omr:variable>
+        </omr:folder>
+       </omr:folder>
+      </omr:folder>
+      <omr:folder name="Finding of functional performance and activity">
+       <omr:folder name="Activity exercise pattern">
+        <omr:variable name="Enjoys heavy exercise" code="SM:160633003" type="BOOLEAN"></omr:variable>
+        <omr:variable name="Enjoys light exercise" code="SM:160631001" type="BOOLEAN"></omr:variable>
+        <omr:variable name="Enjoys moderate exercise" code="SM:160632008" type="BOOLEAN"></omr:variable>
+        <omr:variable name="Excessive exercise" code="SM:102533007" type="BOOLEAN"></omr:variable>
+        <omr:variable name="Gets no exercise" code="SM:228445002" type="BOOLEAN"></omr:variable>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+     <omr:folder name="General finding of observation of patient">
+      <omr:folder name="General body state finding">
+       <omr:variable name="Excessive exercise" code="SM:102533007" type="BOOLEAN"></omr:variable>
+      </omr:folder>
+     </omr:folder>
+    </omr:folder>
+    <omr:folder name="Finding by method">
+     <omr:folder name="History finding">
+      <omr:folder name="Social and personal history finding">
+       <omr:folder name="Education and/or schooling finding">
+        <omr:folder name="Education received in the past - finding">
+         <omr:variable name="Continued education to sixth form" code="SM:224298008" type="BOOLEAN"></omr:variable>
+         <omr:variable name="Educated to secondary school level" code="SM:224297003" type="BOOLEAN"></omr:variable>
+         <omr:variable name="Only received primary school education" code="SM:224295006" type="BOOLEAN"></omr:variable>
+         <omr:variable name="Received higher education" code="SM:224299000" type="BOOLEAN"></omr:variable>
+         <omr:variable name="Received vocational training" code="SM:440586004" type="BOOLEAN"></omr:variable>
+        </omr:folder>
+       </omr:folder>
+       <omr:folder name="Environmental finding">
+        <omr:folder name="Housing, local environment and transport finding">
+         <omr:folder name="Residence and accommodation circumstances - finding">
+          <omr:variable name="Lives alone" code="SM:105529008" type="BOOLEAN"></omr:variable>
+         </omr:folder>
+        </omr:folder>
+       </omr:folder>
+       <omr:folder name="Finding of personal status">
+        <omr:folder name="Finding of marital or partnership status">
+         <omr:variable name="Marital state unknown" code="SM:160504008" type="BOOLEAN"></omr:variable>
+         <omr:variable name="Married" code="SM:87915002" type="BOOLEAN"></omr:variable>
+         <omr:variable name="Separated" code="SM:13184001" type="BOOLEAN"></omr:variable>
+         <omr:folder name="Single person">
+          <omr:variable name="Divorced" code="SM:20295000" type="BOOLEAN"></omr:variable>
+          <omr:variable name="Single, never married" code="SM:125725006" type="BOOLEAN"></omr:variable>
+          <omr:variable name="Widowed" code="SM:33553000" type="BOOLEAN"></omr:variable>
+         </omr:folder>
+        </omr:folder>
+       </omr:folder>
+       <omr:folder name="Household, family and support network finding">
+        <omr:folder name="Family details and household composition - finding">
+         <omr:folder name="Household composition - finding">
+          <omr:variable name="Lives alone" code="SM:105529008" type="BOOLEAN"></omr:variable>
+          <omr:folder name="Lives with family">
+           <omr:variable name="Lives with spouse" code="SM:447051007" type="BOOLEAN"></omr:variable>
+          </omr:folder>
+         </omr:folder>
+        </omr:folder>
+       </omr:folder>
+       <omr:folder name="Legal, financial, employment and/or socioeconomic history finding">
+        <omr:folder name="Employment finding">
+         <omr:folder name="Finding of employment status">
+          <omr:folder name="Employed">
+           <omr:variable name="Self-employed" code="SM:160906004" type="BOOLEAN"></omr:variable>
+          </omr:folder>
+          <omr:folder name="Stopped work">
+           <omr:variable name="Unemployed" code="SM:73438004" type="BOOLEAN"></omr:variable>
+          </omr:folder>
+         </omr:folder>
+         <omr:folder name="Job details - finding">
+          <omr:variable name="Full-time employment" code="SM:160903007" type="BOOLEAN"></omr:variable>
+          <omr:variable name="Part-time employment" code="SM:160904001" type="BOOLEAN"></omr:variable>
+         </omr:folder>
+        </omr:folder>
+       </omr:folder>
+       <omr:folder name="Life event finding">
+        <omr:variable name="Retired" code="SM:105493001" type="BOOLEAN"></omr:variable>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="Functional finding">
+    <omr:folder name="Behavior finding">
+     <omr:folder name="Health-related behavior finding">
+      <omr:folder name="Activity exercise pattern">
+       <omr:variable name="Enjoys heavy exercise" code="SM:160633003" type="BOOLEAN"></omr:variable>
+       <omr:variable name="Enjoys light exercise" code="SM:160631001" type="BOOLEAN"></omr:variable>
+       <omr:variable name="Enjoys moderate exercise" code="SM:160632008" type="BOOLEAN"></omr:variable>
+       <omr:variable name="Excessive exercise" code="SM:102533007" type="BOOLEAN"></omr:variable>
+       <omr:variable name="Gets no exercise" code="SM:228445002" type="BOOLEAN"></omr:variable>
+      </omr:folder>
+      <omr:folder name="Finding relating to alcohol drinking behavior">
+       <omr:variable name="Current drinker" code="SM:219006" type="BOOLEAN"></omr:variable>
+       <omr:folder name="Non - drinker">
+        <omr:variable name="Lifetime non-drinker" code="SM:228274009" type="BOOLEAN"></omr:variable>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+   <omr:variable name="Hepatorrhaphy" code="SM:42679009" type="BOOLEAN"></omr:variable>
+   <omr:folder name="Observable entity">
+    <omr:folder name="Clinical history/examination observable">
+     <omr:folder name="Endocrine, nutritional and metabolic observable">
+      <omr:folder name="Nutritional observable">
+       <omr:folder name="Dietary intake">
+        <omr:folder name="Food and drink intake">
+         <omr:folder name="Drink intake">
+          <omr:folder name="Alcohol intake">
+           <omr:variable name="Beer intake" code="SM:230085005" type="INTEGER"></omr:variable>
+           <omr:variable name="Hard liquor intake" code="SM:230088007" type="INTEGER"></omr:variable>
+           <omr:variable name="Wine intake" code="SM:230086006" type="INTEGER"></omr:variable>
+          </omr:folder>
+         </omr:folder>
+        </omr:folder>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+     <omr:folder name="Mental state, behavior / psychosocial function observable">
+      <omr:folder name="Behavior observable">
+       <omr:folder name="Health-related behavior">
+        <omr:folder name="Details of alcohol drinking behavior">
+         <omr:variable name="Age at starting drinking" code="SM:228328008" type="INTEGER"></omr:variable>
+        </omr:folder>
+        <omr:folder name="Tobacco use and exposure">
+         <omr:variable name="Age at starting smoking" code="SM:228488005" type="INTEGER"></omr:variable>
+         <omr:variable name="Date ceased smoking" code="SM:160625004" type="INTEGER"></omr:variable>
+         <omr:folder name="Snuff use">
+          <omr:variable name="Snuff consumption" code="SM:228490006" type="INTEGER"></omr:variable>
+         </omr:folder>
+         <omr:folder name="Tobacco smoking consumption">
+          <omr:variable name="Pipe tobacco consumption" code="SM:230058003" type="INTEGER"></omr:variable>
+         </omr:folder>
+        </omr:folder>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="Organism">
+    <omr:folder name="Trophic life form">
+     <omr:folder name="Heterotroph">
+      <omr:variable name="Omnivore" code="SM:284731009" type="BOOLEAN"></omr:variable>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="Social and personal history finding">
+    <omr:folder name="Legal, financial, employment and/or socioeconomic history finding">
+     <omr:folder name="Employment finding">
+      <omr:folder name="Finding of employment status">
+       <omr:folder name="Stopped work">
+        <omr:variable name="Retired" code="SM:105493001" type="BOOLEAN"></omr:variable>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="Substance">
+    <omr:folder name="Biological substance">
+     <omr:folder name="Organic natural material">
+      <omr:folder name="Plant material">
+       <omr:folder name="Plant product">
+        <omr:folder name="Tobacco">
+         <omr:variable name="Chewing tobacco" code="SM:81911001" type="BOOLEAN"></omr:variable>
+        </omr:folder>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+    </omr:folder>
+    <omr:folder name="Materials">
+     <omr:folder name="Natural material">
+      <omr:folder name="Organic natural material">
+       <omr:folder name="Plant material">
+        <omr:folder name="Plant product">
+         <omr:folder name="Tobacco">
+          <omr:variable name="Chewing tobacco" code="SM:81911001" type="BOOLEAN"></omr:variable>
+         </omr:folder>
+        </omr:folder>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+    </omr:folder>
+    <omr:folder name="Substance of abuse">
+     <omr:folder name="Tobacco">
+      <omr:variable name="Chewing tobacco" code="SM:81911001" type="BOOLEAN"></omr:variable>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="Tobacco smoking behavior - finding">
+    <omr:folder name="Smoker">
+     <omr:folder name="Cigarette smoker" code="SM:65568007">
+      <omr:folder name="Light cigarette smoker">
+       <omr:variable name="Light cigarette smoker (1-9 cigs/day)" code="SM:160603005" type="BOOLEAN"></omr:variable>
+      </omr:folder>
+      <omr:folder name="Occasional cigarette smoker">
+       <omr:variable name="Trivial cigarette smoker (less than one cigarette/day)" code="SM:266920004" type="BOOLEAN"></omr:variable>
+      </omr:folder>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="Tobacco use and exposure - finding">
+    <omr:folder name="Tobacco user">
+     <omr:folder name="Smoker">
+      <omr:folder name="Cigarette smoker" code="SM:65568007">
+       <omr:folder name="Light cigarette smoker">
+        <omr:variable name="Light cigarette smoker (1-9 cigs/day)" code="SM:160603005" type="BOOLEAN"></omr:variable>
+       </omr:folder>
+       <omr:folder name="Occasional cigarette smoker">
+        <omr:variable name="Trivial cigarette smoker (less than one cigarette/day)" code="SM:266920004" type="BOOLEAN"></omr:variable>
+       </omr:folder>
+      </omr:folder>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+  </omr:folder>
+  <omr:folder name="LOINC">
+   <omr:folder name="LOINCCLASSTYPES">
+    <omr:folder name="Clinical Class">
+     <omr:variable name="Functional status (e.g. Glasgow)" code="LC:MTHU000075" type="BOOLEAN"></omr:variable>
+     <omr:folder name="Gastrointestinal endoscopy">
+      <omr:variable name="Cleaning method:Type:Point in time:Endoscopy device:Nominal" code="LC:19787-1" type="BOOLEAN"></omr:variable>
+     </omr:folder>
+     <omr:folder name="Medical Devices">
+      <omr:variable name="Institution inventory number:Identifier:Point in time:Body temperature device:Nominal" code="LC:9849-1" type="BOOLEAN"></omr:variable>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+  </omr:folder>
+  <omr:folder name="ICD10">
+   <omr:variable name="Diseases of the circulatory system" code="IC:I00-I99.9" type="BOOLEAN"></omr:variable>
+   <omr:folder name="Diseases of the skin and subcutaneous tissue" code="IC:L00-L99.9">
+    <omr:variable name="Other disorders of the skin and subcutaneous tissue" code="IC:L80-L99.9" type="BOOLEAN"></omr:variable>
+   </omr:folder>
+   <omr:folder name="Factors influencing health status and contact with health services">
+    <omr:folder name="Persons encountering health services in other circumstances">
+     <omr:folder name="Problems related to life-management difficulty">
+      <omr:variable name="Inadequate social skills, not elsewhere classified" code="IC:Z73.4" type="BOOLEAN"></omr:variable>
+     </omr:folder>
+     <omr:folder name="Problems related to lifestyle" code="IC:Z72">
+      <omr:variable name="Alcohol use" code="IC:Z72.1" type="BOOLEAN"></omr:variable>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+  </omr:folder>
+  <omr:folder name="BrissKitQuestionnaire3">
+   <omr:folder name="RiskFactorAlcohol">
+    <omr:folder name="AGE_BEGAN_DRINKING">
+     <omr:folder name="AMOUNT">
+      <omr:variable name="VALUE" code="SM:228328008" type="INTEGER"></omr:variable>
+     </omr:folder>
+     <omr:variable name="DK" code="CBO:ed6e3e30ccea5d508c8ed1060d56f7e5" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:1a04e5fc38af550582eac049f7a7f5c3" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="BEER_CONSUMPTION_WEEK">
+     <omr:folder name="AMOUNT">
+      <omr:variable name="VALUE" code="SM:230085005" type="INTEGER"></omr:variable>
+     </omr:folder>
+     <omr:variable name="DK" code="CBO:c462e22c68c7b9b82a083fa1bb4a94f1" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:89171eff06645535145e25b03e5047e4" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="DRINK_ONCE_WEEK">
+     <omr:variable name="DK" code="CBO:1cd953e348972b3a63244361e5976ac4" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="CBO:a2c345f37d53dd275c221501bff73899" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:e045718040405a44b2a2de73ec8dd364" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="SM:219006" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="EVER_DRUNK_ALCOHOL">
+     <omr:variable name="DK" code="CBO:45a6d5328bdb6bfa450a25881f81d182" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="SM:228274009" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:05efc7f664d5d7d7c428613e9e328f71" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="CBO:d98c2f3dd4ab1b816c6c7a3e9b2a7e23" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="SPIRIT_CONSUMPTION_WEEK">
+     <omr:folder name="AMOUNT">
+      <omr:variable name="VALUE" code="SM:230088007" type="INTEGER"></omr:variable>
+     </omr:folder>
+     <omr:variable name="DK" code="CBO:451430876a4bd9313d2ef3dd1e0e627a" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:36bc1f050006536650b1ff5ba6ec025c" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="WINE_CONSUMPTION_WEEK">
+     <omr:folder name="AMOUNT">
+      <omr:variable name="VALUE" code="SM:230086006" type="INTEGER"></omr:variable>
+     </omr:folder>
+     <omr:variable name="DK" code="CBO:14eba852bd61f5ac9a1627e546631cff" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:afd389f95de4ad0e2b18ac05e9617eaa" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="RiskFactorCigars">
+    <omr:folder name="CURRENT_SMOKE_CIGARS">
+     <omr:variable name="DK" code="CBO:480391a8e3408bb26012e9126b4c06e3" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="CBO:3849ced9adf85ed370c11860d3d09e6c" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:afcbbb51f49ee48760a27a420826c63f" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="LC:MTHU000075" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="RiskFactorCigs">
+    <omr:folder name="AGE_BEGAN_SMOKING">
+     <omr:folder name="VALUE">
+      <omr:variable name="VALUE" code="SM:228488005" type="INTEGER"></omr:variable>
+     </omr:folder>
+    </omr:folder>
+    <omr:folder name="CIGS_ON_MOST_DAYS">
+     <omr:variable name="DK" code="CBO:8128549e12f69d414d63a42c9a1e8d2b" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="LC:19787-1" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:9790eca002902b220fef97d944360fcb" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="IC:Z72" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="CIGS_PER_DAY_BEFORE">
+     <omr:variable name="HEAVY" code="SM:266924008" type="BOOLEAN"></omr:variable>
+     <omr:variable name="LIGHT" code="SM:266922007" type="BOOLEAN"></omr:variable>
+     <omr:variable name="MODERATE" code="SM:266923002" type="BOOLEAN"></omr:variable>
+     <omr:variable name="TRIVIAL" code="SM:266921000" type="BOOLEAN"></omr:variable>
+     <omr:variable name="UNKNOWN" code="SM:266928006" type="BOOLEAN"></omr:variable>
+     <omr:variable name="VERY_HEAVY" code="SM:266925009" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="CURRENT_SMOKE_CIGS">
+     <omr:variable name="DK" code="CBO:b379e93a0c4b53cb725645c011e73094" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="SM:160617001" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:885811a269076bd67ff7650a128290fc" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="SM:65568007" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="NUMBER_CIGS_PER_DAY">
+     <omr:variable name="HEAVY" code="SM:160605003" type="BOOLEAN"></omr:variable>
+     <omr:variable name="LIGHT" code="SM:160603005" type="BOOLEAN"></omr:variable>
+     <omr:variable name="MODERATE" code="SM:160604004" type="BOOLEAN"></omr:variable>
+     <omr:variable name="TRIVIAL" code="SM:266920004" type="BOOLEAN"></omr:variable>
+     <omr:variable name="VERY_HEAVY" code="SM:160606002" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="YEAR_STOPPED_SMOKING">
+     <omr:folder name="VALUE">
+      <omr:variable name="VALUE" code="SM:160625004" type="INTEGER"></omr:variable>
+     </omr:folder>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="RiskFactorDietExercise">
+    <omr:folder name="CURRENT_DIET">
+     <omr:variable name="DK" code="CBO:96a8c21593f135f316c984b2bfd3b25f" type="BOOLEAN"></omr:variable>
+     <omr:variable name="OMNIVORE" code="SM:284731009" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PESCATARIAN" code="CBO:60bdbe17765689c7e8e2ddf494c004eb" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:9904d750df06744e3dfe8f0391f574ce" type="BOOLEAN"></omr:variable>
+     <omr:variable name="VEGAN" code="SM:24930006" type="BOOLEAN"></omr:variable>
+     <omr:variable name="VEGETARIAN" code="SM:5940000" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="EXERCISE_LEVEL">
+     <omr:variable name="EXTREME_ACTIVITY" code="SM:102533007" type="BOOLEAN"></omr:variable>
+     <omr:variable name="HEAVY_ACTIVITY" code="SM:160633003" type="BOOLEAN"></omr:variable>
+     <omr:variable name="LIGHT_ACTIVITY" code="SM:160631001" type="BOOLEAN"></omr:variable>
+     <omr:variable name="MODERATE_ACTIVITY" code="SM:160632008" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO_ACTIVITY" code="SM:228445002" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="RiskFactorOtherTobacco">
+    <omr:folder name="CURRENT_SMOKE_PIPE">
+     <omr:variable name="DK" code="CBO:5cc9eb172699ac7dc95fdbce18c01a27" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="LC:9849-1" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:3a472c090e820b1feecfc646a8c2df53" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="SM:82302008" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="CURRENT_SNUFF_USER">
+     <omr:variable name="DK" code="CBO:4e040701219bb19c3f33a2453ac4576b" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="CBO:75227d0f1418e390da7e8c5202abc2d3" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:caef6d3cd2970872d18de59f087bff6d" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="SM:228494002" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="CURRENT_TOBACCO_CHEWER">
+     <omr:variable name="DK" code="CBO:60f66a93da1fa68fb3320303196c09af" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="CBO:ee12fa718931a46e2294f6723573aef6" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:5244082358ddcc2b1a9e7446d31ed3c4" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="SM:228494002" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="PIPE_CONSUMPTION_WEEK">
+     <omr:folder name="AMOUNT">
+      <omr:variable name="VALUE" code="SM:230058003" type="INTEGER"></omr:variable>
+     </omr:folder>
+     <omr:variable name="DK" code="CBO:b955f22a2ff160362481a412f7bf89f1" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:7e556fd101351d905cf42e38de22cd37" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="REGULAR_SNUFF_USER">
+     <omr:variable name="DK" code="CBO:028736d7e043a712680a0cdcb8e2d175" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="CBO:cb59a7a54c64d401d964b4e28bafa175" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:94d0e2a71d319ce448c31ed4db1977d2" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="SM:160603005" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="REGULAR_TOBACCO_CHEWER">
+     <omr:variable name="DK" code="CBO:9d2dfe6d9ab633ef264297099e71271c" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="CBO:c45c36c5bb47e6a49ecee873617239eb" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:4044740acea570b62b80550a768ea36e" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="SM:81911001" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="SNUFF_CONSUMPTION_WEEK">
+     <omr:folder name="AMOUNT">
+      <omr:variable name="AMOUNT" code="SM:228490006" type="INTEGER"></omr:variable>
+     </omr:folder>
+     <omr:variable name="DK" code="CBO:76c04fb7c68d8b40de89ed767459f9b0" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:c221443686da0d0e1de8f43daab8ae11" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="TOBACCO_CONSUMPTION_WEEK">
+     <omr:folder name="AMOUNT">
+      <omr:variable name="VALUE" code="SM:228490006" type="INTEGER"></omr:variable>
+     </omr:folder>
+     <omr:variable name="DK" code="CBO:febd08144f1a3defc4d5a0e9c77661d7" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:6223da53dce8e47e6fe99bb63646f5c5" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="RiskFactorSocioeconomic">
+    <omr:folder name="COHABIT">
+     <omr:variable name="DK" code="CBO:9c659fc9a2fdb4f2b71877f41e8d30aa" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="CBO:8257d3b9f3d9cde487134b48fcb65665" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:88803564a82803cc009baae07547a20a" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="SM:447051007" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="EDUCATION_LEVEL">
+     <omr:variable name="DEGREE" code="SM:42679009" type="BOOLEAN"></omr:variable>
+     <omr:variable name="DK" code="CBO:61d9ddcb8f69d9846f2b62d5fe2994c5" type="BOOLEAN"></omr:variable>
+     <omr:variable name="LEVEL1" code="SM:224295006" type="BOOLEAN"></omr:variable>
+     <omr:variable name="LEVEL2" code="SM:224297003" type="BOOLEAN"></omr:variable>
+     <omr:variable name="LEVEL3" code="SM:224298008" type="BOOLEAN"></omr:variable>
+     <omr:variable name="OTHER_HIGHER" code="SM:224299000" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:caa5e6267a3ed9e22b2892ebfdd9b822" type="BOOLEAN"></omr:variable>
+     <omr:variable name="TRADE" code="SM:440586004" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="HOUSEHOLD_NUMBER">
+     <omr:variable name="DK" code="CBO:30532070ba60a0e47f8b23da9bdbb5ea" type="BOOLEAN"></omr:variable>
+     <omr:variable name="LIVE_ALONE" code="SM:105529008" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:e6ef01c425cd009ae1f5734e31cca17b" type="BOOLEAN"></omr:variable>
+     <omr:folder name="VALUE__SM224525003">
+      <omr:variable name="PEOPLE" code="CBO:d7c96a1e5cf34e1a9ef3b3af42b65593" type="INTEGER"></omr:variable>
+     </omr:folder>
+    </omr:folder>
+    <omr:folder name="MARITAL_STATUS">
+     <omr:variable name="DIVORCED" code="SM:20295000" type="BOOLEAN"></omr:variable>
+     <omr:variable name="DK" code="SM:160504008" type="BOOLEAN"></omr:variable>
+     <omr:variable name="MARRIED" code="SM:87915002" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:a8c343c89f50b6877654051ed6fb64a9" type="BOOLEAN"></omr:variable>
+     <omr:variable name="SEPARATED" code="SM:13184001" type="BOOLEAN"></omr:variable>
+     <omr:variable name="SINGLE" code="SM:125725006" type="BOOLEAN"></omr:variable>
+     <omr:variable name="WIDOWED" code="SM:33553000" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="OCCUPATION">
+     <omr:variable name="CLERICAL" code="CBO:810ea0c8c5b97b40ed908f84d0c568a1" type="BOOLEAN"></omr:variable>
+     <omr:variable name="DK" code="CBO:bcbfdce2523380c93504b24bf136600e" type="BOOLEAN"></omr:variable>
+     <omr:variable name="JNR_MANAGER" code="CBO:3399d854ba811c03f492c310dae262f8" type="BOOLEAN"></omr:variable>
+     <omr:variable name="MOD_PROFESSIONAL" code="CBO:c2a331f83bf125dcdf865d12dc2dd76d" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:5dbea01d4047769b96b223f0f7cb597b" type="BOOLEAN"></omr:variable>
+     <omr:variable name="SEMI_ROUTINE" code="CBO:e316212dba53ca9a0f144aaf4b1d7497" type="BOOLEAN"></omr:variable>
+     <omr:variable name="SNR_MANAGER" code="CBO:4d16a06d56b69f4e28c4b7ee1cf044ae" type="BOOLEAN"></omr:variable>
+     <omr:variable name="TECHNICAL" code="CBO:f6c657f8b4028b549aea66fc2ab3ffb3" type="BOOLEAN"></omr:variable>
+     <omr:variable name="TRAD_PROFESSIONAL" code="CBO:8099ed8ed0a6d7ef65bc449a58eda4e8" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="WORK_STATUS">
+     <omr:variable name="DK" code="CBO:10a6d97730486207c40afba36d0cb708" type="BOOLEAN"></omr:variable>
+     <omr:variable name="FULL_TIME" code="SM:160903007" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NONE" code="SM:73438004" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PART_TIME" code="SM:160904001" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:b2fa5b95deb711bd6be2e184605133fc" type="BOOLEAN"></omr:variable>
+     <omr:variable name="RETIRED" code="SM:105493001" type="BOOLEAN"></omr:variable>
+     <omr:variable name="SELF" code="SM:160906004" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+   </omr:folder>
+   <omr:folder name="RiskFactorTobacco">
+    <omr:folder name="EVER_SMOKED">
+     <omr:variable name="DK" code="CBO:79587362dd26506b923d9fdfca3cecfa" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="SM:266919005" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:9153a82652e9c8d4b70e7458eaa3da02" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="CBO:1e3369ee92ea1c2d63092b3f2bc290e7" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="EVER_USED">
+     <omr:variable name="DK" code="CBO:a4d2421731ce3f51e7d9111cc6cb0b3f" type="BOOLEAN"></omr:variable>
+     <omr:variable name="NO" code="IC:L80-L99.9" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:cef5c32ba2f15259e4254fe7c56dc75f" type="BOOLEAN"></omr:variable>
+     <omr:variable name="YES" code="IC:L00-L99.9" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="WHAT_SMOKED">
+     <omr:variable name="CIGAR" code="SM:59978006" type="BOOLEAN"></omr:variable>
+     <omr:variable name="CIGARETTES" code="IC:I00-I99.9" type="BOOLEAN"></omr:variable>
+     <omr:folder name="OTHER">
+      <omr:variable name="TEXT" code="CBO:92dee9ecb7e9335d7342d5bbfae2fffe" type="TEXT"></omr:variable>
+     </omr:folder>
+     <omr:variable name="PIPE" code="SM:82302008" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    <omr:folder name="WHAT_USED">
+     <omr:variable name="CHEWING_TOBACCO" code="IC:Z72.1" type="BOOLEAN"></omr:variable>
+     <omr:folder name="OTHER">
+      <omr:variable name="TEXT" code="CBO:b32cbaef1e0b1808ecf5271d8813b7f7" type="TEXT"></omr:variable>
+     </omr:folder>
+     <omr:variable name="SNUFF" code="IC:Z73.4" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+   </omr:folder>
+  </omr:folder>
+ </omr:folder>
+</omr:container>

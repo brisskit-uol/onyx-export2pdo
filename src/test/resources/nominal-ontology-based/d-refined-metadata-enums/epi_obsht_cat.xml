@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="epi_obsht_cat" code="CBO:epi_obsht_cat" path="\onyx\DataSubmissionQuestionnaire\MAIN\Observations during current episode of care\epi_obsht_cat" hlevel="4">
+   <rev:group name=" 90 to 99" description=" 90 to 99">
+      <rev:variable name=" 90" description=" 90" code="CBO:epi_obsht_cat:90"/>
+      <rev:variable name=" 91" description=" 91" code="CBO:epi_obsht_cat:91"/>
+      <rev:variable name=" 92" description=" 92" code="CBO:epi_obsht_cat:92"/>
+      <rev:variable name=" 93" description=" 93" code="CBO:epi_obsht_cat:93"/>
+      <rev:variable name=" 94" description=" 94" code="CBO:epi_obsht_cat:94"/>
+      <rev:variable name=" 95" description=" 95" code="CBO:epi_obsht_cat:95"/>
+      <rev:variable name=" 96" description=" 96" code="CBO:epi_obsht_cat:96"/>
+      <rev:variable name=" 97" description=" 97" code="CBO:epi_obsht_cat:97"/>
+      <rev:variable name=" 98" description=" 98" code="CBO:epi_obsht_cat:98"/>
+      <rev:variable name=" 99" description=" 99" code="CBO:epi_obsht_cat:99"/>
+   </rev:group>
+   <rev:group name="100 to 109" description="100 to 109">
+      <rev:variable name="100" description="100" code="CBO:epi_obsht_cat:100"/>
+      <rev:variable name="101" description="101" code="CBO:epi_obsht_cat:101"/>
+      <rev:variable name="102" description="102" code="CBO:epi_obsht_cat:102"/>
+      <rev:variable name="103" description="103" code="CBO:epi_obsht_cat:103"/>
+      <rev:variable name="104" description="104" code="CBO:epi_obsht_cat:104"/>
+      <rev:variable name="105" description="105" code="CBO:epi_obsht_cat:105"/>
+      <rev:variable name="106" description="106" code="CBO:epi_obsht_cat:106"/>
+      <rev:variable name="107" description="107" code="CBO:epi_obsht_cat:107"/>
+      <rev:variable name="108" description="108" code="CBO:epi_obsht_cat:108"/>
+      <rev:variable name="109" description="109" code="CBO:epi_obsht_cat:109"/>
+   </rev:group>
+   <rev:group name="110 to 119" description="110 to 119">
+      <rev:variable name="110" description="110" code="CBO:epi_obsht_cat:110"/>
+      <rev:variable name="111" description="111" code="CBO:epi_obsht_cat:111"/>
+      <rev:variable name="112" description="112" code="CBO:epi_obsht_cat:112"/>
+      <rev:variable name="113" description="113" code="CBO:epi_obsht_cat:113"/>
+      <rev:variable name="114" description="114" code="CBO:epi_obsht_cat:114"/>
+      <rev:variable name="115" description="115" code="CBO:epi_obsht_cat:115"/>
+      <rev:variable name="116" description="116" code="CBO:epi_obsht_cat:116"/>
+      <rev:variable name="117" description="117" code="CBO:epi_obsht_cat:117"/>
+      <rev:variable name="118" description="118" code="CBO:epi_obsht_cat:118"/>
+      <rev:variable name="119" description="119" code="CBO:epi_obsht_cat:119"/>
+   </rev:group>
+   <rev:group name="120 to 129" description="120 to 129">
+      <rev:variable name="120" description="120" code="CBO:epi_obsht_cat:120"/>
+      <rev:variable name="121" description="121" code="CBO:epi_obsht_cat:121"/>
+      <rev:variable name="122" description="122" code="CBO:epi_obsht_cat:122"/>
+      <rev:variable name="123" description="123" code="CBO:epi_obsht_cat:123"/>
+      <rev:variable name="124" description="124" code="CBO:epi_obsht_cat:124"/>
+      <rev:variable name="125" description="125" code="CBO:epi_obsht_cat:125"/>
+      <rev:variable name="126" description="126" code="CBO:epi_obsht_cat:126"/>
+      <rev:variable name="127" description="127" code="CBO:epi_obsht_cat:127"/>
+      <rev:variable name="128" description="128" code="CBO:epi_obsht_cat:128"/>
+      <rev:variable name="129" description="129" code="CBO:epi_obsht_cat:129"/>
+   </rev:group>
+   <rev:group name="130 to 139" description="130 to 139">
+      <rev:variable name="130" description="130" code="CBO:epi_obsht_cat:130"/>
+      <rev:variable name="131" description="131" code="CBO:epi_obsht_cat:131"/>
+      <rev:variable name="132" description="132" code="CBO:epi_obsht_cat:132"/>
+      <rev:variable name="133" description="133" code="CBO:epi_obsht_cat:133"/>
+      <rev:variable name="134" description="134" code="CBO:epi_obsht_cat:134"/>
+      <rev:variable name="135" description="135" code="CBO:epi_obsht_cat:135"/>
+      <rev:variable name="136" description="136" code="CBO:epi_obsht_cat:136"/>
+      <rev:variable name="137" description="137" code="CBO:epi_obsht_cat:137"/>
+      <rev:variable name="138" description="138" code="CBO:epi_obsht_cat:138"/>
+      <rev:variable name="139" description="139" code="CBO:epi_obsht_cat:139"/>
+   </rev:group>
+   <rev:group name="140 to 149" description="140 to 149">
+      <rev:variable name="140" description="140" code="CBO:epi_obsht_cat:140"/>
+      <rev:variable name="141" description="141" code="CBO:epi_obsht_cat:141"/>
+      <rev:variable name="142" description="142" code="CBO:epi_obsht_cat:142"/>
+      <rev:variable name="143" description="143" code="CBO:epi_obsht_cat:143"/>
+      <rev:variable name="144" description="144" code="CBO:epi_obsht_cat:144"/>
+      <rev:variable name="145" description="145" code="CBO:epi_obsht_cat:145"/>
+      <rev:variable name="146" description="146" code="CBO:epi_obsht_cat:146"/>
+      <rev:variable name="147" description="147" code="CBO:epi_obsht_cat:147"/>
+      <rev:variable name="148" description="148" code="CBO:epi_obsht_cat:148"/>
+      <rev:variable name="149" description="149" code="CBO:epi_obsht_cat:149"/>
+   </rev:group>
+   <rev:group name="150 to 159" description="150 to 159">
+      <rev:variable name="150" description="150" code="CBO:epi_obsht_cat:150"/>
+      <rev:variable name="151" description="151" code="CBO:epi_obsht_cat:151"/>
+      <rev:variable name="152" description="152" code="CBO:epi_obsht_cat:152"/>
+      <rev:variable name="153" description="153" code="CBO:epi_obsht_cat:153"/>
+      <rev:variable name="154" description="154" code="CBO:epi_obsht_cat:154"/>
+      <rev:variable name="155" description="155" code="CBO:epi_obsht_cat:155"/>
+      <rev:variable name="156" description="156" code="CBO:epi_obsht_cat:156"/>
+      <rev:variable name="157" description="157" code="CBO:epi_obsht_cat:157"/>
+      <rev:variable name="158" description="158" code="CBO:epi_obsht_cat:158"/>
+      <rev:variable name="159" description="159" code="CBO:epi_obsht_cat:159"/>
+   </rev:group>
+   <rev:group name="160 to 169" description="160 to 169">
+      <rev:variable name="160" description="160" code="CBO:epi_obsht_cat:160"/>
+      <rev:variable name="161" description="161" code="CBO:epi_obsht_cat:161"/>
+      <rev:variable name="162" description="162" code="CBO:epi_obsht_cat:162"/>
+      <rev:variable name="163" description="163" code="CBO:epi_obsht_cat:163"/>
+      <rev:variable name="164" description="164" code="CBO:epi_obsht_cat:164"/>
+      <rev:variable name="165" description="165" code="CBO:epi_obsht_cat:165"/>
+      <rev:variable name="166" description="166" code="CBO:epi_obsht_cat:166"/>
+      <rev:variable name="167" description="167" code="CBO:epi_obsht_cat:167"/>
+      <rev:variable name="168" description="168" code="CBO:epi_obsht_cat:168"/>
+      <rev:variable name="169" description="169" code="CBO:epi_obsht_cat:169"/>
+   </rev:group>
+   <rev:group name="170 to 179" description="170 to 179">
+      <rev:variable name="170" description="170" code="CBO:epi_obsht_cat:170"/>
+      <rev:variable name="171" description="171" code="CBO:epi_obsht_cat:171"/>
+      <rev:variable name="172" description="172" code="CBO:epi_obsht_cat:172"/>
+      <rev:variable name="173" description="173" code="CBO:epi_obsht_cat:173"/>
+      <rev:variable name="174" description="174" code="CBO:epi_obsht_cat:174"/>
+      <rev:variable name="175" description="175" code="CBO:epi_obsht_cat:175"/>
+      <rev:variable name="176" description="176" code="CBO:epi_obsht_cat:176"/>
+      <rev:variable name="177" description="177" code="CBO:epi_obsht_cat:177"/>
+      <rev:variable name="178" description="178" code="CBO:epi_obsht_cat:178"/>
+      <rev:variable name="179" description="179" code="CBO:epi_obsht_cat:179"/>
+   </rev:group>
+   <rev:group name="180 to 189" description="180 to 189">
+      <rev:variable name="180" description="180" code="CBO:epi_obsht_cat:180"/>
+      <rev:variable name="181" description="181" code="CBO:epi_obsht_cat:181"/>
+      <rev:variable name="182" description="182" code="CBO:epi_obsht_cat:182"/>
+      <rev:variable name="183" description="183" code="CBO:epi_obsht_cat:183"/>
+      <rev:variable name="184" description="184" code="CBO:epi_obsht_cat:184"/>
+      <rev:variable name="185" description="185" code="CBO:epi_obsht_cat:185"/>
+      <rev:variable name="186" description="186" code="CBO:epi_obsht_cat:186"/>
+      <rev:variable name="187" description="187" code="CBO:epi_obsht_cat:187"/>
+      <rev:variable name="188" description="188" code="CBO:epi_obsht_cat:188"/>
+      <rev:variable name="189" description="189" code="CBO:epi_obsht_cat:189"/>
+   </rev:group>
+   <rev:group name="190 to 199" description="190 to 199">
+      <rev:variable name="190" description="190" code="CBO:epi_obsht_cat:190"/>
+      <rev:variable name="191" description="191" code="CBO:epi_obsht_cat:191"/>
+      <rev:variable name="192" description="192" code="CBO:epi_obsht_cat:192"/>
+      <rev:variable name="193" description="193" code="CBO:epi_obsht_cat:193"/>
+      <rev:variable name="194" description="194" code="CBO:epi_obsht_cat:194"/>
+      <rev:variable name="195" description="195" code="CBO:epi_obsht_cat:195"/>
+      <rev:variable name="196" description="196" code="CBO:epi_obsht_cat:196"/>
+      <rev:variable name="197" description="197" code="CBO:epi_obsht_cat:197"/>
+      <rev:variable name="198" description="198" code="CBO:epi_obsht_cat:198"/>
+      <rev:variable name="199" description="199" code="CBO:epi_obsht_cat:199"/>
+   </rev:group>
+   <rev:group name="200 to 209" description="200 to 209">
+      <rev:variable name="200" description="200" code="CBO:epi_obsht_cat:200"/>
+      <rev:variable name="201" description="201" code="CBO:epi_obsht_cat:201"/>
+      <rev:variable name="202" description="202" code="CBO:epi_obsht_cat:202"/>
+      <rev:variable name="203" description="203" code="CBO:epi_obsht_cat:203"/>
+      <rev:variable name="204" description="204" code="CBO:epi_obsht_cat:204"/>
+      <rev:variable name="205" description="205" code="CBO:epi_obsht_cat:205"/>
+      <rev:variable name="206" description="206" code="CBO:epi_obsht_cat:206"/>
+      <rev:variable name="207" description="207" code="CBO:epi_obsht_cat:207"/>
+      <rev:variable name="208" description="208" code="CBO:epi_obsht_cat:208"/>
+      <rev:variable name="209" description="209" code="CBO:epi_obsht_cat:209"/>
+   </rev:group>
+   <rev:group name="210 to 219" description="210 to 219">
+      <rev:variable name="210" description="210" code="CBO:epi_obsht_cat:210"/>
+      <rev:variable name="211" description="211" code="CBO:epi_obsht_cat:211"/>
+      <rev:variable name="212" description="212" code="CBO:epi_obsht_cat:212"/>
+      <rev:variable name="213" description="213" code="CBO:epi_obsht_cat:213"/>
+      <rev:variable name="214" description="214" code="CBO:epi_obsht_cat:214"/>
+      <rev:variable name="215" description="215" code="CBO:epi_obsht_cat:215"/>
+      <rev:variable name="216" description="216" code="CBO:epi_obsht_cat:216"/>
+      <rev:variable name="217" description="217" code="CBO:epi_obsht_cat:217"/>
+      <rev:variable name="218" description="218" code="CBO:epi_obsht_cat:218"/>
+      <rev:variable name="219" description="219" code="CBO:epi_obsht_cat:219"/>
+   </rev:group>
+   <rev:group name="220 to 229" description="220 to 229">
+      <rev:variable name="220" description="220" code="CBO:epi_obsht_cat:220"/>
+      <rev:variable name="221" description="221" code="CBO:epi_obsht_cat:221"/>
+      <rev:variable name="222" description="222" code="CBO:epi_obsht_cat:222"/>
+      <rev:variable name="223" description="223" code="CBO:epi_obsht_cat:223"/>
+      <rev:variable name="224" description="224" code="CBO:epi_obsht_cat:224"/>
+      <rev:variable name="225" description="225" code="CBO:epi_obsht_cat:225"/>
+      <rev:variable name="226" description="226" code="CBO:epi_obsht_cat:226"/>
+      <rev:variable name="227" description="227" code="CBO:epi_obsht_cat:227"/>
+      <rev:variable name="228" description="228" code="CBO:epi_obsht_cat:228"/>
+      <rev:variable name="229" description="229" code="CBO:epi_obsht_cat:229"/>
+   </rev:group>
+   <rev:group name="230 to 239" description="230 to 239">
+      <rev:variable name="230" description="230" code="CBO:epi_obsht_cat:230"/>
+      <rev:variable name="231" description="231" code="CBO:epi_obsht_cat:231"/>
+      <rev:variable name="232" description="232" code="CBO:epi_obsht_cat:232"/>
+      <rev:variable name="233" description="233" code="CBO:epi_obsht_cat:233"/>
+      <rev:variable name="234" description="234" code="CBO:epi_obsht_cat:234"/>
+      <rev:variable name="235" description="235" code="CBO:epi_obsht_cat:235"/>
+      <rev:variable name="236" description="236" code="CBO:epi_obsht_cat:236"/>
+      <rev:variable name="237" description="237" code="CBO:epi_obsht_cat:237"/>
+      <rev:variable name="238" description="238" code="CBO:epi_obsht_cat:238"/>
+      <rev:variable name="239" description="239" code="CBO:epi_obsht_cat:239"/>
+   </rev:group>
+   <rev:group name="240 to 249" description="240 to 249">
+      <rev:variable name="240" description="240" code="CBO:epi_obsht_cat:240"/>
+      <rev:variable name="241" description="241" code="CBO:epi_obsht_cat:241"/>
+      <rev:variable name="242" description="242" code="CBO:epi_obsht_cat:242"/>
+      <rev:variable name="243" description="243" code="CBO:epi_obsht_cat:243"/>
+      <rev:variable name="244" description="244" code="CBO:epi_obsht_cat:244"/>
+      <rev:variable name="245" description="245" code="CBO:epi_obsht_cat:245"/>
+      <rev:variable name="246" description="246" code="CBO:epi_obsht_cat:246"/>
+      <rev:variable name="247" description="247" code="CBO:epi_obsht_cat:247"/>
+      <rev:variable name="248" description="248" code="CBO:epi_obsht_cat:248"/>
+      <rev:variable name="249" description="249" code="CBO:epi_obsht_cat:249"/>
+   </rev:group>
+   <rev:group name="250 to 259" description="250 to 259">
+      <rev:variable name="250" description="250" code="CBO:epi_obsht_cat:250"/>
+      <rev:variable name="251" description="251" code="CBO:epi_obsht_cat:251"/>
+      <rev:variable name="252" description="252" code="CBO:epi_obsht_cat:252"/>
+      <rev:variable name="253" description="253" code="CBO:epi_obsht_cat:253"/>
+      <rev:variable name="254" description="254" code="CBO:epi_obsht_cat:254"/>
+      <rev:variable name="255" description="255" code="CBO:epi_obsht_cat:255"/>
+      <rev:variable name="256" description="256" code="CBO:epi_obsht_cat:256"/>
+      <rev:variable name="257" description="257" code="CBO:epi_obsht_cat:257"/>
+      <rev:variable name="258" description="258" code="CBO:epi_obsht_cat:258"/>
+      <rev:variable name="259" description="259" code="CBO:epi_obsht_cat:259"/>
+   </rev:group>
+   <rev:group name="260 to 269" description="260 to 269">
+      <rev:variable name="260" description="260" code="CBO:epi_obsht_cat:260"/>
+      <rev:variable name="261" description="261" code="CBO:epi_obsht_cat:261"/>
+      <rev:variable name="262" description="262" code="CBO:epi_obsht_cat:262"/>
+      <rev:variable name="263" description="263" code="CBO:epi_obsht_cat:263"/>
+      <rev:variable name="264" description="264" code="CBO:epi_obsht_cat:264"/>
+      <rev:variable name="265" description="265" code="CBO:epi_obsht_cat:265"/>
+      <rev:variable name="266" description="266" code="CBO:epi_obsht_cat:266"/>
+      <rev:variable name="267" description="267" code="CBO:epi_obsht_cat:267"/>
+      <rev:variable name="268" description="268" code="CBO:epi_obsht_cat:268"/>
+      <rev:variable name="269" description="269" code="CBO:epi_obsht_cat:269"/>
+   </rev:group>
+   <rev:group name="270 to 279" description="270 to 279">
+      <rev:variable name="270" description="270" code="CBO:epi_obsht_cat:270"/>
+      <rev:variable name="271" description="271" code="CBO:epi_obsht_cat:271"/>
+      <rev:variable name="272" description="272" code="CBO:epi_obsht_cat:272"/>
+      <rev:variable name="273" description="273" code="CBO:epi_obsht_cat:273"/>
+      <rev:variable name="274" description="274" code="CBO:epi_obsht_cat:274"/>
+      <rev:variable name="275" description="275" code="CBO:epi_obsht_cat:275"/>
+      <rev:variable name="276" description="276" code="CBO:epi_obsht_cat:276"/>
+      <rev:variable name="277" description="277" code="CBO:epi_obsht_cat:277"/>
+      <rev:variable name="278" description="278" code="CBO:epi_obsht_cat:278"/>
+      <rev:variable name="279" description="279" code="CBO:epi_obsht_cat:279"/>
+   </rev:group>
+</rev:enumeratedVariable>

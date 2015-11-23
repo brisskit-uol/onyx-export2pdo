@@ -1,0 +1,188 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="Participants" entityType="Participant" entityIdentifier="B40">
+  <variableValue variable="Admin.Interview.exportLog.destination">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.Action.actionType">
+    <value class="sequence" valueType="text" size="7">
+      <value valueType="text" order="0">START</value>
+      <value valueType="text" order="1">EXECUTE</value>
+      <value valueType="text" order="2">COMPLETE</value>
+      <value valueType="text" order="3">EXECUTE</value>
+      <value valueType="text" order="4">COMPLETE</value>
+      <value valueType="text" order="5">EXECUTE</value>
+      <value valueType="text" order="6">COMPLETE</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Action.stage">
+    <value class="sequence" valueType="text" size="7">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1">Consent</value>
+      <value valueType="text" order="2">Consent</value>
+      <value valueType="text" order="3">BrissKitQuestionnaire3</value>
+      <value valueType="text" order="4">BrissKitQuestionnaire3</value>
+      <value valueType="text" order="5">ConclusionQuestionnaire</value>
+      <value valueType="text" order="6">ConclusionQuestionnaire</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Action.user">
+    <value class="sequence" valueType="text" size="7">
+      <value valueType="text" order="0">admin</value>
+      <value valueType="text" order="1">admin</value>
+      <value valueType="text" order="2">admin</value>
+      <value valueType="text" order="3">admin</value>
+      <value valueType="text" order="4">admin</value>
+      <value valueType="text" order="5">admin</value>
+      <value valueType="text" order="6">admin</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.last">
+    <value class="sequence" valueType="boolean" size="3">
+      <value valueType="boolean" order="0">true</value>
+      <value valueType="boolean" order="1">true</value>
+      <value valueType="boolean" order="2">true</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Action.fromState">
+    <value class="sequence" valueType="text" size="7">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1">Ready</value>
+      <value valueType="text" order="2">InProgress</value>
+      <value valueType="text" order="3">Ready</value>
+      <value valueType="text" order="4">InProgress</value>
+      <value valueType="text" order="5">Ready</value>
+      <value valueType="text" order="6">InProgress</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.stage">
+    <value class="sequence" valueType="text" size="3">
+      <value valueType="text" order="0">Consent</value>
+      <value valueType="text" order="1">BrissKitQuestionnaire3</value>
+      <value valueType="text" order="2">ConclusionQuestionnaire</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.interruptionCount">
+    <value class="sequence" valueType="integer" size="3">
+      <value valueType="integer" order="0">0</value>
+      <value valueType="integer" order="1">0</value>
+      <value valueType="integer" order="2">0</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.ApplicationConfiguration.studyName">
+    <value valueType="text">001</value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.lastState">
+    <value class="sequence" valueType="text" size="3">
+      <value valueType="text" order="0">Completed</value>
+      <value valueType="text" order="1">Completed</value>
+      <value valueType="text" order="2">Completed</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.ApplicationConfiguration.siteName">
+    <value valueType="text">001</value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.exportLog.captureStartDate">
+    <value class="sequence" valueType="datetime" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.Interview.exportLog.exportDate">
+    <value class="sequence" valueType="datetime" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.user">
+    <value class="sequence" valueType="text" size="3">
+      <value valueType="text" order="0">admin</value>
+      <value valueType="text" order="1">admin</value>
+      <value valueType="text" order="2">admin</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Action.eventReason">
+    <value class="sequence" valueType="text" size="7">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1"/>
+      <value valueType="text" order="2"/>
+      <value valueType="text" order="3"/>
+      <value valueType="text" order="4"/>
+      <value valueType="text" order="5"/>
+      <value valueType="text" order="6"/>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.startDate">
+    <value valueType="datetime">2012-04-23T04:53:36.000+0000</value>
+  </variableValue>
+  <variableValue variable="Admin.Action.toState">
+    <value class="sequence" valueType="text" size="7">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1">InProgress</value>
+      <value valueType="text" order="2">Completed</value>
+      <value valueType="text" order="3">InProgress</value>
+      <value valueType="text" order="4">Completed</value>
+      <value valueType="text" order="5">InProgress</value>
+      <value valueType="text" order="6">Completed</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Action.comment">
+    <value class="sequence" valueType="text" size="7">
+      <value valueType="text" order="0"/>
+      <value valueType="text" order="1">fsfsdf</value>
+      <value valueType="text" order="2">cvsdfdsf</value>
+      <value valueType="text" order="3">sdfsdf</value>
+      <value valueType="text" order="4">sdfgsdf</value>
+      <value valueType="text" order="5">fgfdgdf</value>
+      <value valueType="text" order="6">sfdfgdf</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Action.dateTime">
+    <value class="sequence" valueType="datetime" size="7">
+      <value valueType="datetime" order="0">2012-04-23T04:53:36.000+0000</value>
+      <value valueType="datetime" order="1">2012-04-23T05:04:30.000+0000</value>
+      <value valueType="datetime" order="2">2012-04-23T05:04:47.000+0000</value>
+      <value valueType="datetime" order="3">2012-04-23T05:04:55.000+0000</value>
+      <value valueType="datetime" order="4">2012-04-23T05:06:48.000+0000</value>
+      <value valueType="datetime" order="5">2012-04-23T05:06:57.000+0000</value>
+      <value valueType="datetime" order="6">2012-04-23T05:07:08.000+0000</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.duration">
+    <value class="sequence" valueType="integer" size="3">
+      <value valueType="integer" order="0">17</value>
+      <value valueType="integer" order="1">113</value>
+      <value valueType="integer" order="2">11</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.onyxVersion">
+    <value valueType="text">1.8.1-b11948</value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.exportLog.type">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.Interview.duration">
+    <value valueType="integer">7</value>
+  </variableValue>
+  <variableValue variable="Admin.Participant.barcode">
+    <value valueType="text">B40</value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.endDate">
+    <value valueType="datetime">2012-04-23T05:07:08.000+0000</value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.startTime">
+    <value class="sequence" valueType="datetime" size="3">
+      <value valueType="datetime" order="0">2012-04-23T05:04:30.000+0000</value>
+      <value valueType="datetime" order="1">2012-04-23T05:04:55.000+0000</value>
+      <value valueType="datetime" order="2">2012-04-23T05:06:57.000+0000</value>
+    </value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.exportLog.captureEndDate">
+    <value class="sequence" valueType="datetime" size="0"/>
+  </variableValue>
+  <variableValue variable="Admin.ApplicationConfiguration.siteCode">
+    <value valueType="text">001</value>
+  </variableValue>
+  <variableValue variable="Admin.Interview.status">
+    <value valueType="text">COMPLETED</value>
+  </variableValue>
+  <variableValue variable="Admin.StageInstance.lastTime">
+    <value class="sequence" valueType="datetime" size="3">
+      <value valueType="datetime" order="0">2012-04-23T05:04:47.000+0000</value>
+      <value valueType="datetime" order="1">2012-04-23T05:06:48.000+0000</value>
+      <value valueType="datetime" order="2">2012-04-23T05:07:08.000+0000</value>
+    </value>
+  </variableValue>
+</valueSet>

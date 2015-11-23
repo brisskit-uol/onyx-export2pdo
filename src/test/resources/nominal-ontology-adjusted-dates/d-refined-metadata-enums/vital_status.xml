@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="vital_status" code="CBO:Participant.vital_status" type="RELATIVESNUMBER" path="\onyx\Participants\Admin\Participant\vital_status" hlevel="4">
+   <rev:variable name="Living" description="Living" code="CBO:Participant.vital_status:N"/>
+   <rev:variable name="Deceased" description="Deceased" code="CBO:Participant.vital_status:Y"/>
+   <rev:variable name="Not recorded" description="Not recorded" code="CBO:Participant.vital_status:@"/>
+</rev:enumeratedVariable>

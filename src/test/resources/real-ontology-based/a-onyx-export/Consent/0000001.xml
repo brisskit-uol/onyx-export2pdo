@@ -1,0 +1,17 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="Consent" entityType="Participant" entityIdentifier="B40">
+  <variableValue variable="mode">
+    <value valueType="text">MANUAL</value>
+  </variableValue>
+  <variableValue variable="locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="accepted">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="timeStart">
+    <value valueType="datetime">2012-04-23T05:04:31.000+0000</value>
+  </variableValue>
+  <variableValue variable="timeEnd">
+    <value valueType="datetime">2012-04-23T05:04:47.000+0000</value>
+  </variableValue>
+</valueSet>

@@ -1,0 +1,272 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="RiskFactorQuestionnaire" entityType="Participant" entityIdentifier="Bt1">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="date">2012-10-2</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="date">2012-10-2</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">jeff</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="2">
+      <value valueType="text" order="0">ALCOHOL</value>
+      <value valueType="text" order="1">Diet_Exercise</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="2">
+      <value valueType="text" order="0">10</value>
+      <value valueType="text" order="1">11</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="2">
+      <value valueType="integer" order="0">37</value>
+      <value valueType="integer" order="1">17</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="2">
+      <value valueType="integer" order="0">3</value>
+      <value valueType="integer" order="1">3</value>
+    </value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="2">
+      <value valueType="integer" order="0">0</value>
+      <value valueType="integer" order="1">0</value>
+    </value>
+  </variableValue>
+  <variableValue variable="alcohol_ever">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="alcohol_ever.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_ever.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_ever.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_ever.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_regular">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="alcohol_regular.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_regular.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_regular.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_regular.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_now">
+    <value valueType="text">Y</value>
+  </variableValue>
+  <variableValue variable="alcohol_now.N">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_now.Y">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_now.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_now.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_beer_cat">
+    <value valueType="text">OPEN_N</value>
+  </variableValue>
+  <variableValue variable="alcohol_beer_cat.OPEN_N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_beer">
+    <value valueType="integer">7</value>
+  </variableValue>
+  <variableValue variable="alcohol_beer_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_beer_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_wwine_cat">
+    <value valueType="text">OPEN_N</value>
+  </variableValue>
+  <variableValue variable="alcohol_wwine_cat.OPEN_N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_wwine">
+    <value valueType="integer">0</value>
+  </variableValue>
+  <variableValue variable="alcohol_wwine_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_wwine_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_rwine_cat">
+    <value valueType="text">OPEN_N</value>
+  </variableValue>
+  <variableValue variable="alcohol_rwine_cat.OPEN_N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_rwine">
+    <value valueType="integer">0</value>
+  </variableValue>
+  <variableValue variable="alcohol_rwine_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_rwine_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_rowine_cat">
+    <value valueType="text">OPEN_N</value>
+  </variableValue>
+  <variableValue variable="alcohol_rowine_cat.OPEN_N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_rowine">
+    <value valueType="integer">0</value>
+  </variableValue>
+  <variableValue variable="alcohol_rowine_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_rowine_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_spirits_cat">
+    <value valueType="text">OPEN_N</value>
+  </variableValue>
+  <variableValue variable="alcohol_spirits_cat.OPEN_N">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_spirits">
+    <value valueType="integer">1</value>
+  </variableValue>
+  <variableValue variable="alcohol_spirits_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_spirits_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_onset_cat">
+    <value valueType="text">AGE</value>
+  </variableValue>
+  <variableValue variable="alcohol_onset_cat.AGE">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_onset">
+    <value valueType="integer">18</value>
+  </variableValue>
+  <variableValue variable="alcohol_onset_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_onset_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_stop_cat">
+    <value valueType="text">AGE7</value>
+  </variableValue>
+  <variableValue variable="alcohol_stop_cat.AGE7">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="alcohol_stop">
+    <value valueType="integer">30</value>
+  </variableValue>
+  <variableValue variable="alcohol_stop_cat.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_stop_cat.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_last_cat">
+    <value valueType="text">MORE_24_HOURS</value>
+  </variableValue>
+  <variableValue variable="alcohol_last_cat.TIME_24">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="alcohol_last_cat.MORE_24_HOURS">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="risk_diet">
+    <value valueType="text">Vegetarian</value>
+  </variableValue>
+  <variableValue variable="risk_diet.Vegetarian">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="risk_diet.Vegan">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_diet.Pescatarian">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_diet.Omnivore">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_diet.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_diet.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_workactivity">
+    <value valueType="text">Light_physical</value>
+  </variableValue>
+  <variableValue variable="risk_workactivity.No_work">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_workactivity.No_physical">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_workactivity.Light_physical">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="risk_workactivity.Heavy_physical">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_workactivity.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_workactivity.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_exercise">
+    <value valueType="text">Heavy_vigorous</value>
+  </variableValue>
+  <variableValue variable="risk_exercise.NONE">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_exercise.Light_activity">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_exercise.Moderately_vigorous">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_exercise.Heavy_vigorous">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="risk_exercise.Extreme_exercise">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_exercise.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="risk_exercise.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+</valueSet>

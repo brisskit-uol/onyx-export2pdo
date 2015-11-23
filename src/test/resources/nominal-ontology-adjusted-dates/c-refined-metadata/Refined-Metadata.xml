@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omr:container xmlns:omr="http://brisskit.org/xml/onyxmetadata-refined/v1.0/omr" name="onyx">
+   <omr:folder name="Participants">
+      <omr:folder name="Admin">
+         <omr:folder name="Participant">
+            <omr:folder name="recruitmentType">
+               <omr:variable name="ENROLLED" type="BOOLEAN" code="CBO:recruitmentType.ENROLLED"/>
+               <omr:variable name="VOLUNTEER" type="BOOLEAN" code="CBO:recruitmentType.VOLUNTEER"/>
+            </omr:folder>
+            <omr:folder name="age" description="Participant Age" code="CBO:Participant.age"/>
+            <omr:folder name="gender">
+               <omr:variable name="FEMALE" type="BOOLEAN" code="CBO:gender.FEMALE"/>
+               <omr:variable name="MALE" type="BOOLEAN" code="CBO:gender.MALE"/>
+            </omr:folder>
+            <omr:folder name="vital_status" description="Vital status" code="CBO:Participant.vital_status"/>
+            <omr:variable name="firstName" type="TEXT" code="CBO:Participant.firstName"/>
+            <omr:variable name="birthYear" type="INTEGER" code="CBO:Participant.birthYear"/>
+            <omr:variable name="siteNo" type="TEXT" code="CBO:Participant.siteNo"/>
+            <omr:variable name="appointmentDate" type="DATETIME" code="CBO:Participant.appointmentDate"/>
+            <omr:variable name="fullName" type="TEXT" code="CBO:Participant.fullName"/>
+            <omr:variable name="barcode" type="TEXT" code="CBO:Participant.barcode"/>
+            <omr:variable name="lastName" type="TEXT" code="CBO:Participant.lastName"/>
+            <omr:variable name="birthDate" type="DATETIME" code="CBO:Participant.birthDate"/>
+            <omr:variable name="captureStartDate" type="DATETIME" code="CBO:Participant.captureStartDate"/>
+            <omr:variable name="enrollmentId" type="TEXT" code="CBO:Participant.enrollmentId"/>
+            <omr:variable name="captureEndDate" type="DATETIME" code="CBO:Participant.captureEndDate"/>
+         </omr:folder>
+      </omr:folder>
+   </omr:folder>
+   <omr:folder name="RiskFactorQuestionnaire">
+      <omr:folder name="ALCOHOL">
+         <omr:folder name="alcohol_ever" description="Have you ever drunk alcohol?">
+            <omr:variable name="N" type="BOOLEAN" code="CBO:alcohol_ever.N" description="Have you ever drunk alcohol?:No"/>
+            <omr:variable name="Y" type="BOOLEAN" code="CBO:alcohol_ever.Y" description="Have you ever drunk alcohol?:Yes"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_ever.PNA" description="Have you ever drunk alcohol?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_ever.DK" description="Have you ever drunk alcohol?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_regular" description="Have you ever drunk alcohol at least once per week?">
+            <omr:variable name="N" type="BOOLEAN" code="CBO:alcohol_regular.N" description="Have you ever drunk alcohol at least once per week?:No"/>
+            <omr:variable name="Y" type="BOOLEAN" code="CBO:alcohol_regular.Y" description="Have you ever drunk alcohol at least once per week?:Yes"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_regular.PNA" description="Have you ever drunk alcohol at least once per week?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_regular.DK" description="Have you ever drunk alcohol at least once per week?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_now" description="Do you currently drink alcohol at least once per week?">
+            <omr:variable name="N" type="BOOLEAN" code="CBO:alcohol_now.N" description="Do you currently drink alcohol at least once per week?:No"/>
+            <omr:variable name="Y" type="BOOLEAN" code="CBO:alcohol_now.Y" description="Do you currently drink alcohol at least once per week?:Yes"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_now.PNA" description="Do you currently drink alcohol at least once per week?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_now.DK" description="Do you currently drink alcohol at least once per week?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_beer_cat" description="How many pints of beer do you drink in a typical week?" code="CBO:alcohol_beer_cat">
+            <omr:variable name="alcohol_beer" type="GENERATED_ENUMERATION" code="CBO:alcohol_beer"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_beer_cat.PNA" description="How many pints of beer do you drink in a typical week?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_beer_cat.DK" description="How many pints of beer do you drink in a typical week?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_wwine_cat" description="How many glasses of white wine do you drink in a typical week?" code="CBO:alcohol_wwine_cat">
+            <omr:variable name="alcohol_wwine" type="GENERATED_ENUMERATION" code="CBO:alcohol_wwine"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_wwine_cat.PNA" description="How many glasses of white wine do you drink in a typical week?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_wwine_cat.DK" description="How many glasses of white wine do you drink in a typical week?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_rwine_cat" description="How many glasses of red wine do you drink in a typical week?" code="CBO:alcohol_rwine_cat">
+            <omr:variable name="alcohol_rwine" type="GENERATED_ENUMERATION" code="CBO:alcohol_rwine"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_rwine_cat.PNA" description="How many glasses of red wine do you drink in a typical week?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_rwine_cat.DK" description="How many glasses of red wine do you drink in a typical week?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_rowine_cat" description="How many glasses of rose wine do you drink in a typical week?" code="CBO:alcohol_rowine_cat">
+            <omr:variable name="alcohol_rowine" type="GENERATED_ENUMERATION" code="CBO:alcohol_rowine"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_rowine_cat.PNA" description="How many glasses of rose wine do you drink in a typical week?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_rowine_cat.DK" description="How many glasses of rose wine do you drink in a typical week?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_spirits_cat" description="How many measures of spirits do you drink in a typical week?" code="CBO:alcohol_spirits_cat">
+            <omr:variable name="alcohol_spirits" type="GENERATED_ENUMERATION" code="CBO:alcohol_spirits"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_spirits_cat.PNA" description="How many measures of spirits do you drink in a typical week?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_spirits_cat.DK" description="How many measures of spirits do you drink in a typical week?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_onset_cat" description="How old were you when you began drinking alcohol?" code="CBO:alcohol_onset_cat">
+            <omr:variable name="alcohol_onset" type="GENERATED_ENUMERATION" code="CBO:alcohol_onset"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_onset_cat.PNA" description="How old were you when you began drinking alcohol?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_onset_cat.DK" description="How old were you when you began drinking alcohol?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_stop_cat" description="How old were you when you stopped drinking alcohol?" code="CBO:alcohol_stop_cat">
+            <omr:variable name="alcohol_stop" type="GENERATED_ENUMERATION" code="CBO:alcohol_stop"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:alcohol_stop_cat.PNA" description="How old were you when you stopped drinking alcohol?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:alcohol_stop_cat.DK" description="How old were you when you stopped drinking alcohol?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="alcohol_last_cat" description="When was the last time you had a drink containing alcohol?" code="CBO:alcohol_last_cat">
+            <omr:variable name="alcohol_last_day" type="GENERATED_ENUMERATION" code="CBO:alcohol_last_day" description="Day"/>
+            <omr:variable name="alcohol_last_hour" type="GENERATED_ENUMERATION" code="CBO:alcohol_last_hour" description="Time: HH"/>
+            <omr:variable name="alcohol_last_min" type="GENERATED_ENUMERATION" code="CBO:alcohol_last_min" description="MM"/>
+         </omr:folder>
+      </omr:folder>
+      <omr:folder name="Diet_Exercise">
+         <omr:folder name="risk_diet" description="How would you describe your diet?">
+            <omr:variable name="Vegetarian" type="BOOLEAN" code="CBO:risk_diet.Vegetarian" description="Vegetarian"/>
+            <omr:variable name="Vegan" type="BOOLEAN" code="CBO:risk_diet.Vegan" description="Vegan"/>
+            <omr:variable name="Pescatarian" type="BOOLEAN" code="CBO:risk_diet.Pescatarian" description="Pescatarian"/>
+            <omr:variable name="Omnivore" type="BOOLEAN" code="CBO:risk_diet.Omnivore" description="Omnivore"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:risk_diet.PNA" description="How would you describe your diet?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:risk_diet.DK" description="How would you describe your diet?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="risk_workactivity" description="If you work, does your work involve any physical activity?">
+            <omr:variable name="No_work" type="BOOLEAN" code="CBO:risk_workactivity.No_work" description="I don't currently work"/>
+            <omr:variable name="No_physical" type="BOOLEAN" code="CBO:risk_workactivity.No_physical" description="My work involves no physical activity"/>
+            <omr:variable name="Light_physical" type="BOOLEAN" code="CBO:risk_workactivity.Light_physical" description="My work involves light physical activity"/>
+            <omr:variable name="Heavy_physical" type="BOOLEAN" code="CBO:risk_workactivity.Heavy_physical" description="My work involves heavy physical activity"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:risk_workactivity.PNA" description="If you work, does your work involve any physical activity?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:risk_workactivity.DK" description="If you work, does your work involve any physical activity?:Don't know"/>
+         </omr:folder>
+         <omr:folder name="risk_exercise" description="Apart from work, do you undertake any regular physical exercise over and above that of daily living?">
+            <omr:variable name="NONE" type="BOOLEAN" code="CBO:risk_exercise.NONE" description="None"/>
+            <omr:variable name="Light_activity" type="BOOLEAN" code="CBO:risk_exercise.Light_activity" description="Light activity (walking, golf, etc.)"/>
+            <omr:variable name="Moderately_vigorous" type="BOOLEAN" code="CBO:risk_exercise.Moderately_vigorous" description="Moderately vigorous activity (gym, sports, etc.) for 20 minutes or more, once or twice per week"/>
+            <omr:variable name="Heavy_vigorous" type="BOOLEAN" code="CBO:risk_exercise.Heavy_vigorous" description="Heavy vigorous activity more than twice per week"/>
+            <omr:variable name="Extreme_exercise" type="BOOLEAN" code="CBO:risk_exercise.Extreme_exercise" description="Extreme exercise (long distance cycling, marathon running, etc)"/>
+            <omr:variable name="PNA" type="BOOLEAN" code="CBO:risk_exercise.PNA" description="Apart from work, do you undertake any regular physical exercise over and above that of daily living?:Prefer not to answer"/>
+            <omr:variable name="DK" type="BOOLEAN" code="CBO:risk_exercise.DK" description="Apart from work, do you undertake any regular physical exercise over and above that of daily living?:Don't know"/>
+         </omr:folder>
+      </omr:folder>
+   </omr:folder>
+</omr:container>

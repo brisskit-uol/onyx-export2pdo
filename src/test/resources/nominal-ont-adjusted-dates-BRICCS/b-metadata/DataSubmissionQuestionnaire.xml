@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<om:source xmlns:om="http://brisskit.org/xml/onyxmetadata/v1.0/om">
+   <om:name>onyx</om:name>
+   <om:stage>
+      <om:name>DataSubmissionQuestionnaire</om:name>
+      <om:variable>
+         <om:name>QuestionnaireRun</om:name>
+         <om:variable>
+            <om:name>version</om:name>
+            <om:type>text</om:type>
+         </om:variable>
+         <om:variable>
+            <om:name>locale</om:name>
+            <om:type>locale</om:type>
+         </om:variable>
+         <om:variable>
+            <om:name>timeStart</om:name>
+            <om:type>datetime</om:type>
+         </om:variable>
+         <om:variable>
+            <om:name>timeEnd</om:name>
+            <om:type>datetime</om:type>
+         </om:variable>
+         <om:variable>
+            <om:name>user</om:name>
+            <om:type>text</om:type>
+         </om:variable>
+      </om:variable>
+      <om:variable>
+         <om:name>QuestionnaireMetric</om:name>
+         <om:variable>
+            <om:name>section</om:name>
+            <om:type>text</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+         <om:variable>
+            <om:name>page</om:name>
+            <om:type>text</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+         <om:variable>
+            <om:name>duration</om:name>
+            <om:type>integer</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+         <om:variable>
+            <om:name>questionCount</om:name>
+            <om:type>integer</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+         <om:variable>
+            <om:name>missingCount</om:name>
+            <om:type>integer</om:type>
+            <om:repeatable>true</om:repeatable>
+         </om:variable>
+      </om:variable>
+      <om:section>
+         <om:name>MAIN</om:name>
+         <om:question>
+            <om:name>epi_symptoms</om:name>
+            <om:label>Principal Symptoms</om:label>
+            <om:variable>
+               <om:name>epi_symptoms</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>Shortness_of_Breath</om:name>
+                  <om:label>Shortness of Breath</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Collapse</om:name>
+                  <om:label>Collapse</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Syncope</om:name>
+                  <om:label>Syncope</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Chest_Pain</om:name>
+                  <om:label>Chest Pain</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Palpitations</om:name>
+                  <om:label>Palpitations</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Cardiac_Arrest</om:name>
+                  <om:label>Cardiac Arrest</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Dizziness</om:name>
+                  <om:label>Dizziness</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Leg_Pain_on_Walking</om:name>
+                  <om:label>Leg pain on walking</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Side_Weakness</om:name>
+                  <om:label>Left or right sided weakness</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Slurred_Speech</om:name>
+                  <om:label>Slurred speech</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Other</om:name>
+                  <om:label>Other</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Unknown</om:name>
+                  <om:label>Unknown</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_symptomother_cat</om:name>
+            <om:label>Please supply details of the additional symptom(s).</om:label>
+            <om:variable>
+               <om:name>epi_symptomother_cat</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>OPEN_TEXT</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_symponset_cat</om:name>
+            <om:label>Date of First Onset of Symptoms</om:label>
+            <om:variable>
+               <om:name>epi_symponset_cat</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>OPEN_DATE</om:name>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Unknown</om:name>
+                  <om:label>Unknown</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>epi_symponset</om:name>
+                  <om:type>datetime</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_symponset_table</om:name>
+            <om:label>When was the First Onset of Symptoms?</om:label>
+            <om:variable>
+               <om:name>epi_symponset_table</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>DATE_YM</om:name>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Unknown</om:name>
+                  <om:label>Unknown</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>epi_symponset_year</om:name>
+                  <om:label>Year:  yyyy</om:label>
+                  <om:type>integer</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>epi_symponset_month</om:name>
+                  <om:label>Month:  mm</om:label>
+                  <om:type>integer</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_symponset_time_cat</om:name>
+            <om:label>Time of First Onset of Symptoms</om:label>
+            <om:variable>
+               <om:name>epi_symponset_time_cat</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>TIME_24</om:name>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Unknown</om:name>
+                  <om:label>Unknown</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>epi_symponset_hour</om:name>
+                  <om:label>Time: HH</om:label>
+                  <om:type>integer</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>epi_symponset_min</om:name>
+                  <om:label>MM</om:label>
+                  <om:type>integer</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_pridiag</om:name>
+            <om:label>Presenting Primary Diagnosis</om:label>
+            <om:variable>
+               <om:name>epi_pridiag</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>Troponin_pos_ACS</om:name>
+                  <om:label>ACS Troponin +ve / nSTEMI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Troponin_neg_ACS</om:name>
+                  <om:label>ACS Troponin -ve / unstable angina</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Acute_Arterial_Occlusion</om:name>
+                  <om:label>Acute Arterial Occlusion</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Acute_Stent_Thrombosis</om:name>
+                  <om:label>Acute Stent Thrombosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Aneurysm</om:name>
+                  <om:label>Aortic Aneurysm</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Dissection</om:name>
+                  <om:label>Aortic Dissection</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Infective_Endocarditis</om:name>
+                  <om:label>Aortic Infective Endocarditis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Regurgitation</om:name>
+                  <om:label>Aortic Regurgitation</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Stenosis</om:name>
+                  <om:label>Aortic Stenosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Arrythmogenic_Right_Ventricular_Cardiomyopathy</om:name>
+                  <om:label>Arrythmogenic Right Ventricular Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Atrial_Ectopics</om:name>
+                  <om:label>Atrial Ectopics</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AF</om:name>
+                  <om:label>Atrial Fibrillation (AF)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Atrial_Flutter</om:name>
+                  <om:label>Atrial Flutter</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Haemorrhagic_Stroke</om:name>
+                  <om:label>CVA Haemorrhagic Stroke</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Thrombotic_Stroke</om:name>
+                  <om:label>CVA Thrombotic Stroke</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Cardiac_Arrest</om:name>
+                  <om:label>Cardiac Arrest</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Cardiac_Tamponade</om:name>
+                  <om:label>Cardiac Tamponade</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Cardiogenic_Shock</om:name>
+                  <om:label>Cardiogenic Shock</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DVT</om:name>
+                  <om:label>Deep Vein Thrombosis (DVT)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Type_I_Diabetes</om:name>
+                  <om:label>Diabetes Type I</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Type_II_Diabetes</om:name>
+                  <om:label>Diabetes Type II</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Dilated_Cardiomyopathy</om:name>
+                  <om:label>Dilated Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>1st_DHB</om:name>
+                  <om:label>Heart Block 1st Degree</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>2nd_DHB_MT1</om:name>
+                  <om:label>Heart Block 2nd Degree - Mobitz Type I</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>2nd_DHB_MT2</om:name>
+                  <om:label>Heart Block 2nd Degree - Mobitz Type II</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>3rd_DHB</om:name>
+                  <om:label>Heart Block 3rd Degree</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Acute_Heart_Failure</om:name>
+                  <om:label>Heart Failure Acute</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Chronic_Heart_Failure</om:name>
+                  <om:label>Heart Failure Chronic</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Essential_Hypertension</om:name>
+                  <om:label>Hypertension Essential</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Secondary_Hypertension</om:name>
+                  <om:label>Hypertension Secondary</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Hypertrophic_Cardiomyopathy</om:name>
+                  <om:label>Hypertrophic Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Intermittent_Claudication</om:name>
+                  <om:label>Intermittent Claudication</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Ischaemic_Cardiomyopathy</om:name>
+                  <om:label>Ischaemic Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Late_Stent_Thrombosis</om:name>
+                  <om:label>Late Stent Thrombosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Mitral_Infective_Endocarditis</om:name>
+                  <om:label>Mitral Infective Endocarditis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Mitral_Regurgitation</om:name>
+                  <om:label>Mitral Regurgitation</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Mitral_Stenosis</om:name>
+                  <om:label>Mitral Stenosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Bacterial_Myocarditis</om:name>
+                  <om:label>Myocarditis Bacterial</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Viral_Myocarditis</om:name>
+                  <om:label>Myocarditis Viral</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Non_cardiac_Chest_Pain</om:name>
+                  <om:label>Non-cardiac Chest Pain</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Pericardial_Effusion</om:name>
+                  <om:label>Pericardial Effusion</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Bacterial_Pericarditis</om:name>
+                  <om:label>Pericarditis Bacterial</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Post_infarction_Pericarditis</om:name>
+                  <om:label>Pericarditis Post-infarction</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Viral_Pericarditis</om:name>
+                  <om:label>Pericarditis Viral</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Other_Pericarditis</om:name>
+                  <om:label>Pericarditis Other</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PE</om:name>
+                  <om:label>Pulmonary Embolism (PE)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Pulmonary_Infective_Endocarditis</om:name>
+                  <om:label>Pulmonary Infective Endocarditis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Pulmonary_Regurgitation</om:name>
+                  <om:label>Pulmonary Regurgitation</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Pulmonary_Stenosis</om:name>
+                  <om:label>Pulmonary Stenosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Restrictive_Cardiomyopathy</om:name>
+                  <om:label>Restrictive Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Ruptured_Aortic_Aneurysm</om:name>
+                  <om:label>Ruptured Aortic Aneurysm</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>STEMI</om:name>
+                  <om:label>STEMI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Stable_Angina</om:name>
+                  <om:label>Stable Angina</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SVT</om:name>
+                  <om:label>Supraventricular Tachycardia (SVT)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TIA</om:name>
+                  <om:label>Transient Ischaemic Attack (TIA)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Tricuspid_Regurgitation</om:name>
+                  <om:label>Tricuspid Regurgitation</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Tricuspid_Stenosis</om:name>
+                  <om:label>Tricuspid Stenosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Ventricular_Ectopics</om:name>
+                  <om:label>Ventricular Ectopics</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>VF</om:name>
+                  <om:label>Ventricular Fibrillation (VF)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>VT</om:name>
+                  <om:label>Ventricular Tachycardia (VT)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WPW</om:name>
+                  <om:label>Wolf-Parkinson-White Syndrome (WPW)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Other</om:name>
+                  <om:label>Other</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_pridiagother_cat</om:name>
+            <om:label>Please supply details of the other primary diagnosis.</om:label>
+            <om:variable>
+               <om:name>epi_pridiagother_cat</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>OPEN_TEXT</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_secdiag</om:name>
+            <om:label>Acute associated diagnoses</om:label>
+            <om:variable>
+               <om:name>epi_secdiag</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>Troponin_pos_ACS</om:name>
+                  <om:label>ACS Troponin +ve / nSTEMI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Troponin_neg_ACS</om:name>
+                  <om:label>ACS Troponin -ve / unstable angina</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Acute_Arterial_Occlusion</om:name>
+                  <om:label>Acute Arterial Occlusion</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Acute_Stent_Thrombosis</om:name>
+                  <om:label>Acute Stent Thrombosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Aneurysm</om:name>
+                  <om:label>Aortic Aneurysm</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Dissection</om:name>
+                  <om:label>Aortic Dissection</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Infective_Endocarditis</om:name>
+                  <om:label>Aortic Infective Endocarditis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Regurgitation</om:name>
+                  <om:label>Aortic Regurgitation</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Aortic_Stenosis</om:name>
+                  <om:label>Aortic Stenosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Arrythmogenic_Right_Ventricular_Cardiomyopathy</om:name>
+                  <om:label>Arrythmogenic Right Ventricular Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Atrial_Ectopics</om:name>
+                  <om:label>Atrial Ectopics</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>AF</om:name>
+                  <om:label>Atrial Fibrillation (AF)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Atrial_Flutter</om:name>
+                  <om:label>Atrial Flutter</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Haemorrhagic_Stroke</om:name>
+                  <om:label>CVA Haemorrhagic Stroke</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Thrombotic_Stroke</om:name>
+                  <om:label>CVA Thrombotic Stroke</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Cardiac_Arrest</om:name>
+                  <om:label>Cardiac Arrest</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Cardiac_Tamponade</om:name>
+                  <om:label>Cardiac Tamponade</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Cardiogenic_Shock</om:name>
+                  <om:label>Cardiogenic Shock</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>DVT</om:name>
+                  <om:label>Deep Vein Thrombosis (DVT)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Type_I_Diabetes</om:name>
+                  <om:label>Diabetes Type I</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Type_II_Diabetes</om:name>
+                  <om:label>Diabetes Type II</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Dilated_Cardiomyopathy</om:name>
+                  <om:label>Dilated Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>1st_DHB</om:name>
+                  <om:label>Heart Block 1st Degree</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>2nd_DHB_MT1</om:name>
+                  <om:label>Heart Block 2nd Degree - Mobitz Type I</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>2nd_DHB_MT2</om:name>
+                  <om:label>Heart Block 2nd Degree - Mobitz Type II</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>3rd_DHB</om:name>
+                  <om:label>Heart Block 3rd Degree</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Acute_Heart_Failure</om:name>
+                  <om:label>Heart Failure Acute</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Chronic_Heart_Failure</om:name>
+                  <om:label>Heart Failure Chronic</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Essential_Hypertension</om:name>
+                  <om:label>Hypertension Essential</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Secondary_Hypertension</om:name>
+                  <om:label>Hypertension Secondary</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Hypertrophic_Cardiomyopathy</om:name>
+                  <om:label>Hypertrophic Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Intermittent_Claudication</om:name>
+                  <om:label>Intermittent Claudication</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Ischaemic_Cardiomyopathy</om:name>
+                  <om:label>Ischaemic Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Late_Stent_Thrombosis</om:name>
+                  <om:label>Late Stent Thrombosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Mitral_Infective_Endocarditis</om:name>
+                  <om:label>Mitral Infective Endocarditis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Mitral_Regurgitation</om:name>
+                  <om:label>Mitral Regurgitation</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Mitral_Stenosis</om:name>
+                  <om:label>Mitral Stenosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Bacterial_Myocarditis</om:name>
+                  <om:label>Myocarditis Bacterial</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Viral_Myocarditis</om:name>
+                  <om:label>Myocarditis Viral</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Non_cardiac_Chest_Pain</om:name>
+                  <om:label>Non-cardiac Chest Pain</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Pericardial_Effusion</om:name>
+                  <om:label>Pericardial Effusion</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Bacterial_Pericarditis</om:name>
+                  <om:label>Pericarditis Bacterial</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Post_infarction_Pericarditis</om:name>
+                  <om:label>Pericarditis Post-infarction</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Viral_Pericarditis</om:name>
+                  <om:label>Pericarditis Viral</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Other_Pericarditis</om:name>
+                  <om:label>Pericarditis Other</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>PE</om:name>
+                  <om:label>Pulmonary Embolism (PE)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Pulmonary_Infective_Endocarditis</om:name>
+                  <om:label>Pulmonary Infective Endocarditis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Pulmonary_Regurgitation</om:name>
+                  <om:label>Pulmonary Regurgitation</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Pulmonary_Stenosis</om:name>
+                  <om:label>Pulmonary Stenosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Restrictive_Cardiomyopathy</om:name>
+                  <om:label>Restrictive Cardiomyopathy</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Ruptured_Aortic_Aneurysm</om:name>
+                  <om:label>Ruptured Aortic Aneurysm</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>STEMI</om:name>
+                  <om:label>STEMI</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Stable_Angina</om:name>
+                  <om:label>Stable Angina</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>SVT</om:name>
+                  <om:label>Supraventricular Tachycardia (SVT)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>TIA</om:name>
+                  <om:label>Transient Ischaemic Attack (TIA)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Tricuspid_Regurgitation</om:name>
+                  <om:label>Tricuspid Regurgitation</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Tricuspid_Stenosis</om:name>
+                  <om:label>Tricuspid Stenosis</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Ventricular_Ectopics</om:name>
+                  <om:label>Ventricular Ectopics</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>VF</om:name>
+                  <om:label>Ventricular Fibrillation (VF)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>VT</om:name>
+                  <om:label>Ventricular Tachycardia (VT)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>WPW</om:name>
+                  <om:label>Wolf-Parkinson-White Syndrome (WPW)</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>Other</om:name>
+                  <om:label>Other</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>NONE</om:name>
+                  <om:label>None</om:label>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>epi_secdiagother_cat</om:name>
+            <om:label>Please supply details of the other secondary diagnosis.</om:label>
+            <om:variable>
+               <om:name>epi_secdiagother_cat</om:name>
+               <om:type>text</om:type>
+               <om:variable>
+                  <om:name>OPEN_TEXT</om:name>
+                  <om:type>boolean</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>epi_secdiagother</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+         </om:question>
+         <om:question>
+            <om:name>Date_table</om:name>
+            <om:label>Interventions during this clinical episode.</om:label>
+            <om:variable>
+               <om:name>Date_table</om:name>
+               <om:type>boolean</om:type>
+               <om:variable>
+                  <om:name>comment</om:name>
+                  <om:type>text</om:type>
+               </om:variable>
+            </om:variable>
+            <om:question>
+               <om:name>epi_intcabg_cat</om:name>
+               <om:label>CABG Coronary Artery Bypass Graft</om:label>
+               <om:variable>
+                  <om:name>epi_intcabg_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_intcabg</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_intvalve_cat</om:name>
+               <om:label>Valve Surgery</om:label>
+               <om:variable>
+                  <om:name>epi_intvalve_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_intvalve</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_inttavi_cat</om:name>
+               <om:label>TAVI - Transcatheter Aortic Valve Implantation</om:label>
+               <om:variable>
+                  <om:name>epi_inttavi_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_inttavi</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_intppci_cat</om:name>
+               <om:label>PPCI - Primary Percutaneous Coronary Intervention</om:label>
+               <om:variable>
+                  <om:name>epi_intppci_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_intppci</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_intopci_cat</om:name>
+               <om:label>Other PCI</om:label>
+               <om:variable>
+                  <om:name>epi_intopci_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_intopci</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_intpace_cat</om:name>
+               <om:label>Pacemaker insertion</om:label>
+               <om:variable>
+                  <om:name>epi_intpace_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_intpace</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_inticd_cat</om:name>
+               <om:label>ICD - Implantable Cardioverter Defibrillator</om:label>
+               <om:variable>
+                  <om:name>epi_inticd_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_inticd</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_intlvad_cat</om:name>
+               <om:label>LVAD - Left Ventricular Assist Device</om:label>
+               <om:variable>
+                  <om:name>epi_intlvad_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_intlvad</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_intthromb_cat</om:name>
+               <om:label>Thrombolysis</om:label>
+               <om:variable>
+                  <om:name>epi_intthromb_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_intthromb</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_intablat_cat</om:name>
+               <om:label>Electrophysiology (EP) / Radiofrequency (RF) Ablation</om:label>
+               <om:variable>
+                  <om:name>epi_intablat_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_intablat</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_testangio_cat</om:name>
+               <om:label>Coronary Angiography</om:label>
+               <om:variable>
+                  <om:name>epi_testangio_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_DATE</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_testangio</om:name>
+                     <om:type>datetime</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+         </om:question>
+         <om:question>
+            <om:name>Observations during current episode of care</om:name>
+            <om:label>Observations during current episode of care</om:label>
+            <om:variable>
+               <om:name>ODCEOC</om:name>
+               <om:type>text</om:type>
+            </om:variable>
+            <om:question>
+               <om:name>epi_obshr_cat</om:name>
+               <om:label>Heart Rate</om:label>
+               <om:variable>
+                  <om:name>epi_obshr_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_N</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>Not_Recorded</om:name>
+                     <om:label>Not recorded</om:label>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_obshr</om:name>
+                     <om:type>integer</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>comment</om:name>
+                     <om:type>text</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_obssbp_cat</om:name>
+               <om:label>Systolic Blood Pressure</om:label>
+               <om:variable>
+                  <om:name>epi_obssbp_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_N</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>Not_Recorded</om:name>
+                     <om:label>Not recorded</om:label>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_obssbp</om:name>
+                     <om:type>integer</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>comment</om:name>
+                     <om:type>text</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_obsdbp_cat</om:name>
+               <om:label>Diastolic Blood Pressure</om:label>
+               <om:variable>
+                  <om:name>epi_obsdbp_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_N</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>Not_Recorded</om:name>
+                     <om:label>Not recorded</om:label>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_obsdbp</om:name>
+                     <om:type>integer</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>comment</om:name>
+                     <om:type>text</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_obsht_cat</om:name>
+               <om:label>Height</om:label>
+               <om:variable>
+                  <om:name>epi_obsht_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_N2</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>Not_Recorded</om:name>
+                     <om:label>Not recorded</om:label>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_obsht</om:name>
+                     <om:type>integer</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>comment</om:name>
+                     <om:type>text</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+            <om:question>
+               <om:name>epi_obswt_cat</om:name>
+               <om:label>Weight</om:label>
+               <om:variable>
+                  <om:name>epi_obswt_cat</om:name>
+                  <om:type>text</om:type>
+                  <om:variable>
+                     <om:name>OPEN_N</om:name>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>Not_Recorded</om:name>
+                     <om:label>Not recorded</om:label>
+                     <om:type>boolean</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>epi_obswt</om:name>
+                     <om:type>integer</om:type>
+                  </om:variable>
+                  <om:variable>
+                     <om:name>comment</om:name>
+                     <om:type>text</om:type>
+                  </om:variable>
+               </om:variable>
+            </om:question>
+         </om:question>
+      </om:section>
+   </om:stage>
+</om:source>

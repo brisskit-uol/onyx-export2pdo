@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="tobacco_crlast_cat" code="CBO:tobacco_crlast_cat" type="SHORTYEAR" path="\onyx\RiskFactorQuestionnaire\CIGARS\tobacco_crlast_cat" hlevel="3">
+   <rev:group name="Today" description="Today">
+      <rev:group name="Hour  0" description="Hour  0">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:0:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:0:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:0:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:0:45"/>
+      </rev:group>
+      <rev:group name="Hour  1" description="Hour  1">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:1:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:1:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:1:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:1:45"/>
+      </rev:group>
+      <rev:group name="Hour  2" description="Hour  2">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:2:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:2:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:2:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:2:45"/>
+      </rev:group>
+      <rev:group name="Hour  3" description="Hour  3">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:3:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:3:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:3:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:3:45"/>
+      </rev:group>
+      <rev:group name="Hour  4" description="Hour  4">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:4:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:4:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:4:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:4:45"/>
+      </rev:group>
+      <rev:group name="Hour  5" description="Hour  5">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:5:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:5:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:5:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:5:45"/>
+      </rev:group>
+      <rev:group name="Hour  6" description="Hour  6">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:6:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:6:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:6:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:6:45"/>
+      </rev:group>
+      <rev:group name="Hour  7" description="Hour  7">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:7:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:7:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:7:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:7:45"/>
+      </rev:group>
+      <rev:group name="Hour  8" description="Hour  8">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:8:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:8:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:8:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:8:45"/>
+      </rev:group>
+      <rev:group name="Hour  9" description="Hour  9">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:9:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:9:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:9:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:9:45"/>
+      </rev:group>
+      <rev:group name="Hour 10" description="Hour 10">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:10:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:10:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:10:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:10:45"/>
+      </rev:group>
+      <rev:group name="Hour 11" description="Hour 11">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:11:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:11:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:11:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:11:45"/>
+      </rev:group>
+      <rev:group name="Hour 12" description="Hour 12">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:12:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:12:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:12:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:12:45"/>
+      </rev:group>
+      <rev:group name="Hour 13" description="Hour 13">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:13:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:13:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:13:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:13:45"/>
+      </rev:group>
+      <rev:group name="Hour 14" description="Hour 14">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:14:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:14:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:14:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:14:45"/>
+      </rev:group>
+      <rev:group name="Hour 15" description="Hour 15">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:15:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:15:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:15:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:15:45"/>
+      </rev:group>
+      <rev:group name="Hour 16" description="Hour 16">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:16:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:16:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:16:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:16:45"/>
+      </rev:group>
+      <rev:group name="Hour 17" description="Hour 17">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:17:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:17:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:17:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:17:45"/>
+      </rev:group>
+      <rev:group name="Hour 18" description="Hour 18">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:18:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:18:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:18:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:18:45"/>
+      </rev:group>
+      <rev:group name="Hour 19" description="Hour 19">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:19:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:19:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:19:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:19:45"/>
+      </rev:group>
+      <rev:group name="Hour 20" description="Hour 20">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:20:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:20:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:20:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:20:45"/>
+      </rev:group>
+      <rev:group name="Hour 21" description="Hour 21">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:21:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:21:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:21:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:21:45"/>
+      </rev:group>
+      <rev:group name="Hour 22" description="Hour 22">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:22:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:22:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:22:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:22:45"/>
+      </rev:group>
+      <rev:group name="Hour 23" description="Hour 23">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:TODAY:23:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:TODAY:23:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:TODAY:23:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:TODAY:23:45"/>
+      </rev:group>
+   </rev:group>
+   <rev:group name="Yesterday" description="Yesterday">
+      <rev:group name="Hour  0" description="Hour  0">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:0:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:0:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:0:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:0:45"/>
+      </rev:group>
+      <rev:group name="Hour  1" description="Hour  1">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:1:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:1:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:1:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:1:45"/>
+      </rev:group>
+      <rev:group name="Hour  2" description="Hour  2">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:2:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:2:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:2:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:2:45"/>
+      </rev:group>
+      <rev:group name="Hour  3" description="Hour  3">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:3:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:3:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:3:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:3:45"/>
+      </rev:group>
+      <rev:group name="Hour  4" description="Hour  4">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:4:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:4:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:4:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:4:45"/>
+      </rev:group>
+      <rev:group name="Hour  5" description="Hour  5">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:5:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:5:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:5:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:5:45"/>
+      </rev:group>
+      <rev:group name="Hour  6" description="Hour  6">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:6:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:6:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:6:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:6:45"/>
+      </rev:group>
+      <rev:group name="Hour  7" description="Hour  7">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:7:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:7:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:7:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:7:45"/>
+      </rev:group>
+      <rev:group name="Hour  8" description="Hour  8">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:8:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:8:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:8:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:8:45"/>
+      </rev:group>
+      <rev:group name="Hour  9" description="Hour  9">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:9:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:9:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:9:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:9:45"/>
+      </rev:group>
+      <rev:group name="Hour 10" description="Hour 10">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:10:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:10:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:10:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:10:45"/>
+      </rev:group>
+      <rev:group name="Hour 11" description="Hour 11">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:11:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:11:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:11:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:11:45"/>
+      </rev:group>
+      <rev:group name="Hour 12" description="Hour 12">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:12:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:12:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:12:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:12:45"/>
+      </rev:group>
+      <rev:group name="Hour 13" description="Hour 13">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:13:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:13:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:13:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:13:45"/>
+      </rev:group>
+      <rev:group name="Hour 14" description="Hour 14">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:14:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:14:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:14:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:14:45"/>
+      </rev:group>
+      <rev:group name="Hour 15" description="Hour 15">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:15:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:15:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:15:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:15:45"/>
+      </rev:group>
+      <rev:group name="Hour 16" description="Hour 16">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:16:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:16:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:16:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:16:45"/>
+      </rev:group>
+      <rev:group name="Hour 17" description="Hour 17">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:17:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:17:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:17:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:17:45"/>
+      </rev:group>
+      <rev:group name="Hour 18" description="Hour 18">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:18:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:18:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:18:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:18:45"/>
+      </rev:group>
+      <rev:group name="Hour 19" description="Hour 19">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:19:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:19:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:19:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:19:45"/>
+      </rev:group>
+      <rev:group name="Hour 20" description="Hour 20">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:20:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:20:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:20:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:20:45"/>
+      </rev:group>
+      <rev:group name="Hour 21" description="Hour 21">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:21:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:21:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:21:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:21:45"/>
+      </rev:group>
+      <rev:group name="Hour 22" description="Hour 22">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:22:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:22:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:22:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:22:45"/>
+      </rev:group>
+      <rev:group name="Hour 23" description="Hour 23">
+         <rev:variable name="Min 0" description="Min 0" code="CBO:tobacco_crlast_cat:YESTERDAY:23:0"/>
+         <rev:variable name="Min 15" description="Min 15" code="CBO:tobacco_crlast_cat:YESTERDAY:23:15"/>
+         <rev:variable name="Min 30" description="Min 30" code="CBO:tobacco_crlast_cat:YESTERDAY:23:30"/>
+         <rev:variable name="Min 45" description="Min 45" code="CBO:tobacco_crlast_cat:YESTERDAY:23:45"/>
+      </rev:group>
+   </rev:group>
+   <rev:variable name="More than 24 hours" description="More than 24 hours" code="CBO:tobacco_crlast_cat:GT24H"/>
+</rev:enumeratedVariable>

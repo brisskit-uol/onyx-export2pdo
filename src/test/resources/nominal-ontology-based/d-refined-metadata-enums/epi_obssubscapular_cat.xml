@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="epi_obssubscapular_cat" code="CBO:epi_obssubscapular_cat" path="\onyx\EndContactQuestionnaire\MAIN\epi_obssubscapular_cat" hlevel="3">
+   <rev:variable name=" 5" description=" 5" code="CBO:epi_obssubscapular_cat:5"/>
+   <rev:variable name=" 6" description=" 6" code="CBO:epi_obssubscapular_cat:6"/>
+   <rev:variable name=" 7" description=" 7" code="CBO:epi_obssubscapular_cat:7"/>
+   <rev:variable name=" 8" description=" 8" code="CBO:epi_obssubscapular_cat:8"/>
+   <rev:variable name=" 9" description=" 9" code="CBO:epi_obssubscapular_cat:9"/>
+   <rev:variable name="10" description="10" code="CBO:epi_obssubscapular_cat:10"/>
+   <rev:variable name="11" description="11" code="CBO:epi_obssubscapular_cat:11"/>
+   <rev:variable name="12" description="12" code="CBO:epi_obssubscapular_cat:12"/>
+   <rev:variable name="13" description="13" code="CBO:epi_obssubscapular_cat:13"/>
+   <rev:variable name="14" description="14" code="CBO:epi_obssubscapular_cat:14"/>
+   <rev:variable name="15" description="15" code="CBO:epi_obssubscapular_cat:15"/>
+   <rev:variable name="16" description="16" code="CBO:epi_obssubscapular_cat:16"/>
+   <rev:variable name="17" description="17" code="CBO:epi_obssubscapular_cat:17"/>
+   <rev:variable name="18" description="18" code="CBO:epi_obssubscapular_cat:18"/>
+   <rev:variable name="19" description="19" code="CBO:epi_obssubscapular_cat:19"/>
+   <rev:variable name="20" description="20" code="CBO:epi_obssubscapular_cat:20"/>
+   <rev:variable name="21" description="21" code="CBO:epi_obssubscapular_cat:21"/>
+   <rev:variable name="22" description="22" code="CBO:epi_obssubscapular_cat:22"/>
+   <rev:variable name="23" description="23" code="CBO:epi_obssubscapular_cat:23"/>
+   <rev:variable name="24" description="24" code="CBO:epi_obssubscapular_cat:24"/>
+   <rev:variable name="25" description="25" code="CBO:epi_obssubscapular_cat:25"/>
+   <rev:variable name="26" description="26" code="CBO:epi_obssubscapular_cat:26"/>
+   <rev:variable name="27" description="27" code="CBO:epi_obssubscapular_cat:27"/>
+   <rev:variable name="28" description="28" code="CBO:epi_obssubscapular_cat:28"/>
+   <rev:variable name="29" description="29" code="CBO:epi_obssubscapular_cat:29"/>
+   <rev:variable name="30" description="30" code="CBO:epi_obssubscapular_cat:30"/>
+   <rev:variable name="31" description="31" code="CBO:epi_obssubscapular_cat:31"/>
+   <rev:variable name="32" description="32" code="CBO:epi_obssubscapular_cat:32"/>
+   <rev:variable name="33" description="33" code="CBO:epi_obssubscapular_cat:33"/>
+   <rev:variable name="34" description="34" code="CBO:epi_obssubscapular_cat:34"/>
+   <rev:variable name="35" description="35" code="CBO:epi_obssubscapular_cat:35"/>
+   <rev:variable name="36" description="36" code="CBO:epi_obssubscapular_cat:36"/>
+   <rev:variable name="37" description="37" code="CBO:epi_obssubscapular_cat:37"/>
+   <rev:variable name="38" description="38" code="CBO:epi_obssubscapular_cat:38"/>
+   <rev:variable name="39" description="39" code="CBO:epi_obssubscapular_cat:39"/>
+   <rev:variable name="40" description="40" code="CBO:epi_obssubscapular_cat:40"/>
+   <rev:variable name="41" description="41" code="CBO:epi_obssubscapular_cat:41"/>
+   <rev:variable name="42" description="42" code="CBO:epi_obssubscapular_cat:42"/>
+   <rev:variable name="43" description="43" code="CBO:epi_obssubscapular_cat:43"/>
+   <rev:variable name="44" description="44" code="CBO:epi_obssubscapular_cat:44"/>
+   <rev:variable name="45" description="45" code="CBO:epi_obssubscapular_cat:45"/>
+   <rev:variable name="46" description="46" code="CBO:epi_obssubscapular_cat:46"/>
+   <rev:variable name="47" description="47" code="CBO:epi_obssubscapular_cat:47"/>
+   <rev:variable name="48" description="48" code="CBO:epi_obssubscapular_cat:48"/>
+   <rev:variable name="49" description="49" code="CBO:epi_obssubscapular_cat:49"/>
+   <rev:variable name="50" description="50" code="CBO:epi_obssubscapular_cat:50"/>
+</rev:enumeratedVariable>

@@ -1,0 +1,44 @@
+<valueSet xmlns='http://brisskit.org/xml/onyxdata/v1.0/od' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' valueTable="ConclusionQuestionnaire" entityType="Participant" entityIdentifier="B40">
+  <variableValue variable="QuestionnaireRun.version">
+    <value valueType="text">1.0</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.locale">
+    <value valueType="locale">en</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeStart">
+    <value valueType="datetime">2012-04-23T05:06:57.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.timeEnd">
+    <value valueType="datetime">2012-04-23T05:07:08.000+0000</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireRun.user">
+    <value valueType="text">admin</value>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.section">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.page">
+    <value class="sequence" valueType="text" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.duration">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.questionCount">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="QuestionnaireMetric.missingCount">
+    <value class="sequence" valueType="integer" size="0"/>
+  </variableValue>
+  <variableValue variable="PARTICIPANT_OFFERED_DOCUMENT">
+    <value class="sequence" valueType="text" size="2">
+      <value valueType="text" order="0">CONSENT_FORM</value>
+      <value valueType="text" order="1">PHYSICAL_MEASURES_REPORT</value>
+    </value>
+  </variableValue>
+  <variableValue variable="PARTICIPANT_OFFERED_DOCUMENT.CONSENT_FORM">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="PARTICIPANT_OFFERED_DOCUMENT.PHYSICAL_MEASURES_REPORT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+</valueSet>

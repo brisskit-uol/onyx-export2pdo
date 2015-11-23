@@ -1,0 +1,71 @@
+. (1) vital_status fact within buildObservations()
+    Is this only acceptable for BRICCS related and a nominal ontology?
+    I think this code is redundant, as is code associated with point (5)
+    There HAS to be a vital_status of some description.
+    I suspect in the long term it may be better to enable searching on columns within 
+    the patient dimension.
+    
+. (2) These types are accepted as generated enumerations. Should they be decided upon by a user defined procedure?
+    Note also that vital status is here. How does this relate to point (1) above?
+	case Type.INT_AGE:
+	case Type.INT_BEERNUMBER:
+	case Type.INT_BICEPS:
+	case Type.INT_CIGARETTENUMBER:
+	case Type.INT_CIGARNUMBER:
+	case Type.INT_DIASTOLICBP:
+	case Type.INT_ETHNICITY:
+	case Type.INT_HEARTRATE:
+	case Type.INT_HEIGHT:
+	case Type.INT_HIPS:
+	case Type.INT_PIPENUMBER:							
+	case Type.INT_RELATIVESNUMBER:
+	case Type.INT_SMALLNUMBER:
+	case Type.INT_SUBSCAPULAR:
+	case Type.INT_SUPRAILIAC:
+	case Type.INT_SYSTOLICBP:
+	case Type.INT_TRICEPS:
+	case Type.INT_WAIST:
+	case Type.INT_WEIGHT:
+	case Type.INT_WINESPIRITNUMBER:
+	case Type.INT_YEAR:	
+		//
+		// Vital status added as a result of issue trac 94
+	case Type.INT_VITALSTATUS:
+	
+	I think the above should be kept as they are in the code, and eventually remove them from the ontology.
+	
+. (3) Still some briccs specific stuff:
+	Admin.Participant.age
+	Admin.Participant.pat_ethnicity
+	===>>>Admin.Participant.vital_status<<<=== this is an error, there is no such variable in Onyx
+	Admin.Participant.gender
+	Admin.Participant.recruitmentType
+	
+	The above are NOT Briccs specific. They are Onyx built in variables!
+	However, I am uncertain whether other questionnaires might extend a Participants' attributes.
+	This is possible. Needs careful thought!!!
+	
+. (4) buildFact_Numeric() and buildFact_Text() are both bypassed if the ontology is nominal.
+	Is this correct?
+	Yes! Unless we come up with a way of searching numeric; ie: the next turn of the screw is
+	how to provide metadata.xml
+
+. (5) buildVitalStatusFact() requires thinking about. (see points 1 and 2 above).
+	Uses Admin.Participant.captureStartDate and Admin.Participant.captureEndDate,
+	which makes the code Briccs specific? Maybe not. But needs thinking about.
+	
+. (6) getEnrollmentId() uses Admin.Participant.enrollmentId
+	getGender()	uses Admin.Participant.gender
+	getEthnicity() uses Admin.Participant.pat_ethnicity	
+	getRecruitmentCode() uses Admin.Participant.recruitmentType
+	
+	See point (3) above. 
+	*** It is acceptable except for enrollmentId. ***
+	
+(7) protected String participantId
+	Check the above attribute
+	It is also used in OnyxData2PdoWs.java
+	
+. (8) Also consider visit dimension start date
+	Looks OK at least for the moment, driven by the config file.
+	Maybe the code is a little busy.

@@ -1,0 +1,17 @@
+
+2012-04-30 19:42:23,117  WARN Missing value. Could not build PatientDimension column: birth_date
+2012-04-30 19:42:23,118  WARN Missing value. Could not build PatientDimension column: age_in_years_num
+2012-04-30 19:42:23,118  WARN Missing value. Could not build PatientDimension column: race_cd
+2012-04-30 19:42:23,122  WARN Missing value. Could not build PatientDimension column: sex_cd
+
+2012-04-30 19:42:23,200 DEBUG 1: No ontological data found for: EVER_USED.YES__ICL00-L99_9 with type: boolean
+2012-04-30 19:42:23,201 DEBUG 1: No ontological data found for: WHAT_USED.SNUFF__ICZ73_4 with type: boolean
+2012-04-30 19:42:23,201 DEBUG 1: No ontological data found for: WHAT_USED.CHEWING_TOBACCO__ICZ72_1 with type: boolean
+2012-04-30 19:42:23,201 DEBUG 1: No ontological data found for: CIGS_ON_MOST_DAYS.YES__ICZ72 with type: boolean
+2012-04-30 19:42:23,201 DEBUG 1: No ontological data found for: CURRENT_SMOKE_CIGS.YES__SM65568007 with type: boolean
+
+2012-04-30 19:42:23,288 DEBUG 2: No ontological data found for: HOUSEHOLD_NUMBER with type: text
+2012-04-30 19:42:23,288 DEBUG 1: No ontological data found for: HOUSEHOLD_NUMBER.VALUE__SM224525003 with type: boolean
+2012-04-30 19:42:23,288 DEBUG 2: No ontological data found for: HOUSEHOLD_NUMBER.VALUE__SM224525003.PEOPLE with type: integer
+
+

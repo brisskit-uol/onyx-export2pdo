@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="fam_children_cat" code="CBO:fam_children_cat" path="\onyx\RiskFactorQuestionnaire\FAMILY_HISTORY\family_table\fam_children_cat" hlevel="4">
+   <rev:variable name="0" description="0" code="CBO:fam_children_cat:0"/>
+   <rev:variable name="1" description="1" code="CBO:fam_children_cat:1"/>
+   <rev:variable name="2" description="2" code="CBO:fam_children_cat:2"/>
+   <rev:variable name="3" description="3" code="CBO:fam_children_cat:3"/>
+   <rev:variable name="4" description="4" code="CBO:fam_children_cat:4"/>
+   <rev:variable name="5" description="5" code="CBO:fam_children_cat:5"/>
+   <rev:variable name="6" description="6" code="CBO:fam_children_cat:6"/>
+   <rev:variable name="7" description="7" code="CBO:fam_children_cat:7"/>
+   <rev:variable name="8" description="8" code="CBO:fam_children_cat:8"/>
+   <rev:variable name="9" description="9" code="CBO:fam_children_cat:9"/>
+</rev:enumeratedVariable>

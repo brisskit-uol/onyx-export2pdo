@@ -1,0 +1,1716 @@
+<variables xmlns='http://brisskit.org/xml/onyxvariables/v1.0/ov' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <variable name="QuestionnaireRun.version" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.locale" valueType="locale" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeStart" valueType="date" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeEnd" valueType="date" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.user" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.section" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.page" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.duration" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.questionCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.missingCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_ever" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_ever</attribute>
+      <attribute name="label" valueType="text" locale="en">Have you ever drunk alcohol?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_ever.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_ever&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_ever</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_ever]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_ever.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_ever&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_ever</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_ever]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_ever.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_ever&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_ever</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_ever]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_ever.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_ever&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_ever</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_ever]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_ever.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_ever</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_ever</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_regular" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_regular</attribute>
+      <attribute name="label" valueType="text" locale="en">Have you ever drunk alcohol at least once per week?</attribute>
+      <attribute name="condition" valueType="text">$(&apos;RiskFactorQuestionnaire:alcohol_ever.Y&apos;)</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_regular.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_regular&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_regular</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_regular]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_regular.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_regular&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_regular</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_regular]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_regular.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_regular&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_regular</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_regular]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_regular.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_regular&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_regular</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_regular]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_regular.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_regular</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_regular</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_now" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_now</attribute>
+      <attribute name="label" valueType="text" locale="en">Do you currently drink alcohol at least once per week?</attribute>
+      <attribute name="condition" valueType="text">$(&apos;RiskFactorQuestionnaire:alcohol_regular.Y&apos;)</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_now.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_now&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_now</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_now]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_now.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_now&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_now</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_now]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_now.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_now&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_now</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_now]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_now.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_now&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_now</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_now]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_now.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_now</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_now</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_beer_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_beer_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">How many pints of beer do you drink in a typical week?</attribute>
+      <attribute name="condition" valueType="text">$(&apos;RiskFactorQuestionnaire:alcohol_now.Y&apos;)</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_N"/>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_beer_cat.OPEN_N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_beer_cat&apos;).any(&apos;OPEN_N&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_beer_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_beer_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_beer" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_beer_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_N</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_beer_cat.OPEN_N]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_beer_cat.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_beer_cat&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_beer_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_beer_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_beer_cat.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_beer_cat&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_beer_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_beer_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_beer_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_beer_cat</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_beer_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_wwine_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_wwine_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">How many glasses of white wine do you drink in a typical week?</attribute>
+      <attribute name="condition" valueType="text">$(&apos;RiskFactorQuestionnaire:alcohol_now.Y&apos;)</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_N"/>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_wwine_cat.OPEN_N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_wwine_cat&apos;).any(&apos;OPEN_N&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_wwine_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_wwine_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_wwine" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_wwine_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_N</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_wwine_cat.OPEN_N]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_wwine_cat.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_wwine_cat&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_wwine_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_wwine_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_wwine_cat.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_wwine_cat&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_wwine_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_wwine_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_wwine_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_wwine_cat</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_wwine_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rwine_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rwine_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">How many glasses of red wine do you drink in a typical week?</attribute>
+      <attribute name="condition" valueType="text">$(&apos;RiskFactorQuestionnaire:alcohol_now.Y&apos;)</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_N"/>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_rwine_cat.OPEN_N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_rwine_cat&apos;).any(&apos;OPEN_N&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rwine_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_rwine_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rwine" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rwine_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_N</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_rwine_cat.OPEN_N]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rwine_cat.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_rwine_cat&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rwine_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_rwine_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rwine_cat.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_rwine_cat&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rwine_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_rwine_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rwine_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rwine_cat</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_rwine_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rowine_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rowine_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">How many glasses of rose wine do you drink in a typical week?</attribute>
+      <attribute name="condition" valueType="text">$(&apos;RiskFactorQuestionnaire:alcohol_now.Y&apos;)</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_N"/>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_rowine_cat.OPEN_N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_rowine_cat&apos;).any(&apos;OPEN_N&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rowine_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_rowine_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rowine" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rowine_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_N</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_rowine_cat.OPEN_N]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rowine_cat.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_rowine_cat&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rowine_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_rowine_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rowine_cat.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_rowine_cat&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rowine_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_rowine_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_rowine_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_rowine_cat</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_rowine_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_spirits_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_spirits_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">How many measures of spirits do you drink in a typical week?</attribute>
+      <attribute name="condition" valueType="text">$(&apos;RiskFactorQuestionnaire:alcohol_now.Y&apos;)</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_N"/>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_spirits_cat.OPEN_N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_spirits_cat&apos;).any(&apos;OPEN_N&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_spirits_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_spirits_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_spirits" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_spirits_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_N</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_N</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_spirits_cat.OPEN_N]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_spirits_cat.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_spirits_cat&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_spirits_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_spirits_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_spirits_cat.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_spirits_cat&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_spirits_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_spirits_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_spirits_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">9</attribute>
+      <attribute name="questionName" valueType="text">alcohol_spirits_cat</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_spirits_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_onset_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_onset_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">How old were you when you began drinking alcohol?</attribute>
+      <attribute name="condition" valueType="text">$(&apos;RiskFactorQuestionnaire:alcohol_regular.Y&apos;)</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+      <attribute name="maxCount" valueType="text">1</attribute>
+    </attributes>
+    <categories>
+      <category name="AGE">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">AGE</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_onset_cat.AGE" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_onset_cat&apos;).any(&apos;AGE&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_onset_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">AGE</attribute>
+      <attribute name="categoryName" valueType="text">AGE</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_onset_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_onset" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_onset_cat</attribute>
+      <attribute name="categoryName" valueType="text">AGE</attribute>
+      <attribute name="openAnswerName" valueType="text">AGE</attribute>
+      <attribute name="validation" valueType="text">[Number.Minimum[0]]</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_onset_cat.AGE]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_onset_cat.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_onset_cat&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_onset_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_onset_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_onset_cat.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_onset_cat&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_onset_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_onset_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_onset_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_onset_cat</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_onset_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_stop_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_stop_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">How old were you when you stopped drinking alcohol?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+      <attribute name="maxCount" valueType="text">1</attribute>
+    </attributes>
+    <categories>
+      <category name="AGE7">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">AGE</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_stop_cat.AGE7" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_stop_cat&apos;).any(&apos;AGE7&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_stop_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">AGE</attribute>
+      <attribute name="categoryName" valueType="text">AGE7</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_stop_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_stop" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_stop_cat</attribute>
+      <attribute name="categoryName" valueType="text">AGE7</attribute>
+      <attribute name="openAnswerName" valueType="text">AGE7</attribute>
+      <attribute name="validation" valueType="text">[Number.Minimum[0]]</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_stop_cat.AGE7]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_stop_cat.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_stop_cat&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_stop_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_stop_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_stop_cat.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_stop_cat&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_stop_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_stop_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_stop_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_stop_cat</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_stop_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_last_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_last_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">When was the last time you had a drink containing alcohol?</attribute>
+      <attribute name="instructions" valueType="text" locale="en">Indicate the time you last consumed alcohol, or choose &apos;more than 24 hours&apos;.</attribute>
+      <attribute name="condition" valueType="text">$(&apos;RiskFactorQuestionnaire:alcohol_now.Y&apos;)</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+      <attribute name="maxCount" valueType="text">1</attribute>
+    </attributes>
+    <categories>
+      <category name="TIME_24"/>
+      <category name="MORE_24_HOURS" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">More than 24 hours.</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_last_cat.TIME_24" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_last_cat&apos;).any(&apos;TIME_24&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_last_cat</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_last_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_last_day" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_last_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Day</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">TODAY_YESTERDAY</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_last_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="TODAY" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Today</attribute>
+        </attributes>
+      </category>
+      <category name="YESTERDAY" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yesterday</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_last_hour" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_last_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Time: HH</attribute>
+      <attribute name="unitLabel" valueType="text" locale="en">:</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">HOUR_24</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_last_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="0" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">00</attribute>
+        </attributes>
+      </category>
+      <category name="1" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">01</attribute>
+        </attributes>
+      </category>
+      <category name="2" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">02</attribute>
+        </attributes>
+      </category>
+      <category name="3" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">03</attribute>
+        </attributes>
+      </category>
+      <category name="4" code="4">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">04</attribute>
+        </attributes>
+      </category>
+      <category name="5" code="5">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">05</attribute>
+        </attributes>
+      </category>
+      <category name="6" code="6">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">06</attribute>
+        </attributes>
+      </category>
+      <category name="7" code="7">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">07</attribute>
+        </attributes>
+      </category>
+      <category name="8" code="8">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">08</attribute>
+        </attributes>
+      </category>
+      <category name="9" code="9">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">09</attribute>
+        </attributes>
+      </category>
+      <category name="10" code="10">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">10</attribute>
+        </attributes>
+      </category>
+      <category name="11" code="11">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">11</attribute>
+        </attributes>
+      </category>
+      <category name="12" code="12">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">12</attribute>
+        </attributes>
+      </category>
+      <category name="13" code="13">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">13</attribute>
+        </attributes>
+      </category>
+      <category name="14" code="14">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">14</attribute>
+        </attributes>
+      </category>
+      <category name="15" code="15">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">15</attribute>
+        </attributes>
+      </category>
+      <category name="16" code="16">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">16</attribute>
+        </attributes>
+      </category>
+      <category name="17" code="17">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">17</attribute>
+        </attributes>
+      </category>
+      <category name="18" code="18">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">18</attribute>
+        </attributes>
+      </category>
+      <category name="19" code="19">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">19</attribute>
+        </attributes>
+      </category>
+      <category name="20" code="20">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">20</attribute>
+        </attributes>
+      </category>
+      <category name="21" code="21">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">21</attribute>
+        </attributes>
+      </category>
+      <category name="22" code="22">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">22</attribute>
+        </attributes>
+      </category>
+      <category name="23" code="23">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">23</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_last_min" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_last_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">MM</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">MINUTE_15</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_last_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="0" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">00</attribute>
+        </attributes>
+      </category>
+      <category name="15" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">15</attribute>
+        </attributes>
+      </category>
+      <category name="30" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">30</attribute>
+        </attributes>
+      </category>
+      <category name="45" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">45</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="alcohol_last_cat.MORE_24_HOURS" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;alcohol_last_cat&apos;).any(&apos;MORE_24_HOURS&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_last_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">More than 24 hours.</attribute>
+      <attribute name="categoryName" valueType="text">MORE_24_HOURS</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.alcohol_last_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="alcohol_last_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">ALCOHOL</attribute>
+      <attribute name="page" valueType="text">10</attribute>
+      <attribute name="questionName" valueType="text">alcohol_last_cat</attribute>
+      <attribute name="commentFor" valueType="text">alcohol_last_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_diet" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_diet</attribute>
+      <attribute name="label" valueType="text" locale="en">How would you describe your diet?</attribute>
+      <attribute name="specifications" valueType="text" locale="en">A &apos;vegetarian&apos; eats no meat or fish. A &apos;vegan&apos; eats no animal-derived foods, such as milk, eggs, cheese or honey. &apos;Pescatarian&apos; refers to people who eat fish but no other meat. &apos;Omnivore&apos; refers to people who eat meat as well as fruit, vegetables, etc. </attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="Vegetarian" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Vegetarian</attribute>
+        </attributes>
+      </category>
+      <category name="Vegan" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Vegan</attribute>
+        </attributes>
+      </category>
+      <category name="Pescatarian" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Pescatarian</attribute>
+        </attributes>
+      </category>
+      <category name="Omnivore" code="4">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Omnivore</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="risk_diet.Vegetarian" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_diet&apos;).any(&apos;Vegetarian&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_diet</attribute>
+      <attribute name="label" valueType="text" locale="en">Vegetarian</attribute>
+      <attribute name="categoryName" valueType="text">Vegetarian</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_diet]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_diet.Vegan" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_diet&apos;).any(&apos;Vegan&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_diet</attribute>
+      <attribute name="label" valueType="text" locale="en">Vegan</attribute>
+      <attribute name="categoryName" valueType="text">Vegan</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_diet]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_diet.Pescatarian" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_diet&apos;).any(&apos;Pescatarian&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_diet</attribute>
+      <attribute name="label" valueType="text" locale="en">Pescatarian</attribute>
+      <attribute name="categoryName" valueType="text">Pescatarian</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_diet]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_diet.Omnivore" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_diet&apos;).any(&apos;Omnivore&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_diet</attribute>
+      <attribute name="label" valueType="text" locale="en">Omnivore</attribute>
+      <attribute name="categoryName" valueType="text">Omnivore</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_diet]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_diet.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_diet&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_diet</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_diet]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_diet.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_diet&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_diet</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_diet]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_diet.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_diet</attribute>
+      <attribute name="commentFor" valueType="text">risk_diet</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_workactivity" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_workactivity</attribute>
+      <attribute name="label" valueType="text" locale="en">If you work, does your work involve any physical activity? </attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="No_work" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">I don&apos;t currently work</attribute>
+        </attributes>
+      </category>
+      <category name="No_physical" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">My work involves no physical activity</attribute>
+        </attributes>
+      </category>
+      <category name="Light_physical" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">My work involves light physical activity </attribute>
+        </attributes>
+      </category>
+      <category name="Heavy_physical" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">My work involves heavy physical activity</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="risk_workactivity.No_work" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_workactivity&apos;).any(&apos;No_work&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_workactivity</attribute>
+      <attribute name="label" valueType="text" locale="en">I don&apos;t currently work</attribute>
+      <attribute name="categoryName" valueType="text">No_work</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_workactivity]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_workactivity.No_physical" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_workactivity&apos;).any(&apos;No_physical&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_workactivity</attribute>
+      <attribute name="label" valueType="text" locale="en">My work involves no physical activity</attribute>
+      <attribute name="categoryName" valueType="text">No_physical</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_workactivity]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_workactivity.Light_physical" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_workactivity&apos;).any(&apos;Light_physical&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_workactivity</attribute>
+      <attribute name="label" valueType="text" locale="en">My work involves light physical activity </attribute>
+      <attribute name="categoryName" valueType="text">Light_physical</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_workactivity]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_workactivity.Heavy_physical" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_workactivity&apos;).any(&apos;Heavy_physical&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_workactivity</attribute>
+      <attribute name="label" valueType="text" locale="en">My work involves heavy physical activity</attribute>
+      <attribute name="categoryName" valueType="text">Heavy_physical</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_workactivity]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_workactivity.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_workactivity&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_workactivity</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_workactivity]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_workactivity.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_workactivity&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_workactivity</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_workactivity]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_workactivity.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_workactivity</attribute>
+      <attribute name="commentFor" valueType="text">risk_workactivity</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_exercise" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_exercise</attribute>
+      <attribute name="label" valueType="text" locale="en">Apart from work, do you undertake any regular physical exercise over and above that of daily living?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="NONE" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">None</attribute>
+        </attributes>
+      </category>
+      <category name="Light_activity" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Light activity (walking, golf, etc.)</attribute>
+        </attributes>
+      </category>
+      <category name="Moderately_vigorous" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Moderately vigorous activity (gym, sports, etc.) for 20 minutes or more, once or twice per week</attribute>
+        </attributes>
+      </category>
+      <category name="Heavy_vigorous" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Heavy vigorous activity more than twice per week </attribute>
+        </attributes>
+      </category>
+      <category name="Extreme_exercise" code="4">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Extreme exercise (long distance cycling, marathon running, etc)</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="risk_exercise.NONE" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_exercise&apos;).any(&apos;NONE&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_exercise</attribute>
+      <attribute name="label" valueType="text" locale="en">None</attribute>
+      <attribute name="categoryName" valueType="text">NONE</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_exercise]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_exercise.Light_activity" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_exercise&apos;).any(&apos;Light_activity&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_exercise</attribute>
+      <attribute name="label" valueType="text" locale="en">Light activity (walking, golf, etc.)</attribute>
+      <attribute name="categoryName" valueType="text">Light_activity</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_exercise]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_exercise.Moderately_vigorous" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_exercise&apos;).any(&apos;Moderately_vigorous&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_exercise</attribute>
+      <attribute name="label" valueType="text" locale="en">Moderately vigorous activity (gym, sports, etc.) for 20 minutes or more, once or twice per week</attribute>
+      <attribute name="categoryName" valueType="text">Moderately_vigorous</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_exercise]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_exercise.Heavy_vigorous" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_exercise&apos;).any(&apos;Heavy_vigorous&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_exercise</attribute>
+      <attribute name="label" valueType="text" locale="en">Heavy vigorous activity more than twice per week </attribute>
+      <attribute name="categoryName" valueType="text">Heavy_vigorous</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_exercise]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_exercise.Extreme_exercise" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_exercise&apos;).any(&apos;Extreme_exercise&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_exercise</attribute>
+      <attribute name="label" valueType="text" locale="en">Extreme exercise (long distance cycling, marathon running, etc)</attribute>
+      <attribute name="categoryName" valueType="text">Extreme_exercise</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_exercise]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_exercise.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_exercise&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_exercise</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_exercise]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_exercise.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;risk_exercise&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_exercise</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RiskFactorQuestionnaire.risk_exercise]</attribute>
+    </attributes>
+  </variable>
+  <variable name="risk_exercise.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">RiskFactorQuestionnaire</attribute>
+      <attribute name="section" valueType="text">Diet_Exercise</attribute>
+      <attribute name="page" valueType="text">11</attribute>
+      <attribute name="questionName" valueType="text">risk_exercise</attribute>
+      <attribute name="commentFor" valueType="text">risk_exercise</attribute>
+    </attributes>
+  </variable>
+</variables>

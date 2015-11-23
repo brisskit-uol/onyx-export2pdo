@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="history_Thrombolysis_cat" code="CBO:history_Thrombolysis_cat" path="\onyx\MedicalHistoryQuestionnaire\MAIN\history_Thrombolysis_cat" hlevel="3">
+   <rev:variable name=" 1" description=" 1" code="CBO:history_Thrombolysis_cat:1"/>
+   <rev:variable name=" 2" description=" 2" code="CBO:history_Thrombolysis_cat:2"/>
+   <rev:variable name=" 3" description=" 3" code="CBO:history_Thrombolysis_cat:3"/>
+   <rev:variable name=" 4" description=" 4" code="CBO:history_Thrombolysis_cat:4"/>
+   <rev:variable name=" 5" description=" 5" code="CBO:history_Thrombolysis_cat:5"/>
+   <rev:variable name=" 6" description=" 6" code="CBO:history_Thrombolysis_cat:6"/>
+   <rev:variable name=" 7" description=" 7" code="CBO:history_Thrombolysis_cat:7"/>
+   <rev:variable name=" 8" description=" 8" code="CBO:history_Thrombolysis_cat:8"/>
+   <rev:variable name=" 9" description=" 9" code="CBO:history_Thrombolysis_cat:9"/>
+   <rev:variable name="10" description="10" code="CBO:history_Thrombolysis_cat:10"/>
+</rev:enumeratedVariable>

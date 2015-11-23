@@ -1,0 +1,174 @@
+<variables xmlns='http://brisskit.org/xml/onyxvariables/v1.0/ov' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <variable name="QuestionnaireRun.version" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">The interview is nearly complete. This final stage provides a checklist of documentation to be offered to the participant before they exit. </attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Thank the participant for his contribution to the study.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.locale" valueType="locale" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">The interview is nearly complete. This final stage provides a checklist of documentation to be offered to the participant before they exit. </attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Thank the participant for his contribution to the study.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeStart" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">The interview is nearly complete. This final stage provides a checklist of documentation to be offered to the participant before they exit. </attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Thank the participant for his contribution to the study.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeEnd" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">The interview is nearly complete. This final stage provides a checklist of documentation to be offered to the participant before they exit. </attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Thank the participant for his contribution to the study.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.user" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">The interview is nearly complete. This final stage provides a checklist of documentation to be offered to the participant before they exit. </attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Thank the participant for his contribution to the study.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.section" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.page" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.duration" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.questionCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.missingCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="PARTICIPANT_OFFERED_DOCUMENT" valueType="text" entityType="Participant" repeatable="true">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">PARTICIPANT_OFFERED_DOCUMENT</attribute>
+      <attribute name="label" valueType="text" locale="en">The participant has been offered his/her:</attribute>
+      <attribute name="instructions" valueType="text" locale="en">If you need to print a report, pause the conclusion, print the report, then resume the conclusion.</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+      <attribute name="minCount" valueType="text">2</attribute>
+      <attribute name="maxCount" valueType="text">2</attribute>
+    </attributes>
+    <categories>
+      <category name="CONSENT_FORM" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Consent Form</attribute>
+        </attributes>
+      </category>
+      <category name="PHYSICAL_MEASURES_REPORT" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Physical Measures Report</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="PARTICIPANT_OFFERED_DOCUMENT.CONSENT_FORM" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;PARTICIPANT_OFFERED_DOCUMENT&apos;).any(&apos;CONSENT_FORM&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">PARTICIPANT_OFFERED_DOCUMENT</attribute>
+      <attribute name="label" valueType="text" locale="en">Consent Form</attribute>
+      <attribute name="categoryName" valueType="text">CONSENT_FORM</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.PARTICIPANT_OFFERED_DOCUMENT]</attribute>
+    </attributes>
+  </variable>
+  <variable name="PARTICIPANT_OFFERED_DOCUMENT.PHYSICAL_MEASURES_REPORT" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;PARTICIPANT_OFFERED_DOCUMENT&apos;).any(&apos;PHYSICAL_MEASURES_REPORT&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">PARTICIPANT_OFFERED_DOCUMENT</attribute>
+      <attribute name="label" valueType="text" locale="en">Physical Measures Report</attribute>
+      <attribute name="categoryName" valueType="text">PHYSICAL_MEASURES_REPORT</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.PARTICIPANT_OFFERED_DOCUMENT]</attribute>
+    </attributes>
+  </variable>
+  <variable name="PARTICIPANT_OFFERED_DOCUMENT.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">PARTICIPANT_OFFERED_DOCUMENT</attribute>
+      <attribute name="commentFor" valueType="text">PARTICIPANT_OFFERED_DOCUMENT</attribute>
+    </attributes>
+  </variable>
+</variables>

@@ -1,0 +1,46 @@
+<variables xmlns='http://brisskit.org/xml/onyxvariables/v1.0/ov' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <variable name="mode" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">Consent</attribute>
+    </attributes>
+    <categories>
+      <category name="ELECTRONIC"/>
+      <category name="MANUAL"/>
+    </categories>
+  </variable>
+  <variable name="locale" valueType="locale" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">Consent</attribute>
+    </attributes>
+  </variable>
+  <variable name="accepted" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">Consent</attribute>
+    </attributes>
+  </variable>
+  <variable name="pdfForm" valueType="binary" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">Consent</attribute>
+    </attributes>
+  </variable>
+  <variable name="timeStart" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">Consent</attribute>
+    </attributes>
+  </variable>
+  <variable name="timeEnd" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">Consent</attribute>
+    </attributes>
+  </variable>
+  <variable name="SEND_RESULTS" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">Consent</attribute>
+    </attributes>
+  </variable>
+  <variable name="CONTACT_ME" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">Consent</attribute>
+    </attributes>
+  </variable>
+</variables>

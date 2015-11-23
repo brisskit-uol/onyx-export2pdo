@@ -1,0 +1,596 @@
+The following were fine and were treated as built in enumerations:
+
+EVER_SMOKED.NO__SM266919005					OK
+WHAT_SMOKED.CIGAR__SM59978006				OK
+WHAT_SMOKED.PIPE__SM82302008				OK
+NUMBER_CIGS_PER_DAY.LIGHT__SM160603005		OK
+CIGS_PER_DAY_BEFORE.MODERATE__SM266923002	OK
+CURRENT_SMOKE_CIGARS.NO						OK
+CURRENT_SMOKE_PIPE.YES__SM82302008			OK
+REGULAR_SNUFF_USER.NO						OK
+CURRENT_SNUFF_USER.NO						OK
+REGULAR_TOBACCO_CHEWER.YES__SM81911001		OK
+CURRENT_TOBACCO_CHEWER.NO					OK
+EVER_DRUNK_ALCOHOL.YES						OK
+DRINK_ONCE_WEEK.YES__SM219006				OK
+WORK_STATUS.FULL_TIME__SM160903007			OK
+EDUCATION_LEVEL.LEVEL1__SM224295006			OK
+OCCUPATION.TECHNICAL						OK
+CURRENT_DIET.OMNIVORE__SM284731009 			OK
+EXERCISE_LEVEL.HEAVY_ACTIVITY__SM160633003	OK   (although the same code appears in two ontology branches)
+MARITAL_STATUS.MARRIED__SM87915002			OK
+COHABIT.YES__SM447051007					OK
+
+===============================================================================
+
+There was questionnaire data for the following, but no ontology details:
+
+1: No ontological data found for: EVER_USED.YES__ICL00-L99_9            with type: boolean
+1: No ontological data found for: WHAT_USED.SNUFF__ICZ73_4              with type: boolean
+1: No ontological data found for: WHAT_USED.CHEWING_TOBACCO__ICZ72_1    with type: boolean
+1: No ontological data found for: CIGS_ON_MOST_DAYS.YES__ICZ72          with type: boolean
+1: No ontological data found for: CURRENT_SMOKE_CIGS.YES__SM65568007    with type: boolean
+
+
+===start=======================================================================================
+There was no ontology data for HOUSEHOLD_NUMBER so the info cannot be loaded into the PDO. 
+
+But also I'm not sure I can make sense of the export file layout, especially
+the variable named HOUSEHOLD_NUMBER.VALUE__SM224525003.PEOPLE, where the Snomed code seems missplaced.
+
+1: No ontological data found for: HOUSEHOLD_NUMBER.VALUE__SM224525003 with type: boolean
+2: No ontological data found for: HOUSEHOLD_NUMBER.VALUE__SM224525003.PEOPLE with type: integer
+
+export file:
+
+  <variableValue variable="HOUSEHOLD_NUMBER">
+    <value valueType="text">VALUE__SM224525003</value>
+  </variableValue>
+  <variableValue variable="HOUSEHOLD_NUMBER.LIVE_ALONE__SM105529008">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="HOUSEHOLD_NUMBER.VALUE__SM224525003">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="HOUSEHOLD_NUMBER.VALUE__SM224525003.PEOPLE">
+    <value valueType="integer">5</value>
+  </variableValue>
+===end===========================================================================================
+
+
+===start=========================================================
+This was problematic...
+
+2012-04-30 19:42:23,207  WARN Could not form code for variable name: [AGE_BEGAN_SMOKING] within value set: [BrissKitQuestionnaire3]
+2012-04-30 19:42:23,207 DEBUG 2: No ontological data found for: AGE_BEGAN_SMOKING with type: text
+2012-04-30 19:42:23,207 TRACE    enter: buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,207 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,207 DEBUG value.getVariable(): AGE_BEGAN_SMOKING.VALUE
+2012-04-30 19:42:23,207 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,207 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,208 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,208 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,208 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,208 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,208 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,208 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,209 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,209 TRACE    exit : buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,213 TRACE    enter: buildFact_Numeric()
+2012-04-30 19:42:23,213 DEBUG Numeric fact: AGE_BEGAN_SMOKING.VALUE.VALUE__SM228488005
+2012-04-30 19:42:23,213 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,213 DEBUG value.getVariable(): AGE_BEGAN_SMOKING.VALUE.VALUE__SM228488005
+2012-04-30 19:42:23,213 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,213 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,213 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,213 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,214 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,214 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,214 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,214 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,215 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,221 TRACE    exit : buildFact_Numeric()
+
+Export file:
+
+  <variableValue variable="AGE_BEGAN_SMOKING">
+    <value valueType="text">VALUE</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_SMOKING.VALUE">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_SMOKING.VALUE.VALUE__SM228488005">
+    <value valueType="integer">3</value>
+  </variableValue>
+  
+Ontology file:
+
+  <omr:folder name="AGE_BEGAN_SMOKING">
+     <omr:variable name="VALUE" code="CBO:63957422da8010527ba03666eb8edbe6" type="INTEGER"></omr:variable>
+  </omr:folder>
+  
+  <omr:folder name="Tobacco use and exposure">
+      <omr:variable name="Age at starting smoking" code="SM:228488005" type="INTEGER"></omr:variable>
+      <omr:variable name="Date ceased smoking" code="SM:160625004" type="INTEGER"></omr:variable>
+      <omr:folder name="Snuff use">
+          <omr:variable name="Snuff consumption" code="SM:228490006" type="INTEGER"></omr:variable>
+      </omr:folder>
+      <omr:folder name="Tobacco smoking consumption">
+          <omr:variable name="Pipe tobacco consumption" code="SM:230058003" type="INTEGER"></omr:variable>
+      </omr:folder>
+  </omr:folder>
+  
+The problem with the above is that the answers seemed to be shared across two separate branches
+of the ontology. I cannot put values for both.
+===end=======================================================================
+
+===start=========================================================
+  This is problematic:
+  
+2012-04-30 19:42:23,221  WARN Could not form code for variable name: [YEAR_STOPPED_SMOKING] within value set: [BrissKitQuestionnaire3]
+2012-04-30 19:42:23,221 DEBUG 2: No ontological data found for: YEAR_STOPPED_SMOKING with type: text
+2012-04-30 19:42:23,221 TRACE    enter: buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,221 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,221 DEBUG value.getVariable(): YEAR_STOPPED_SMOKING.VALUE
+2012-04-30 19:42:23,221 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,221 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,221 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,221 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,222 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,222 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,222 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,222 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,223 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,223 TRACE    exit : buildFact_NonGeneratedEnumeration()
+
+This is the relevant part of the export file:
+
+  <variableValue variable="YEAR_STOPPED_SMOKING">
+    <value valueType="text">VALUE</value>
+  </variableValue>
+  <variableValue variable="YEAR_STOPPED_SMOKING.VALUE">
+    <value valueType="boolean">true</value>
+  </variableValue>
+
+Ontology (there doesn't seem to be an alignment with type in the export file, so no Integer to load):
+
+  <omr:folder name="YEAR_STOPPED_SMOKING">
+    <omr:variable name="VALUE" code="CBO:42d138df4d29a5942b2b38b1d905137e" type="INTEGER"></omr:variable>
+  </omr:folder>
+===end================================================================
+
+
+===start==================================================================
+2012-04-30 19:42:23,228 TRACE    enter: buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,228 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,228 DEBUG value.getVariable(): PIPE_CONSUMPTION_WEEK.AMOUNT
+2012-04-30 19:42:23,228 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,228 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,228 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,228 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,228 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,228 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,228 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,229 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,229 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,229 TRACE    exit : buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,230 TRACE    enter: buildFact_Numeric()
+2012-04-30 19:42:23,230 DEBUG Numeric fact: PIPE_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230058003
+2012-04-30 19:42:23,230 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,230 DEBUG value.getVariable(): PIPE_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230058003
+2012-04-30 19:42:23,230 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,230 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,230 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,230 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,230 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,230 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,231 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,231 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,231 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,232 TRACE    exit : buildFact_Numeric()
+
+Export file:
+
+  <variableValue variable="PIPE_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="PIPE_CONSUMPTION_WEEK.AMOUNT">  ( == CBO:24a94bff236461ea4757caf678e17401 see below )
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="PIPE_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230058003">
+    <value valueType="integer">15</value>
+  </variableValue>
+
+Ontology File:
+
+    <omr:folder name="PIPE_CONSUMPTION_WEEK">
+      <omr:variable name="DK" code="CBO:b955f22a2ff160362481a412f7bf89f1" type="BOOLEAN"></omr:variable>
+      <omr:variable name="PNA" code="CBO:7e556fd101351d905cf42e38de22cd37" type="BOOLEAN"></omr:variable>
+      <omr:variable name="VALUE" code="CBO:24a94bff236461ea4757caf678e17401" type="INTEGER"></omr:variable>
+    </omr:folder>
+    
+    and
+    
+    <omr:folder name="Tobacco smoking consumption">
+      <omr:variable name="Pipe tobacco consumption" code="SM:230058003" type="INTEGER"></omr:variable>
+    </omr:folder>
+    
+    The above leads to two values being formed within the PDO, one integer, and one "enumerated" text.
+    The value (INTEGER) cannot be in two places at once.
+
+===end==================================================================
+
+===start==================================================================
+2012-04-30 19:42:23,238 TRACE    enter: buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,238 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,238 DEBUG value.getVariable(): SNUFF_CONSUMPTION_WEEK.AMOUNT
+2012-04-30 19:42:23,238 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,238 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,238 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,238 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,239 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,239 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,239 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,239 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,239 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,240 TRACE    exit : buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,240 TRACE    enter: buildFact_Numeric()
+2012-04-30 19:42:23,240 DEBUG Numeric fact: SNUFF_CONSUMPTION_WEEK.AMOUNT.AMOUNT__SM228490006
+2012-04-30 19:42:23,240 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,240 DEBUG value.getVariable(): SNUFF_CONSUMPTION_WEEK.AMOUNT.AMOUNT__SM228490006
+
+export file:
+
+  <variableValue variable="SNUFF_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="SNUFF_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="SNUFF_CONSUMPTION_WEEK.AMOUNT.AMOUNT__SM228490006">
+    <value valueType="integer">0</value>
+  </variableValue>
+  
+ontology file: 
+
+    <omr:folder name="SNUFF_CONSUMPTION_WEEK">
+     <omr:variable name="AMOUNT" code="CBO:800f517f23354fc8485dbfae6b54e88b" type="INTEGER"></omr:variable>
+     <omr:variable name="DK" code="CBO:76c04fb7c68d8b40de89ed767459f9b0" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:c221443686da0d0e1de8f43daab8ae11" type="BOOLEAN"></omr:variable>
+    </omr:folder>
+    
+    and
+    
+    <omr:folder name="Snuff use">
+     <omr:variable name="Snuff consumption" code="SM:228490006" type="INTEGER"></omr:variable>
+    </omr:folder>
+    
+    The error in the above is the amount being included in two branches. I do actually manage to insert 
+    two values: the correct one for SM:228490006, but the AMOUNT gets treated as a boolean, as
+    SNUFF_CONSUMPTION_WEEK.AMOUNT is a boolean type within the export file.
+         
+    and
+    
+    <omr:folder name="TOBACCO_CONSUMPTION_WEEK">
+     <omr:variable name="DK" code="CBO:febd08144f1a3defc4d5a0e9c77661d7" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:6223da53dce8e47e6fe99bb63646f5c5" type="BOOLEAN"></omr:variable>
+     <omr:variable name="VALUE__SM228490006" code="CBO:5d39179b22d723c6ad41730c46917d94" type="INTEGER"></omr:variable>
+    </omr:folder>
+    
+There is an error here concerning VALUE__SM228490006 with a local code generated. 
+===end======================================================
+
+
+
+
+===start=======================================================
+The following causes some confusion, with the observation being loaded twice as SM:228490006, one with the incorrect amount.
+And then also loaded as a boolean with code CBO:5d39179b22d723c6ad41730c46917d94
+
+2012-04-30 19:42:23,249  WARN Could not form code for variable name: [TOBACCO_CONSUMPTION_WEEK] within value set: [BrissKitQuestionnaire3]
+2012-04-30 19:42:23,249 DEBUG 2: No ontological data found for: TOBACCO_CONSUMPTION_WEEK with type: text
+2012-04-30 19:42:23,249 TRACE    enter: buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,249 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,249 DEBUG value.getVariable(): TOBACCO_CONSUMPTION_WEEK.AMOUNT
+2012-04-30 19:42:23,249 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,249 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,249 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,250 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,250 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,250 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,250 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,250 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,251 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,251 TRACE    exit : buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,251 TRACE    enter: buildFact_Numeric()
+2012-04-30 19:42:23,251 DEBUG Numeric fact: TOBACCO_CONSUMPTION_WEEK.AMOUNT.VALUE__SM228490006
+2012-04-30 19:42:23,251 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,251 DEBUG value.getVariable(): TOBACCO_CONSUMPTION_WEEK.AMOUNT.VALUE__SM228490006
+2012-04-30 19:42:23,252 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,252 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,252 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,252 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,252 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,252 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,252 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,252 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,253 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,253 TRACE    exit : buildFact_Numeric()
+
+export file:
+
+  <variableValue variable="TOBACCO_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="TOBACCO_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="TOBACCO_CONSUMPTION_WEEK.AMOUNT.VALUE__SM228490006">
+    <value valueType="integer">10</value>
+  </variableValue>
+  
+ontology file:
+
+    <omr:folder name="TOBACCO_CONSUMPTION_WEEK">
+     <omr:variable name="DK" code="CBO:febd08144f1a3defc4d5a0e9c77661d7" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:6223da53dce8e47e6fe99bb63646f5c5" type="BOOLEAN"></omr:variable>
+     <omr:variable name="VALUE__SM228490006" code="CBO:5d39179b22d723c6ad41730c46917d94" type="INTEGER"></omr:variable>
+    </omr:folder>
+    
+    and
+    
+    <omr:folder name="Snuff use">
+      <omr:variable name="Snuff consumption" code="SM:228490006" type="INTEGER"></omr:variable>
+    </omr:folder>
+===end=====================================================================
+
+
+
+===start=====================================================================
+The following seems to be appearing as a pattern in the loading, with the value appearing as two
+integer types in two ontology branches. 
+
+The BEER_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230085005 value (=1) gets loaded correctly
+as code SM:230085005.
+
+The second code CBO:2762fda056b7a0c10724d3fcb0feba5e has been generated from the
+variable name BEER_CONSUMPTION_WEEK.AMOUNT. Given the above standard code (SM230085005), 
+it is difficult to know what to do with this. At the moment, the program "correctly"
+identifies it as BEER_CONSUMPTION_WEEK.AMOUNT which has a value of "true". 
+
+2012-04-30 19:42:23,260 TRACE    enter: buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,260 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,260 DEBUG value.getVariable(): BEER_CONSUMPTION_WEEK.AMOUNT
+2012-04-30 19:42:23,261 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,261 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,261 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,261 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,262 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,262 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,262 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,262 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,263 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,263 TRACE    exit : buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,263 TRACE    enter: buildFact_Numeric()
+2012-04-30 19:42:23,264 DEBUG Numeric fact: BEER_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230085005
+2012-04-30 19:42:23,264 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,264 DEBUG value.getVariable(): BEER_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230085005
+2012-04-30 19:42:23,264 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,264 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,264 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,264 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,265 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,265 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,265 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,265 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,266 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,267 TRACE    exit : buildFact_Numeric()
+
+export file:
+
+  <variableValue variable="BEER_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="BEER_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="BEER_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230085005">
+    <value valueType="integer">1</value>
+  </variableValue>
+  
+ontology file:
+
+    <omr:folder name="BEER_CONSUMPTION_WEEK">
+     <omr:variable name="DK" code="CBO:c462e22c68c7b9b82a083fa1bb4a94f1" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:89171eff06645535145e25b03e5047e4" type="BOOLEAN"></omr:variable>
+     <omr:variable name="VALUE" code="CBO:2762fda056b7a0c10724d3fcb0feba5e" type="INTEGER"></omr:variable>
+    </omr:folder>
+
+  and
+  
+    <omr:folder name="Alcohol intake">
+      <omr:variable name="Beer intake" code="SM:230085005" type="INTEGER"></omr:variable>
+      <omr:variable name="Hard liquor intake" code="SM:230088007" type="INTEGER"></omr:variable>
+      <omr:variable name="Wine intake" code="SM:230086006" type="INTEGER"></omr:variable>
+    </omr:folder>
+
+==end===============================================================
+
+==start===============================================================
+Ditto above...
+
+2012-04-30 19:42:23,267 TRACE    enter: buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,267 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,267 DEBUG value.getVariable(): WINE_CONSUMPTION_WEEK.AMOUNT
+2012-04-30 19:42:23,268 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,268 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,268 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,268 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,269 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,269 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,269 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,269 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,270 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,270 TRACE    exit : buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,270 TRACE    enter: buildFact_Numeric()
+2012-04-30 19:42:23,270 DEBUG Numeric fact: WINE_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230086006
+2012-04-30 19:42:23,270 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,270 DEBUG value.getVariable(): WINE_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230086006
+2012-04-30 19:42:23,270 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,270 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,271 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,271 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,271 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,271 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,271 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,271 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,272 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,273 TRACE    exit : buildFact_Numeric()
+
+export file:
+
+  <variableValue variable="WINE_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="WINE_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="WINE_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230086006">
+    <value valueType="integer">2</value>
+  </variableValue>
+  
+ontology file:
+
+    <omr:folder name="WINE_CONSUMPTION_WEEK">
+     <omr:variable name="DK" code="CBO:14eba852bd61f5ac9a1627e546631cff" type="BOOLEAN"></omr:variable>
+     <omr:variable name="PNA" code="CBO:afd389f95de4ad0e2b18ac05e9617eaa" type="BOOLEAN"></omr:variable>
+     <omr:variable name="VALUE" code="CBO:06de2861128dc7f819c5abd14bb7e26e" type="INTEGER"></omr:variable>
+    </omr:folder>
+    
+    and
+    
+    <omr:folder name="Alcohol intake">
+       <omr:variable name="Beer intake" code="SM:230085005" type="INTEGER"></omr:variable>
+       <omr:variable name="Hard liquor intake" code="SM:230088007" type="INTEGER"></omr:variable>
+       <omr:variable name="Wine intake" code="SM:230086006" type="INTEGER"></omr:variable>
+    </omr:folder>  
+
+====end============================================================
+
+
+====start==========================================================
+Ditto above...
+
+2012-04-30 19:42:23,273 TRACE    enter: buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,273 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,273 DEBUG value.getVariable(): SPIRIT_CONSUMPTION_WEEK.AMOUNT
+2012-04-30 19:42:23,274 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,274 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,274 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,274 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,274 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,274 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,274 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,274 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,275 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,275 TRACE    exit : buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,275 TRACE    enter: buildFact_Numeric()
+2012-04-30 19:42:23,275 DEBUG Numeric fact: SPIRIT_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230088007
+2012-04-30 19:42:23,275 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,275 DEBUG value.getVariable(): SPIRIT_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230088007
+2012-04-30 19:42:23,276 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,276 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,276 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,276 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,276 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,276 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,276 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,276 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,277 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,277 TRACE    exit : buildFact_Numeric()
+
+export file:
+
+  <variableValue variable="SPIRIT_CONSUMPTION_WEEK">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="SPIRIT_CONSUMPTION_WEEK.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="SPIRIT_CONSUMPTION_WEEK.AMOUNT.VALUE__SM230088007">
+    <value valueType="integer">3</value>
+  </variableValue>
+  
+ontology file:
+
+    <omr:folder name="SPIRIT_CONSUMPTION_WEEK">
+      <omr:variable name="DK" code="CBO:451430876a4bd9313d2ef3dd1e0e627a" type="BOOLEAN"></omr:variable>
+      <omr:variable name="PNA" code="CBO:36bc1f050006536650b1ff5ba6ec025c" type="BOOLEAN"></omr:variable>
+      <omr:variable name="VALUE" code="CBO:0fdaadee5ea3f5512b590b3fb134a68f" type="INTEGER"></omr:variable>
+    </omr:folder>
+    
+  and
+ 
+    <omr:variable name="Beer intake" code="SM:230085005" type="INTEGER"></omr:variable>
+      <omr:variable name="Hard liquor intake" code="SM:230088007" type="INTEGER"></omr:variable>
+      <omr:variable name="Wine intake" code="SM:230086006" type="INTEGER"></omr:variable>
+    </omr:folder> 
+  
+===end=================================================================
+
+
+===start===============================================================
+2012-04-30 19:42:23,278 TRACE    enter: buildFact_NonGeneratedEnumeration()
+2012-04-30 19:42:23,278 TRACE     enter: buildFact_StandardColumns()
+2012-04-30 19:42:23,278 DEBUG value.getVariable(): AGE_BEGAN_DRINKING.AMOUNT
+2012-04-30 19:42:23,278 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,278 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,278 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,278 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,278 TRACE      enter: getValueAsXmlObject()
+2012-04-30 19:42:23,278 TRACE       enter: getValueSet()
+2012-04-30 19:42:23,278 TRACE       exit : getValueSet()
+2012-04-30 19:42:23,278 TRACE      exit : getValueAsXmlObject()
+2012-04-30 19:42:23,279 TRACE     exit : buildFact_StandardColumns()
+2012-04-30 19:42:23,279 TRACE    exit : buildFact_NonGeneratedEnumeration()
+
+export file:
+
+  <variableValue variable="AGE_BEGAN_DRINKING">
+    <value valueType="text">AMOUNT</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_DRINKING.AMOUNT">
+    <value valueType="boolean">true</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_DRINKING.PNA">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  <variableValue variable="AGE_BEGAN_DRINKING.DK">
+    <value valueType="boolean">false</value>
+  </variableValue>
+  
+  There seems something wrong with the above. There is no physical amount present: no integer value.
+
+ontology file:
+
+    <omr:folder name="AGE_BEGAN_DRINKING">
+      <omr:variable name="DK" code="CBO:ed6e3e30ccea5d508c8ed1060d56f7e5" type="BOOLEAN"></omr:variable>
+      <omr:variable name="PNA" code="CBO:1a04e5fc38af550582eac049f7a7f5c3" type="BOOLEAN"></omr:variable>
+      <omr:variable name="VALUE" code="CBO:ebdfc020cb9a3bc67cf0d5378599fcc5" type="INTEGER"></omr:variable>
+    </omr:folder>
+
+===end==========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+

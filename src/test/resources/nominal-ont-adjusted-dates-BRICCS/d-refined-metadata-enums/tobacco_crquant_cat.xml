@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rev:enumeratedVariable xmlns:rev="http://brisskit.org/xml/onyxmetadata-rev/v1.0/rev" name="tobacco_crquant_cat" code="CBO:tobacco_crquant_cat" path="\onyx\RiskFactorQuestionnaire\CIGARS\tobacco_crquant_cat" hlevel="3">
+   <rev:group name=" 0 to 9" description=" 0 to 9">
+      <rev:variable name=" 0" description=" 0" code="CBO:tobacco_crquant_cat:0"/>
+      <rev:variable name=" 1" description=" 1" code="CBO:tobacco_crquant_cat:1"/>
+      <rev:variable name=" 2" description=" 2" code="CBO:tobacco_crquant_cat:2"/>
+      <rev:variable name=" 3" description=" 3" code="CBO:tobacco_crquant_cat:3"/>
+      <rev:variable name=" 4" description=" 4" code="CBO:tobacco_crquant_cat:4"/>
+      <rev:variable name=" 5" description=" 5" code="CBO:tobacco_crquant_cat:5"/>
+      <rev:variable name=" 6" description=" 6" code="CBO:tobacco_crquant_cat:6"/>
+      <rev:variable name=" 7" description=" 7" code="CBO:tobacco_crquant_cat:7"/>
+      <rev:variable name=" 8" description=" 8" code="CBO:tobacco_crquant_cat:8"/>
+      <rev:variable name=" 9" description=" 9" code="CBO:tobacco_crquant_cat:9"/>
+   </rev:group>
+   <rev:group name="10 to 19" description="10 to 19">
+      <rev:variable name="10" description="10" code="CBO:tobacco_crquant_cat:10"/>
+      <rev:variable name="11" description="11" code="CBO:tobacco_crquant_cat:11"/>
+      <rev:variable name="12" description="12" code="CBO:tobacco_crquant_cat:12"/>
+      <rev:variable name="13" description="13" code="CBO:tobacco_crquant_cat:13"/>
+      <rev:variable name="14" description="14" code="CBO:tobacco_crquant_cat:14"/>
+      <rev:variable name="15" description="15" code="CBO:tobacco_crquant_cat:15"/>
+      <rev:variable name="16" description="16" code="CBO:tobacco_crquant_cat:16"/>
+      <rev:variable name="17" description="17" code="CBO:tobacco_crquant_cat:17"/>
+      <rev:variable name="18" description="18" code="CBO:tobacco_crquant_cat:18"/>
+      <rev:variable name="19" description="19" code="CBO:tobacco_crquant_cat:19"/>
+   </rev:group>
+</rev:enumeratedVariable>
