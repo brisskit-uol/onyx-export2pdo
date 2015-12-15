@@ -1,0 +1,56 @@
+#=====================================================================================
+# Java program producing i2b2 PDO (Patient Data Objects) from data exported from Onyx
+#=====================================================================================
+
+ The process is currently a command line invocation with the following usage:
+
+	 Usage: OnyxData2Pdo {Parameters}    
+     Parameters:
+      -export=path to onyx export directory
+      -refine=path to main refined metadata-directory
+      -enum=path to main refined enum directory
+      -ontology=nominal/real
+      -config=path-to-xml-config-file
+      -pdo=path to pdo output directory
+      -name=refined metadata file name
+      -batch=maximum number of participants per pdo file
+      -test=yes/no
+      -bid=aaaa-nnnnn
+      -pid=nnnnn
+      -eid=nnnnn
+     Notes:
+      (1) The export, refine, enum, config, pdo and name parameters are mandatory.
+      (2) The export directory must exist and contain an unzipped Onyx export file.
+          This directory must have had the namespace replacement script run against it
+          to ensure all xml files have a suitable namespace in place.
+      (3) The refine meta directory must contain the main refined meta data file.
+      (4) The enum directory must contain a complete set of meta data files for enumerated concepts.
+      (5) The ontology must be either "nominal" or "real". Defaults to "real".
+      (6) The config file must exist.
+      (7) The pdo directory must not exist.
+      (8) The name parameter refers to the name of the main refined metadata file.
+          Usually something like 1-Refined-Metadata.xml.
+      (9) If not entered, the batch parameter defaults to 10.
+      (10) The test parameter defaults to 'no'.
+          -test=yes will produce files with the string \"TEST-DATA-ONLY\" in the file name.
+      (11) The presence or absence of the pid and eid parameters is important in switching
+          the working mode of the programme. The pid / eid parameters must either be present as
+          a pair, or completely absent. If present, this will produce a PDO file with the
+          i2b2 internal identifiers for patients and events already set within the PDO:
+          this is an extremely limiting factor, for which see notes (10) and (11).
+          If the pair is omitted, the programme assumes the PDO will be processed by the
+          crc loader, which will itself assign appropriate internal identifiers.
+      (12) The pid parameter refers to the starting number for patient identifiers.
+          If present, the value must be a positive integer. 
+          It is your responsibility to know what the next new patient identifier should be!
+      (13) The eid parameter refers to the starting number for event identifiers.
+          If present, the value must be a positive integer. 
+          It is your responsibility to know what the next new event identifier should be!
+      (14) The bid parameter is only required when generating test data (see note 10 above).
+          The value is used to generate a meaningless substitute for the enrollment id.
+          The format should be aaaa-nnnnn. The aaaa value is used as a prefix.
+          The nnnnn value is used as an integer which is incremented for each new participant.
+          For example, with -bid=demo-1, the enrollment id's will be a series starting with:
+          demo-000000001
+          demo-000000002
+          demo-000000003 and so on.
